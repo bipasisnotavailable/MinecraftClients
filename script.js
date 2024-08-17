@@ -50,7 +50,7 @@ const clients = [
         name: "ThunderHack",
         price: "Free",
         tags: ["Free", "Blatant", "Fabric", "Crystal-PVP"],
-        description: " 1.21 minecraft client for Crystal / Sword hvh ",
+        description: "1.21 minecraft client for Crystal / Sword hvh",
         cover: "https://tiermaker.com/images/media/template_images/2024/17223351/minecraft-java-clients-17223351/thunderhack-recode-logo.png",
         screenshots: ["https://www.9minecraft.net/wp-content/uploads/2023/10/ThunderHack-Recode-Client-Mod.jpg", "https://www.9minecraft.net/wp-content/uploads/2023/10/ThunderHack-Recode-Client-Mod-Screenshots-1.jpg", "https://www.9minecraft.net/wp-content/uploads/2023/10/ThunderHack-Recode-Client-Mod-Screenshots-7.jpg"],
         downloadLink: "https://lootdest.org/s?37eb7f96",
@@ -58,6 +58,21 @@ const clients = [
             text: "#000000", // Text
             accent: "#fc03cf", // Accent
             header: "#0040ff" // Header
+        }
+    },
+    {
+        id: 5,
+        name: "DoomsDay",
+        price: "Free",
+        tags: ["Free", "Injectable", "Ghost"],
+        description: "DoomsDay is a multifunctional modification for Minecraft with many useful utilities. (like ghost client) Supports almost all versions of Minecraft!",
+        cover: "https://assets-global.website-files.com/662ff817ffae75d95d2a93e4/662ffa85ecf13e98abc98ea9_Bez%20tytu%C5%82u.png",
+        screenshots: ["https://doomsdayclient.com/doomsday.png"],
+        downloadLink: "https://lootdest.org/s?37eb7f96",
+        colors: {
+            text: "#000000", // Text
+            accent: "#b0b0b0", // Accent
+            header: "#6b6b6b" // Header
         }
     }
 ];
