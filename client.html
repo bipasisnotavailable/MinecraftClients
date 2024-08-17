@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Details</title>
+    <link rel="stylesheet" href="client-styles.css">
+</head>
+<body>
+    <header id="clientHeader">
+        <h1 id="clientTitle">Client Details</h1>
+        <a href="index.html" class="back-button">Back to Shop</a>
+    </header>
+
+    <main id="clientDetails">
+        <!-- Client details will be injected here by JavaScript -->
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const params = new URLSearchParams(window.location.search);
+            const clientId = parseInt(params.get("id"));
+            const client = clients.find(p => p.id === clientId);
+
+            // Apply client colors
+            document.getElementById('clientHeader').style.backgroundColor = client.colors.header;
+            document.getElementById('clientTitle').style.color = client.colors.text;
+            document.querySelector('.back-button').style.backgroundColor = client.colors.accent;
+
+            const clientDetails = document.getElementById('clientDetails');
+            clientDetails.innerHTML = `
+                <div class="client-info" style="color: ${client.colors.text};">
+                    <img src="${client.cover}" alt="${client.name}" class="cover-image">
+                    <div class="details">
+                        <h2>${client.name}</h2>
+                        <p>${client.price}</p>
+                        <p>${client.description}</p>
+                        <h3>Tags:</h3>
+                        <ul>${client.tags.map(tag => `<li style="background-color: ${client.colors.accent};">${tag}</li>`).join('')}</ul>
+                    </div>
+                </div>
+                <h3 style="color: ${client.colors.text};">Screenshots:</h3>
+                <div class="screenshots">
+                    ${client.screenshots.map(screenshot => `<img src="${screenshot}" alt="Screenshot">`).join('')}
+                </div>
+                <h3 style="color: ${client.colors.text};">Videos:</h3>
+                <div class="videos">
+                    ${client.videos.map(video => `<iframe src="${video}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`).join('')}
+                </div>
+                <a href="${client.downloadLink}" class="download-button" style="background-color: ${client.colors.accent};">Download</a>
+            `;
+        });
+    </script>
+</body>
+</html>

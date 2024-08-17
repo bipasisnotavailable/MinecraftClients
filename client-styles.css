@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.back-button {
+    padding: 0.5rem 1rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.client-info {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.cover-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 2rem;
+}
+
+.details {
+    max-width: 500px;
+}
+
+.details h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.details p {
+    margin: 0.5rem 0;
+}
+
+.details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.details ul li {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.screenshots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.screenshots img {
+    width: 356px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.download-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-button:hover {
+    opacity: 0.9;
+}
