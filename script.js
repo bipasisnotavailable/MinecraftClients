@@ -68,7 +68,7 @@ const clients = [
         description: "DoomsDay is a multifunctional modification for Minecraft with many useful utilities. (like ghost client) Supports almost all versions of Minecraft!",
         cover: "https://assets-global.website-files.com/662ff817ffae75d95d2a93e4/662ffa85ecf13e98abc98ea9_Bez%20tytu%C5%82u.png",
         screenshots: ["https://doomsdayclient.com/doomsday.png"],
-        downloadLink: "https://lootdest.org/s?37eb7f96",
+        downloadLink: "https://doomsdayclient.com/",
         colors: {
             text: "#000000", // Text
             accent: "#b0b0b0", // Accent
