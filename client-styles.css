@@ -1,8 +1,21 @@
-body {
-    font-family: Arial, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+
+html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+}
+
+body {
+    font-family: 'Google Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:hsla(0,0%,100%,1);
+        background-image:
+        radial-gradient(at 91% 86%, hsla(243,100%,70%,1) 0px, transparent 70%),
+        radial-gradient(at 12% 13%, hsla(343,100%,76%,1) 0px, transparent 70%);
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 header {
@@ -10,6 +23,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
+    background-color: #8b8b8b70;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
 header h1 {
@@ -18,9 +35,17 @@ header h1 {
 
 .back-button {
     padding: 0.5rem 1rem;
-    color: #fff;
+    color: black;
     text-decoration: none;
     border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: #8b8b8b70; 
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+.back-button:hover {
+    background-color: #555;
 }
 
 main {
@@ -40,6 +65,14 @@ main {
     height: 200px;
     object-fit: cover;
     margin-right: 2rem;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    background-color: #8b8b8b70;
+}
+.cover-image:hover {
+    background-color: #555;
 }
 
 .details {
@@ -66,6 +99,13 @@ main {
     display: inline-block;
     border-radius: 5px;
     color: #fff;
+    border: 2px solid rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    background-color: #8b8b8b70;
+}
+.details ul li:hover {
+    background-color: #555;
 }
 
 .screenshots {
@@ -79,17 +119,24 @@ main {
     width: 356px;
     height: 200px;
     object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
 }
 
 .download-button {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.75rem 1.5rem;
-    color: #fff;
     text-decoration: none;
+    border: 2px solid rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    background-color: #8b8b8b70;    
     border-radius: 5px;
+    color: black;
 }
 
 .download-button:hover {
-    opacity: 0.9;
+    background-color: #555;
 }

@@ -13,8 +13,7 @@ const clients = [
             text: "#000000", // Text
             accent: "#36fff5", // Accent
             header: "#f70cf0" // Header
-        },
-        videos: ["https://www.youtube.com/watch?v=3tlCXHc6Wf4", "https://www.youtube.com/watch?v=FatnM2EADtM"]
+        }
     },
     {
         id: 2,
@@ -29,8 +28,7 @@ const clients = [
             text: "#000000", // Text
             accent: "#007BFF", // Accent
             header: "#343A40" // Header
-        },
-        videos: ["https://www.youtube.com/watch?v=9UoWl3NGXRA", "https://www.youtube.com/watch?v=cd5CS-Mti4w"]
+        }
     },
     {
         id: 3,
@@ -45,8 +43,7 @@ const clients = [
             text: "#000000", // Text
             accent: "#0040ff", // Accent
             header: "#0040ff" // Header
-        },
-        videos: ["https://www.youtube.com/watch?v=mgELuCq6PyU"]
+        }
     },
     {
         id: 4,
@@ -61,18 +58,16 @@ const clients = [
             text: "#000000", // Text
             accent: "#fc03cf", // Accent
             header: "#0040ff" // Header
-        },
-        videos: ["https://www.youtube.com/watch?v=c_zjsdJaky8"]
+        }
     }
 ];
-
 // Populate clients and filter options
 document.addEventListener("DOMContentLoaded", () => {
     populateClients();
     populateTagFilter();
 });
 
-// Function to populate Clients
+// Function to populate clients
 function populateClients(filteredTag = "all") {
     const clientList = document.getElementById('clientList');
     clientList.innerHTML = '';
@@ -109,7 +104,7 @@ function populateTagFilter() {
 }
 
 // Function to filter clients based on selected tag
-function filterClientts() {
+function filterClients() {
     const selectedTag = document.getElementById('tagFilter').value;
     populateClients(selectedTag);
 }
