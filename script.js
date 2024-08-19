@@ -5,6 +5,7 @@ const clients = [
         name: "Raven XD",
         price: "Free",
         tags: ["Free", "Ghost", "Blatant", "Hypixel", "Forge"],
+        game: "Minecraft",
         description: "Raven XD is a forge mod based on Raven BS. It features multiple blatant features like Killaura or Scaffold but also less blatant ones.",
         cover: "https://raw.githubusercontent.com/xia-mc/Raven-XD/master/logo/logo.png",
         screenshots: ["https://github.com/user-attachments/assets/36e8920e-336e-4b62-ae3f-6b9962920812", "https://github.com/user-attachments/assets/85637f18-9d6b-47d9-9dc2-cb8594aff585"],
@@ -20,6 +21,7 @@ const clients = [
         name: "Augustus",
         price: "80€",
         tags: ["Multi-Server", "Intave", "Polar", "Ghost", "Blatant"],
+        game: "Minecraft",
         description: "Introducing Augustus, a Minecraft 1.8 Client known for its extensive features. Boasting over 209 modules and a staggering 13,500+ customizable settings, Augustus is renowned for its unparalleled configurability. This client successfully bypasses popular servers like GommeHD, PikaNetwork, Mineblaze, and Gamster and outwits anti-cheats such as Intave, Polar, Grim, and Vulcan. Additionally, Augustus offers online configurations, allowing users to fine-tune their settings quickly. Elevate your Minecraft gameplay with Augustus – the ultimate choice for those seeking customization and performance.  ", // Stolen from Spezz.exchange
         cover: "https://spezz.exchange/uploads/monthly_2023_09/Augustus_Logo.webp.21990eea9fead38fbc9edfbc54b0a112.webp",
         screenshots: ["https://spezz.exchange/uploads/monthly_2023_09/menu.webp.8e9432567dc1832cbfc1aabbc28d21e8.webp", "https://spezz.exchange/uploads/monthly_2023_09/screenshot.webp.4d44057d55f05dfcf4dba55600a6e894.webp"],
@@ -35,6 +37,7 @@ const clients = [
         name: "LiquidBounce",
         price: "Free",
         tags: ["Free", "Blatant", "Fabric"],
+        game: "Minecraft",
         description: "LiquidBounce is a hacked client (also known as a cheat) for Minecraft and designed to give you a significant advantage over other players. Unlike many of its competitors, LiquidBounce is completely free, open source and compatible with Fabric.", // Stolen from official LiquidBounce website xd
         cover: "https://liquidbounce.net/img/logos/favicon.png",
         screenshots: ["https://liquidbounce.net/img/screenshots/clickgui-large.png", "https://liquidbounce.net/img/screenshots/hud-large.png", "https://liquidbounce.net/img/screenshots/xray-large.png", "https://liquidbounce.net/img/screenshots/main-menu-large.png"],
@@ -50,6 +53,7 @@ const clients = [
         name: "ThunderHack",
         price: "Free",
         tags: ["Free", "Blatant", "Fabric", "Crystal-PVP"],
+        game: "Minecraft",
         description: "1.21 minecraft client for Crystal / Sword hvh",
         cover: "https://tiermaker.com/images/media/template_images/2024/17223351/minecraft-java-clients-17223351/thunderhack-recode-logo.png",
         screenshots: ["https://www.9minecraft.net/wp-content/uploads/2023/10/ThunderHack-Recode-Client-Mod.jpg", "https://www.9minecraft.net/wp-content/uploads/2023/10/ThunderHack-Recode-Client-Mod-Screenshots-1.jpg", "https://www.9minecraft.net/wp-content/uploads/2023/10/ThunderHack-Recode-Client-Mod-Screenshots-7.jpg"],
@@ -65,6 +69,7 @@ const clients = [
         name: "DoomsDay",
         price: "Free",
         tags: ["Free", "Injectable", "Ghost"],
+        game: "Minecraft",
         description: "DoomsDay is a multifunctional modification for Minecraft with many useful utilities. (like ghost client) Supports almost all versions of Minecraft!",
         cover: "https://assets-global.website-files.com/662ff817ffae75d95d2a93e4/662ffa85ecf13e98abc98ea9_Bez%20tytu%C5%82u.png",
         screenshots: ["https://doomsdayclient.com/doomsday.png"],
@@ -80,6 +85,7 @@ const clients = [
         name: "PG3D",
         price: "Free",
         tags: ["PG3D"],
+        game: "Minecraft",
         description: "Cheat for Pixel Gun 3D PC",
         cover: "https://fbi.cults3d.com/uploaders/16600790/illustration-file/16a0b6ea-d282-444a-b222-5853ccd49e35/IMG_0316.webp",
         screenshots: ["https://i.ytimg.com/vi/DCFoMVurCV0/maxresdefault.jpg"],
@@ -95,6 +101,7 @@ const clients = [
         name: "FDP",
         price: "Free",
         tags: ["Free", "Blatant", "Forge"],
+        game: "Minecraft",
         description: "FDP is a hacked client (also known as a cheat) for Minecraft and designed to give you a significant advantage over other players. Unlike many of its competitors, FDP is completely free, open source and compatible with Forge. FDP is a fork of liquidbounce so you get the benefits of liquidbounce while still getting updates and support.",
         cover: "https://user-images.githubusercontent.com/105464811/177683437-8b768dcf-0e15-4ac4-85f0-2b673c2e8540.png",
         screenshots: ["https://www.9minecraft.net/wp-content/uploads/2022/08/FDP-Client-Screenshots-2.jpg", "https://www.9minecraft.net/wp-content/uploads/2022/08/FDP-Client-Screenshots-9.jpg"],
@@ -110,6 +117,7 @@ const clients = [
         name: "Aristois",
         price: "Free",
         tags: ["Free", "Anarchy"],
+        game: "Minecraft",
         description: "Easy to use, powerful, and frequently updated. Millions of downloads and counting. Aristois offers over 100 in-game modules to extend and enhance your Minecraft gameplay. With a focus on PvE, we offer a modern and personlised experience — get it today! In addition to many unique modules and features, Aristois contains a worldwide in-game chat. Plan your next adventure and coordinate with players on other servers, right from the chat. The Aristois UI is designed with customisation in mind, so it can look exactly how you want it. We've also created two additional UIs to enhance speed and smoothness of enabling mods.",
         cover: "https://aristois.net/logo.webp",
         screenshots: ["https://aristois.net/features.webp"],
@@ -125,6 +133,7 @@ const clients = [
         name: "Meteor",
         price: "Free",
         tags: ["Free", "Anarchy"],
+        game: "Minecraft",
         description: "Based Minecraft utility mod.",
         cover: "https://meteorclient.com/icon.png",
         screenshots: ["https://www.9minecraft.net/wp-content/uploads/2022/06/Meteor-Client-Mod-Screenshots-10.jpg"],
@@ -140,6 +149,7 @@ const clients = [
         name: "Breeze",
         price: "$25",
         tags: ["Hypixel", "Blatant", "Ghost", "Injectable", "Forge"],
+        game: "Minecraft",
         description: "Elevate your gaming experience effortlessly with Breeze Client. Our state-of-the-art cheats and stunning visuals are designed to make winning a breeze, empowering you to dominate the game like never before.",
         cover: "https://breeze.rip/assets/logos/logo.png",
         screenshots: ["https://breeze.rip/assets/photos/ui.png", "https://www.9minecraft.net/wp-content/uploads/2024/06/Breeze-Client-Mod-Screenshots-2.jpg", "https://www.9minecraft.net/wp-content/uploads/2024/06/Breeze-Client-Mod-Screenshots-6.jpg"],
@@ -155,6 +165,7 @@ const clients = [
         name: "Packet V3",
         price: "$50.30",
         tags: ["Bedrock", "Injectable", "Hive"],
+        game: "Minecraft Bedrock",
         description: "key features: online integration (social menu): friend people, send dms, and share configs directly in dms; config manager: utilize local and cloud configs, allowing you to upload and share your best configs for any server; bypasses and visuals: experience better and more stable bypasses, insane visuals, and more crazy modules; compatibility: minecraft version: 1.21.21; platforms: windows 10/11; payment options (usd); $2.30: 1 week; $5.30: 1 month; $14.30: 3 months; $50.30: lifetime",
         cover: "https://media.discordapp.net/attachments/1223650631060033649/1274749678327566386/png.png?ex=66c362a7&is=66c21127&hm=fe0de67b678d837b1b22ea3dc4b0f9c62e35c7b7082c89ea6400a4f9bb823bb7&=&format=webp&quality=lossless&width=676&height=676",
         screenshots: ["https://i.ytimg.com/vi/eVo6Oc7KGDY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAH0JbEZdTEI91oMZlcdMdle68_lw"],
@@ -170,6 +181,7 @@ const clients = [
         name: "Raven B4",
         price: "$150",
         tags: ["Hypixel", "Forge"],
+        game: "Minecraft",
         description: "25$ discount when you buy trough 'ihasedich'",
         cover: "https://i.pinimg.com/736x/28/bc/1d/28bc1d0c2420d7cea6238b1200b3b35f.jpg",
         screenshots: [],
@@ -186,6 +198,7 @@ const clients = [
         price: 'Free',
         tags: [],
         description: "OP Client",
+        game: "Minecraft",
         cover: 'https://wurst.wiki/_media/logo/wurst_centered_256.png',
         screenshots: [],
         downloadLink: 'https://lootdest.org/s?357de362',
@@ -196,10 +209,43 @@ const clients = [
         }
     },
     {
+        id: 14,
+        name: 'Rise',
+        price: '$25',
+        tags: ["Hypixel" ,"Blatant"],
+        game: "Minecraft",
+        description: "Rise Client.The best Minecraft cheating solution.",
+        cover: 'https://media.discordapp.net/attachments/944497501904470086/1275024983684546570/rise.png?ex=66c4630c&is=66c3118c&hm=029aef713bd56c1298d0ec36310035982c8eb4dbe83377b656c36a9c3aae742b&=&format=webp&quality=lossless&width=322&height=350',
+        screenshots: ["https://www.9minecraft.net/wp-content/uploads/2022/11/Rise-Client-Screenshots-9.jpg" , "https://preview.redd.it/wixg4tq2srf81.png?width=1875&format=png&auto=webp&s=70a5cccad83683227c3b62bb5aaf37511a9af160"],
+        downloadLink: 'https://riseclient.com/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#77257d", // Accent
+            header: "#db14b7" // Header
+        }
+    },
+    {
+        id: 15,
+        name: 'Novoline.lol',
+        price: '$19.99',
+        tags: ["Hypixel" ,"Blatant"],
+        game: "Minecraft",
+        description: "Arguably the best Utility Modification for Minecraft with a bunch of exclusive features. Built for the smo​othest experience.Supporting 1.8-1.18 Java Edition.",
+        cover: 'https://www.novoline.lol/images/image3.png',
+        screenshots: ["https://i.redd.it/3-0-update-v0-i5v2uw3b09l81.jpg?width=959&format=pjpg&auto=webp&s=576857df4dc80ac94e9342285e5bac5cb160838a" , "https://media.karousell.com/media/photos/products/2022/12/31/novolinelol_client_minecraft_c_1672506329_9b5006b5_progressive"],
+        downloadLink: 'https://www.novoline.lol/',
+        colors: {
+            text: "d61556", // Text
+            accent: "#5f59ff", // Accent
+            header: "0c001b" // Header
+        }
+    },
+    {
         id: 200,
         name: 'tkazer',
         price: 'Free',
         tags: ['CS2', 'Free'],
+        game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
@@ -215,6 +261,7 @@ const clients = [
         name: 'aimstar',
         price: 'Free',
         tags: ['CS2', 'Free'],
+        game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
@@ -230,6 +277,7 @@ const clients = [
         name: 'En1gma',
         price: 'Free',
         tags: ['CS2', 'Free'],
+        game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
@@ -245,6 +293,7 @@ const clients = [
         name: 'Ext. XONE',
         price: 'Free',
         tags: ['CS2', 'Free'],
+        game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
@@ -260,6 +309,7 @@ const clients = [
         name: 'Osiris v2',
         price: 'Free',
         tags: ['CS2', 'Free'],
+        game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
@@ -275,6 +325,7 @@ const clients = [
         name: 'Asphyxia',
         price: 'Free',
         tags: ['CS2', 'Free'],
+        game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
@@ -290,6 +341,7 @@ const clients = [
         name: 'IMXNOOBX',
         price: 'Free',
         tags: ['CS2', 'Free'],
+        game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
@@ -305,6 +357,7 @@ const clients = [
         name: 'Orbit',
         price: 'Free',
         tags: ['CS2', 'Free'],
+        game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
@@ -320,6 +373,7 @@ const clients = [
         name: 'Plaguecheat.cc',
         price: 'Free',
         tags: ['CS2', 'Free'],
+        game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
@@ -334,7 +388,8 @@ const clients = [
         id: 209,
         name: 'SDK2Changer',
         price: 'Free',
-        tags: ['CS2', 'Free'],
+        tags: ['CS2', 'Free', "outdated"],
+        game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
@@ -346,19 +401,31 @@ const clients = [
         }
     }
 ];
+// Boolean flag to hide clients with "outdated" tag
+let hideOutdated = true;
+
 // Populate clients and filter options
 document.addEventListener("DOMContentLoaded", () => {
     populateClients();
     populateTagFilter();
+    populateGameFilter();
 });
 
 // Function to populate clients
 function populateClients(filteredTag = "all") {
+    const selectedTag = document.getElementById('tagFilter').value;
+    const selectedGame = document.getElementById('gameFilter').value;
     const clientList = document.getElementById('clientList');
     clientList.innerHTML = '';
 
     clients.forEach(client => {
-        if (filteredTag === "all" || client.tags.includes(filteredTag)) {
+        // Skip clients with "outdated" tag if hideOutdated is true
+        if (hideOutdated && client.tags.includes("outdated")) {
+            return;
+        }
+
+        if ((selectedTag === "all" || client.tags.includes(selectedTag)) &&
+            (selectedGame === "all" || client.game === selectedGame)) {
             const clientDiv = document.createElement('div');
             clientDiv.className = 'client';
             clientDiv.innerHTML = `
@@ -388,8 +455,30 @@ function populateTagFilter() {
     });
 }
 
-// Function to filter clients based on selected tag
+// Function to populate game filter options
+function populateGameFilter() {
+    const gameFilter = document.getElementById('gameFilter');
+    let allGames = new Set();
+    clients.forEach(client => {
+        allGames.add(client.game);
+    });
+
+    allGames.forEach(game => {
+        const option = document.createElement('option');
+        option.value = game;
+        option.textContent = game;
+        gameFilter.appendChild(option);
+    });
+}
+
+// Function to toggle outdated clients visibility
+function toggleOutdatedClients() {
+    hideOutdated = !hideOutdated;
+    document.getElementById('toggleOutdated').textContent = hideOutdated ? "Hide Outdated" : "Show Outdated";
+    filterClients();
+}
+
+// Function to filter clients based on selected tag and game
 function filterClients() {
-    const selectedTag = document.getElementById('tagFilter').value;
-    populateClients(selectedTag);
+    populateClients();
 }

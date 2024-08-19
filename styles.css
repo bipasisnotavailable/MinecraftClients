@@ -31,6 +31,17 @@ header select {
     margin-left: 1rem;
 }
 
+header button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background-color: #8f00b3;
+}
+
 main {
     display: flex;
     flex-wrap: wrap;

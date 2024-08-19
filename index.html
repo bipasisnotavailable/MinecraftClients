@@ -14,6 +14,13 @@
             <select id="tagFilter" onchange="filterClients()">
                 <option value="all">All</option>
             </select>
+
+            <label for="gameFilter">Filter by game:</label>
+            <select id="gameFilter" onchange="filterClients()">
+                <option value="all">All</option>
+            </select>
+
+            <button id="toggleOutdated" onclick="toggleOutdatedClients()">Hide Outdated</button>
         </div>
     </header>
 
