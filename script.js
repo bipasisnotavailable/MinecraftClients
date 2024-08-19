@@ -84,8 +84,8 @@ const clients = [
         id: 6,
         name: "PG3D",
         price: "Free",
-        tags: ["PG3D"],
-        game: "Minecraft",
+        tags: ["Free"],
+        game: "PG3D",
         description: "Cheat for Pixel Gun 3D PC",
         cover: "https://fbi.cults3d.com/uploaders/16600790/illustration-file/16a0b6ea-d282-444a-b222-5853ccd49e35/IMG_0316.webp",
         screenshots: ["https://i.ytimg.com/vi/DCFoMVurCV0/maxresdefault.jpg"],
@@ -240,6 +240,7 @@ const clients = [
             header: "0c001b" // Header
         }
     },
+    // CS2
     {
         id: 200,
         name: 'tkazer',
@@ -324,7 +325,7 @@ const clients = [
         id: 205,
         name: 'Asphyxia',
         price: 'Free',
-        tags: ['CS2', 'Free'],
+        tags: ['CS2', 'Free', 'outdated'],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -340,7 +341,7 @@ const clients = [
         id: 206,
         name: 'IMXNOOBX',
         price: 'Free',
-        tags: ['CS2', 'Free'],
+        tags: ['CS2', 'Free', 'outdated'],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -356,7 +357,7 @@ const clients = [
         id: 207,
         name: 'Orbit',
         price: 'Free',
-        tags: ['CS2', 'Free'],
+        tags: ['CS2', 'Free', 'outdated'],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -372,7 +373,7 @@ const clients = [
         id: 208,
         name: 'Plaguecheat.cc',
         price: 'Free',
-        tags: ['CS2', 'Free'],
+        tags: ['CS2', 'Free', 'outdated'],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -394,6 +395,88 @@ const clients = [
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
         downloadLink: 'https://lootdest.org/s?9be4491b',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    // CSGO
+    {
+        id: 300,
+        name: 'Osiris',
+        price: 'Free',
+        tags: ['Free'],
+        game: "CSGO",
+        description: "CSGO Cheat",
+        cover: 'https://seeklogo.com/images/C/csgo-logo-CAA0A4D48A-seeklogo.com.png',
+        screenshots: ["https://data.exloader.net/webp_images/Osiris/visuals_edited.webp", "https://data.exloader.net/webp_images/Osiris/aimbot_edited.webp"],
+        downloadLink: 'https://en.exloader.net/tree/modifications/osiris/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 301,
+        name: 'RaweTrip',
+        price: 'Free',
+        tags: ['Free'],
+        game: "CSGO",
+        description: "CSGO Cheat",
+        cover: 'https://seeklogo.com/images/C/csgo-logo-CAA0A4D48A-seeklogo.com.png',
+        screenshots: ["https://data.exloader.net/webp_images/Rawetrip/rage_edited.webp", "https://data.exloader.net/webp_images/Rawetrip/gameplay_edited.webp", "https://data.exloader.net/webp_images/Rawetrip/skins_edited.webp"],
+        downloadLink: 'https://en.exloader.net/tree/modifications/rawetrip/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    // GTA and shit
+    {
+        id: 400,
+        name: 'Kiddions',
+        price: 'Free',
+        tags: ['Free'],
+        game: "GTA V",
+        description: "CSGO Cheat",
+        cover: 'https://i.pinimg.com/originals/5b/ec/47/5bec474d275dbdf8fdb071f30fc978f4.png',
+        screenshots: ["https://www.kiddionsmodmenu.com/img/12.jpg"],
+        downloadLink: 'https://www.kiddionsmodmenu.com',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 410,
+        name: 'AmongUsCosmetics',
+        price: 'Free',
+        tags: ['Free'],
+        game: "AmongUS",
+        description: "Cosmetics unlocker",
+        cover: 'https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec',
+        screenshots: [],
+        downloadLink: 'https://en.exloader.net/tree/modifications/amonguscosmetics/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 411,
+        name: 'AmongUsMenu',
+        price: 'Free',
+        tags: ['Free'],
+        game: "AmongUS",
+        description: "AmongUS Cheat",
+        cover: 'https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec',
+        screenshots: ["https://data.exloader.net/webp_images/AmongUsMenu/replay.webp"],
+        downloadLink: 'https://en.exloader.net/tree/modifications/amongusmenu/',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
