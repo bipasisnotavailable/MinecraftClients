@@ -1,4 +1,27 @@
 // Client data
+const presetColors = {
+        white: "#ffffff",
+        black: "#000000",
+        lime: "#00ff04",
+        pink: "#ff00f2",
+        purple: "#7700ff",
+        lightGray: "#b5b5b5",
+        gray: "#808080",
+        darkGray: "#3b3b3b",
+        red: "#ff0000",
+        orange: "#ff8400",
+        yellow: "#ffe600",
+        lightGreen: "#91ff00",
+        green: "#1aff00",
+        darkGreen: "#0e8a00",
+        turquoise: "#00ff8c",
+        lightBlue: "#00ffd9",
+        blue: "#0084ff",
+        darkBlue: "#0800ff",
+        darkPurple: "#2f0080",
+        darkRed: "#800000"
+    }
+
 const clients = [
     {
         id: 1,
@@ -235,12 +258,44 @@ const clients = [
         screenshots: ["https://i.redd.it/3-0-update-v0-i5v2uw3b09l81.jpg?width=959&format=pjpg&auto=webp&s=576857df4dc80ac94e9342285e5bac5cb160838a" , "https://media.karousell.com/media/photos/products/2022/12/31/novolinelol_client_minecraft_c_1672506329_9b5006b5_progressive"],
         downloadLink: 'https://www.novoline.lol/',
         colors: {
-            text: "d61556", // Text
+            text: "#ffffff", // Text
             accent: "#5f59ff", // Accent
-            header: "0c001b" // Header
+            header: "#0c001b" // Header
+        }
+    },
+    {
+        id: 16,
+        name: 'Aqua Free',
+        price: 'Free',
+        tags: ["Free" ,"Blatant", "outdated"],
+        game: "Minecraft",
+        description: "Aqua is an outdated client made by LCA. There is an up to date paid version of it called Aqua Reborn (Aqua)",
+        cover: 'https://pbs.twimg.com/profile_images/1288183040779399171/qScv_vQH_400x400.jpg',
+        screenshots: ["https://i.ytimg.com/vi/bvCEL3b4wv4/maxresdefault.jpg"],
+        downloadLink: 'https://discord.gg/NMbUPypT6U',
+        colors: {
+            text: presetColors.black, // Text
+            accent: "#5f59ff", // Accent
+            header: "#0c001b" // Header
         }
     },
     // CS2
+    {
+        id: 199,
+        name: 'Neverlose',
+        price: 'from 29€',
+        tags: ['CS2'],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://pbs.twimg.com/profile_images/1736479325761699840/zyzDOzDP_400x400.jpg',
+        screenshots: ["https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/271224896/original/321cca51830834cd769d3529a8f42f2327bc1336/make-a-neverlose-hvh-config-for-your-playstyle.jpg"],
+        downloadLink: 'https://neverlose.cc',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
     {
         id: 200,
         name: 'tkazer',
