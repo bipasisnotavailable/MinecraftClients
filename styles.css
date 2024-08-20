@@ -4,7 +4,7 @@ body {
     font-family: 'Google Sans', sans-serif;
     margin: 0;
     padding: 0;
-    background-color:hsla(0,0%,100%,1);
+    background-color:rgb(255, 255, 255);
         background-image:
         radial-gradient(at 80% 0%, hsla(189,100%,56%,1) 0px, transparent 50%),
         radial-gradient(at 0% 50%, hsla(355,100%,93%,1) 0px, transparent 50%),

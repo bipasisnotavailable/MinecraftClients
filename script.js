@@ -52,7 +52,7 @@ const clients = [
         colors: {
             text: "#000000", // Text
             accent: "#007BFF", // Accent
-            header: "#343A40" // Header
+            header: presetColors.lightGray // Header
         }
     },
     {
@@ -234,7 +234,7 @@ const clients = [
     {
         id: 14,
         name: 'Rise',
-        price: '$25',
+        price: '$29',
         tags: ["Hypixel" ,"Blatant"],
         game: "Minecraft",
         description: "Rise Client.The best Minecraft cheating solution.",
@@ -279,12 +279,44 @@ const clients = [
             header: "#0c001b" // Header
         }
     },
+    {
+        id: 17,
+        name: 'Senura',
+        price: 'Free',
+        tags: ["Free" ,"Forge", "outdated", "Ghost"],
+        game: "Minecraft",
+        description: "Very old free Ghost client which might still work on bad server like Hypixel",
+        cover: 'https://cdn.discordapp.com/attachments/1223650631060033649/1275411614920736799/image.png?ex=66c5cb20&is=66c479a0&hm=389e0e37a41326ba874eb11278c2817225f05a82a6396c59dcaba73549c329d8&',
+        screenshots: ["https://i.ytimg.com/vi/wjf6L3a8ieY/mqdefault.jpg", "https://cdn.discordapp.com/attachments/1223650631060033649/1275411445525381161/image.png?ex=66c5caf8&is=66c47978&hm=1c5d769f07f84f26156d2121a959cbda781e8cacd293f6e49de2909480afa9e7&"],
+        downloadLink: 'https://workupload.com/file/A3BQS9T6wWf',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.darkPurple // Header
+        }
+    },
+    {
+        id: 18,
+        name: 'Tarasande',
+        price: 'Free',
+        tags: ["Free" ,"Fabric"],
+        game: "Minecraft",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequuntur explicabo ex maiores a odit sequi accusamus. Amet esse ad, at dolorem deserunt nostrum quo quaerat voluptatem, expedita provident excepturi.",
+        cover: 'https://github.com/Sumandora/tarasande/blob/1.20.4/src/main/resources/assets/tarasande/icon.png?raw=true',
+        screenshots: ["https://github.com/Sumandora/tarasande/blob/1.20.4/media/GUI.png?raw=true", "https://github.com/Sumandora/tarasande/blob/1.20.4/media/BedESP%20showcase.png?raw=true"],
+        downloadLink: 'https://github.com/Sumandora/tarasande',
+        colors: {
+            text: presetColors.white, // Text
+            accent: presetColors.pink, // Accent
+            header: presetColors.purple // Header
+        }
+    },
     // CS2
     {
         id: 199,
         name: 'Neverlose',
         price: 'from 29€',
-        tags: ['CS2'],
+        tags: [],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://pbs.twimg.com/profile_images/1736479325761699840/zyzDOzDP_400x400.jpg',
@@ -300,7 +332,7 @@ const clients = [
         id: 200,
         name: 'tkazer',
         price: 'Free',
-        tags: ['CS2', 'Free'],
+        tags: ['Free'],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -316,7 +348,7 @@ const clients = [
         id: 201,
         name: 'aimstar',
         price: 'Free',
-        tags: ['CS2', 'Free'],
+        tags: ['Free'],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -332,7 +364,7 @@ const clients = [
         id: 202,
         name: 'En1gma',
         price: 'Free',
-        tags: ['CS2', 'Free'],
+        tags: ['Free'],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -348,7 +380,7 @@ const clients = [
         id: 203,
         name: 'Ext. XONE',
         price: 'Free',
-        tags: ['CS2', 'Free'],
+        tags: ['Free'],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -364,7 +396,7 @@ const clients = [
         id: 204,
         name: 'Osiris v2',
         price: 'Free',
-        tags: ['CS2', 'Free'],
+        tags: ['Free'],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -380,7 +412,7 @@ const clients = [
         id: 205,
         name: 'Asphyxia',
         price: 'Free',
-        tags: ['CS2', 'Free', 'outdated'],
+        tags: ['Free', 'outdated'],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -396,7 +428,7 @@ const clients = [
         id: 206,
         name: 'IMXNOOBX',
         price: 'Free',
-        tags: ['CS2', 'Free', 'outdated'],
+        tags: ['Free', 'outdated'],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -412,7 +444,7 @@ const clients = [
         id: 207,
         name: 'Orbit',
         price: 'Free',
-        tags: ['CS2', 'Free', 'outdated'],
+        tags: ['Free', 'outdated'],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -427,13 +459,13 @@ const clients = [
     {
         id: 208,
         name: 'Plaguecheat.cc',
-        price: 'Free',
-        tags: ['CS2', 'Free', 'outdated'],
+        price: 'from 15€',
+        tags: [],
         game: "CS2",
         description: "CS2 Cheat",
-        cover: 'https://de.exloader.net/resources/favicon.png',
+        cover: 'https://gcscheats.com/wp-content/uploads/2024/05/gcs-cheats-store-logo.webp',
         screenshots: [],
-        downloadLink: 'https://lootdest.org/s?ba5ed5c6',
+        downloadLink: 'https://plaguecheat.cc/',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -444,7 +476,7 @@ const clients = [
         id: 209,
         name: 'SDK2Changer',
         price: 'Free',
-        tags: ['CS2', 'Free', "outdated"],
+        tags: ['Free', "outdated"],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -496,7 +528,7 @@ const clients = [
         price: 'Free',
         tags: ['Free'],
         game: "GTA V",
-        description: "CSGO Cheat",
+        description: "GTA Cheat",
         cover: 'https://i.pinimg.com/originals/5b/ec/47/5bec474d275dbdf8fdb071f30fc978f4.png',
         screenshots: ["https://www.kiddionsmodmenu.com/img/12.jpg"],
         downloadLink: 'https://www.kiddionsmodmenu.com',
@@ -536,6 +568,22 @@ const clients = [
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
             header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 420,
+        name: 'Cheat Engine',
+        price: 'Free',
+        tags: ['Free'],
+        game: "Offline-Games",
+        description: "Can be used to modify values (health, money, etc.) in most offline games",
+        cover: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Cheat_Engine_Logo.png',
+        screenshots: ["https://wiki.cheatengine.org/images/8/8e/Tutorials.CETutorialx64.step02.04.png"],
+        downloadLink: 'https://www.cheatengine.org/',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
         }
     }
 ];
