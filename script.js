@@ -272,7 +272,7 @@ const clients = [
         description: "Aqua is an outdated client made by LCA. There is an up to date paid version of it called Aqua Reborn (Aqua)",
         cover: 'https://pbs.twimg.com/profile_images/1288183040779399171/qScv_vQH_400x400.jpg',
         screenshots: ["https://i.ytimg.com/vi/bvCEL3b4wv4/maxresdefault.jpg"],
-        downloadLink: 'https://discord.gg/NMbUPypT6U',
+        downloadLink: 'https://loot-link.com/s?db866429',
         colors: {
             text: presetColors.black, // Text
             accent: "#5f59ff", // Accent
@@ -288,7 +288,7 @@ const clients = [
         description: "Very old free Ghost client which might still work on bad server like Hypixel",
         cover: 'https://cdn.discordapp.com/attachments/1223650631060033649/1275411614920736799/image.png?ex=66c5cb20&is=66c479a0&hm=389e0e37a41326ba874eb11278c2817225f05a82a6396c59dcaba73549c329d8&',
         screenshots: ["https://i.ytimg.com/vi/wjf6L3a8ieY/mqdefault.jpg", "https://cdn.discordapp.com/attachments/1223650631060033649/1275411445525381161/image.png?ex=66c5caf8&is=66c47978&hm=1c5d769f07f84f26156d2121a959cbda781e8cacd293f6e49de2909480afa9e7&"],
-        downloadLink: 'https://workupload.com/file/A3BQS9T6wWf',
+        downloadLink: 'https://lootdest.org/s?5d27659b',
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.blue, // Accent
@@ -304,11 +304,59 @@ const clients = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequuntur explicabo ex maiores a odit sequi accusamus. Amet esse ad, at dolorem deserunt nostrum quo quaerat voluptatem, expedita provident excepturi.",
         cover: 'https://github.com/Sumandora/tarasande/blob/1.20.4/src/main/resources/assets/tarasande/icon.png?raw=true',
         screenshots: ["https://github.com/Sumandora/tarasande/blob/1.20.4/media/GUI.png?raw=true", "https://github.com/Sumandora/tarasande/blob/1.20.4/media/BedESP%20showcase.png?raw=true"],
-        downloadLink: 'https://github.com/Sumandora/tarasande',
+        downloadLink: 'https://loot-link.com/s?787211a2',
         colors: {
             text: presetColors.white, // Text
             accent: presetColors.pink, // Accent
             header: presetColors.purple // Header
+        }
+    },
+    {
+        id: 19,
+        name: "Rusher Hack",
+        price: "$20",
+        tags: ["Fabric", "Anarchy", "Forge"], // Credits to wianis
+        game: "Minecraft",
+        description: "Focusing only 2b2t",
+        cover: "https://rusherhack.org/assets/rusherhack-logo.png",
+        screenshots: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8wut5N3AIK7RvLBYBLtQUmKKfs9BkxNmOIPnkQdfWjcl9DVg8iENzLOxH&s=10", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC6SUWSRCj63ffH_tYX64oYFk__c8850ijR7dLX9cNDTKKwTZr5uWqAHPC&s=10"],
+        downloadLink: "https://rusherhack.org",
+        colors: {
+            text: "#800080", // Text
+            accent: presetColors.lightGray, // Accent 
+            header: presetColors.blue // Header
+        }
+    },
+    {
+        id: 20,
+        name: "Opal Client",
+        price: "$50",
+        tags: ["Fabric", "Blatant", "Hypixel"], // Credits to wianis
+        game: "Minecraft",
+        description: "Focusing hypixel, don't have multiserver bypasses.",
+        cover: "https://cdn.modrinth.com/data/wossRhga/e25cdbc6f5ba5db74c13a8797c044363b58e1e5c.webp",
+        screenshots: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGCUpfU4Ud3qytXA2JZ1LoryVg97b55dDAuIBVobb1xvCTRa4I9SxM5jHK&s=10", "https://media.discordapp.net/attachments/1253397046690451456/1267010479138799688/image.png?ex=66c58d76&is=66c43bf6&hm=049e00d73d537b96677d537e9d9079aba1f65ff411d04b8ad2a4c8dcf620a164&=&format=png&width=1813&height=1020"],
+        downloadLink: "https://opal.wtf",
+        colors: {
+            text: presetColors.white, // Text
+            accent: presetColors.lightBlue, // Accent 
+            header: presetColors.blue // Header
+        }
+    },
+    {
+        id: 21,
+        name: "Sigma Jello",
+        price: "Free",
+        tags: ["Free", "Blatant"],
+        game: "Minecraft",
+        description: "Discover the Sigma and Jello merge , Sigma 5.0 including Jello for Sigma  for FREE , 1.16 to 1.8",
+        cover: "https://avatars.githubusercontent.com/u/83773282?s=280&v=4",
+        screenshots: ["https://i.ytimg.com/vi/0GwkNzz6wFc/maxresdefault.jpg", "https://cheater.fun/uploads/posts/2020-09/1600299856_prev.jpg"],
+        downloadLink: "https://github.com/SigmaJello/Archive",
+        colors: {
+            text: "#000000", // Text
+            accent: presetColors.lightGray, // Accent 
+            header: presetColors.blue // Header
         }
     },
     // CS2
@@ -498,7 +546,7 @@ const clients = [
         description: "CSGO Cheat",
         cover: 'https://seeklogo.com/images/C/csgo-logo-CAA0A4D48A-seeklogo.com.png',
         screenshots: ["https://data.exloader.net/webp_images/Osiris/visuals_edited.webp", "https://data.exloader.net/webp_images/Osiris/aimbot_edited.webp"],
-        downloadLink: 'https://en.exloader.net/tree/modifications/osiris/',
+        downloadLink: 'https://lootdest.org/s?818e8fa2',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -514,7 +562,7 @@ const clients = [
         description: "CSGO Cheat",
         cover: 'https://seeklogo.com/images/C/csgo-logo-CAA0A4D48A-seeklogo.com.png',
         screenshots: ["https://data.exloader.net/webp_images/Rawetrip/rage_edited.webp", "https://data.exloader.net/webp_images/Rawetrip/gameplay_edited.webp", "https://data.exloader.net/webp_images/Rawetrip/skins_edited.webp"],
-        downloadLink: 'https://en.exloader.net/tree/modifications/rawetrip/',
+        downloadLink: 'https://loot-link.com/s?41a25ed2',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -531,7 +579,7 @@ const clients = [
         description: "GTA Cheat",
         cover: 'https://i.pinimg.com/originals/5b/ec/47/5bec474d275dbdf8fdb071f30fc978f4.png',
         screenshots: ["https://www.kiddionsmodmenu.com/img/12.jpg"],
-        downloadLink: 'https://www.kiddionsmodmenu.com',
+        downloadLink: 'https://lootdest.org/s?abf9416d',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -547,7 +595,7 @@ const clients = [
         description: "Cosmetics unlocker",
         cover: 'https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec',
         screenshots: [],
-        downloadLink: 'https://en.exloader.net/tree/modifications/amonguscosmetics/',
+        downloadLink: 'https://loot-link.com/s?0e2c7551',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -563,7 +611,7 @@ const clients = [
         description: "AmongUS Cheat",
         cover: 'https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec',
         screenshots: ["https://data.exloader.net/webp_images/AmongUsMenu/replay.webp"],
-        downloadLink: 'https://en.exloader.net/tree/modifications/amongusmenu/',
+        downloadLink: 'https://lootdest.org/s?f6716ab0',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -579,7 +627,7 @@ const clients = [
         description: "Can be used to modify values (health, money, etc.) in most offline games",
         cover: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Cheat_Engine_Logo.png',
         screenshots: ["https://wiki.cheatengine.org/images/8/8e/Tutorials.CETutorialx64.step02.04.png"],
-        downloadLink: 'https://www.cheatengine.org/',
+        downloadLink: 'https://lootdest.org/s?45e78dd6',
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.blue, // Accent
@@ -615,8 +663,9 @@ function populateClients(filteredTag = "all") {
             const clientDiv = document.createElement('div');
             clientDiv.className = 'client';
             clientDiv.innerHTML = `
-                <img src="${client.cover}" alt="${client.name}">
+                <img src="${client.cover}" alt="if you see this, firefox messed up (or bipas did lol)${client.name}">
                 <h2>${client.name}</h2>
+                <p>${client.game}</p>
                 <p>${client.price}</p>
                 <a href="client.html?id=${client.id}">View Client</a>
             `;
