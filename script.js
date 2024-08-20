@@ -190,7 +190,7 @@ const clients = [
         tags: ["Bedrock", "Injectable", "Hive"],
         game: "Minecraft Bedrock",
         description: "key features: online integration (social menu): friend people, send dms, and share configs directly in dms; config manager: utilize local and cloud configs, allowing you to upload and share your best configs for any server; bypasses and visuals: experience better and more stable bypasses, insane visuals, and more crazy modules; compatibility: minecraft version: 1.21.21; platforms: windows 10/11; payment options (usd); $2.30: 1 week; $5.30: 1 month; $14.30: 3 months; $50.30: lifetime",
-        cover: "https://media.discordapp.net/attachments/1223650631060033649/1274749678327566386/png.png?ex=66c362a7&is=66c21127&hm=fe0de67b678d837b1b22ea3dc4b0f9c62e35c7b7082c89ea6400a4f9bb823bb7&=&format=webp&quality=lossless&width=676&height=676",
+        cover: "assets/Logos/Packet.webp",
         screenshots: ["https://i.ytimg.com/vi/eVo6Oc7KGDY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAH0JbEZdTEI91oMZlcdMdle68_lw"],
         downloadLink: "https://discord.com/invite/packetv3",
         colors: {
@@ -238,7 +238,7 @@ const clients = [
         tags: ["Hypixel" ,"Blatant"],
         game: "Minecraft",
         description: "Rise Client.The best Minecraft cheating solution.",
-        cover: 'https://media.discordapp.net/attachments/944497501904470086/1275024983684546570/rise.png?ex=66c4630c&is=66c3118c&hm=029aef713bd56c1298d0ec36310035982c8eb4dbe83377b656c36a9c3aae742b&=&format=webp&quality=lossless&width=322&height=350',
+        cover: 'assets/Logos/rise.webp',
         screenshots: ["https://www.9minecraft.net/wp-content/uploads/2022/11/Rise-Client-Screenshots-9.jpg" , "https://preview.redd.it/wixg4tq2srf81.png?width=1875&format=png&auto=webp&s=70a5cccad83683227c3b62bb5aaf37511a9af160"],
         downloadLink: 'https://riseclient.com/',
         colors: {
@@ -286,8 +286,8 @@ const clients = [
         tags: ["Free" ,"Forge", "outdated", "Ghost"],
         game: "Minecraft",
         description: "Very old free Ghost client which might still work on bad server like Hypixel",
-        cover: 'https://cdn.discordapp.com/attachments/1223650631060033649/1275411614920736799/image.png?ex=66c5cb20&is=66c479a0&hm=389e0e37a41326ba874eb11278c2817225f05a82a6396c59dcaba73549c329d8&',
-        screenshots: ["https://i.ytimg.com/vi/wjf6L3a8ieY/mqdefault.jpg", "https://cdn.discordapp.com/attachments/1223650631060033649/1275411445525381161/image.png?ex=66c5caf8&is=66c47978&hm=1c5d769f07f84f26156d2121a959cbda781e8cacd293f6e49de2909480afa9e7&"],
+        cover: 'assets/Logos/Senura.png',
+        screenshots: ["https://i.ytimg.com/vi/wjf6L3a8ieY/mqdefault.jpg", "assets/Logos/senuraingame.png"],
         downloadLink: 'https://lootdest.org/s?5d27659b',
         colors: {
             text: presetColors.black, // Text
@@ -335,7 +335,7 @@ const clients = [
         game: "Minecraft",
         description: "Focusing hypixel, don't have multiserver bypasses.",
         cover: "https://cdn.modrinth.com/data/wossRhga/e25cdbc6f5ba5db74c13a8797c044363b58e1e5c.webp",
-        screenshots: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGCUpfU4Ud3qytXA2JZ1LoryVg97b55dDAuIBVobb1xvCTRa4I9SxM5jHK&s=10", "https://media.discordapp.net/attachments/1253397046690451456/1267010479138799688/image.png?ex=66c58d76&is=66c43bf6&hm=049e00d73d537b96677d537e9d9079aba1f65ff411d04b8ad2a4c8dcf620a164&=&format=png&width=1813&height=1020"],
+        screenshots: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGCUpfU4Ud3qytXA2JZ1LoryVg97b55dDAuIBVobb1xvCTRa4I9SxM5jHK&s=10", "assets/Logos/OpalIngame.png"],
         downloadLink: "https://opal.wtf",
         colors: {
             text: presetColors.white, // Text
@@ -357,6 +357,22 @@ const clients = [
             text: "#000000", // Text
             accent: presetColors.lightGray, // Accent 
             header: presetColors.blue // Header
+        }
+    },
+    {
+        id: 22,
+        name: "Augustus FREE (b2.6)",
+        price: "Free",
+        tags: ["Free", "Blatant"],
+        game: "Minecraft",
+        description: "Old Free Version of the 80€ Augustus Client. It does not get any updates but works fine on servers with bad anticheats like watchdog, ncp, verus or vulcan.",
+        cover: "https://i.redd.it/4hqc4li4vdq51.png",
+        screenshots: ["assets/Augustusb2_6/GUI.png"],
+        downloadLink: "https://workupload.com/file/rcxH6fcWxzp",
+        colors: {
+            text: "#000000", // Text
+            accent: presetColors.red, // Accent 
+            header: presetColors.darkRed // Header
         }
     },
     // CS2
