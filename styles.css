@@ -15,31 +15,39 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+header, .client, header button, header select {
+    background-color: #8b8b8b70;
+    backdrop-filter: blur(10px);
+}
 
 header {
-    background-color: #8b8b8b70;
     color: #fff;
     padding: 1rem;
     text-align: center;
     border-bottom: 2px solid rgb(0, 0, 0);            
-    backdrop-filter: blur(10px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
 header select {
     padding: 0.5rem;
     margin-left: 1rem;
-}
-
-header button {
-    background-color: #007BFF;
-    color: white;
-    border: none;
     border-radius: 5px;
 }
 
+header button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    border: 2px solid rgb(0, 0, 0); 
+
+}
+
 header button:hover {
-    background-color: #8f00b3;
+    background-color: #555;
+    scale: 1.1;
+    border: 2px solid rgb(0, 0, 0); 
 }
 
 main {
@@ -49,9 +57,7 @@ main {
     margin: 1rem;
 }
 
-.client {
-    background-color: #8b8b8b70;
-    backdrop-filter: blur(10px);
+.client { 
     border: 1px solid #ddd;
     margin: 1rem;
     padding: 1rem;
@@ -100,8 +106,10 @@ main {
     border-radius: 4px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.39);
     text-shadow: 0 0 3px rgb(0, 0, 0);
+    transition: transform 0.5s ease;
 }
 
 .client a:hover {
     background-color: #555;
+    transform: scale(1.1);
 }

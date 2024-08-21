@@ -318,7 +318,7 @@ const clients = [
         tags: ["Fabric", "Anarchy", "Forge"], // Credits to wianis
         game: "Minecraft",
         description: "Focusing only 2b2t",
-        cover: "https://rusherhack.org/assets/rusherhack-logo.png",
+        cover: "assets/Logos/rusherhack-logo.png",
         screenshots: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8wut5N3AIK7RvLBYBLtQUmKKfs9BkxNmOIPnkQdfWjcl9DVg8iENzLOxH&s=10", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC6SUWSRCj63ffH_tYX64oYFk__c8850ijR7dLX9cNDTKKwTZr5uWqAHPC&s=10"],
         downloadLink: "https://rusherhack.org",
         colors: {
@@ -368,11 +368,27 @@ const clients = [
         description: "Old Free Version of the 80€ Augustus Client. It does not get any updates but works fine on servers with bad anticheats like watchdog, ncp, verus or vulcan.",
         cover: "https://i.redd.it/4hqc4li4vdq51.png",
         screenshots: ["assets/Augustusb2_6/GUI.png"],
-        downloadLink: "https://workupload.com/file/rcxH6fcWxzp",
+        downloadLink: "https://loot-link.com/s?9de8e0f7",
         colors: {
             text: "#000000", // Text
             accent: presetColors.red, // Accent 
             header: presetColors.darkRed // Header
+        }
+    },
+    {
+        id: 23,
+        name: "Drip Lite",
+        price: "$80",
+        tags: ["Ghost", "Injectable"],
+        game: "Minecraft",
+        description: "Vape, but better",
+        cover: "https://avatars.githubusercontent.com/u/63714630?s=200&v=4",
+        screenshots: ["https://drip.gg/menu-render.png"],
+        downloadLink: "https://getd.rip/PJNLWXPJ",
+        colors: {
+            text: presetColors.white, // Text
+            accent: presetColors.purple, // Accent
+            header: presetColors.darkPurple // Header
         }
     },
     // CS2
@@ -383,7 +399,7 @@ const clients = [
         tags: [],
         game: "CS2",
         description: "CS2 Cheat",
-        cover: 'https://pbs.twimg.com/profile_images/1736479325761699840/zyzDOzDP_400x400.jpg',
+        cover: 'https://avatars.githubusercontent.com/u/64214782?s=280&v=4',
         screenshots: ["https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/271224896/original/321cca51830834cd769d3529a8f42f2327bc1336/make-a-neverlose-hvh-config-for-your-playstyle.jpg"],
         downloadLink: 'https://neverlose.cc',
         colors: {
@@ -579,6 +595,39 @@ const clients = [
         cover: 'https://seeklogo.com/images/C/csgo-logo-CAA0A4D48A-seeklogo.com.png',
         screenshots: ["https://data.exloader.net/webp_images/Rawetrip/rage_edited.webp", "https://data.exloader.net/webp_images/Rawetrip/gameplay_edited.webp", "https://data.exloader.net/webp_images/Rawetrip/skins_edited.webp"],
         downloadLink: 'https://loot-link.com/s?41a25ed2',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    // TF2
+    {
+        id: 320,
+        name: 'Fusion',
+        price: 'Free',
+        tags: ['Free'],
+        game: "TF2",
+        description: "Amalgam rei-kes based open-sources TF2 modification with lots of features for HvH gameplay.",
+        cover: 'https://wiki.teamfortress.com/w/images/thumb/c/ca/Spyfencingtauntkill.png/250px-Spyfencingtauntkill.png',
+        screenshots: ["https://data.exloader.net/webp_images/Fusion/gameplay.webp"],
+        downloadLink: 'https://en.exloader.net/tree/modifications/fusion/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 321,
+        name: 'MFEDChanger',
+        price: 'Free',
+        tags: ['Free'],
+        game: "TF2",
+        description: "A simple and working skin changer that allows you to change weapon skins, visual effects and other stuff. Easy to customize.",
+        cover: 'https://wiki.teamfortress.com/w/images/thumb/c/ca/Spyfencingtauntkill.png/250px-Spyfencingtauntkill.png',
+        screenshots: ["https://data.exloader.net/webp_images/MFEDChanger/menu.webp", "https://data.exloader.net/webp_images/MFEDChanger/skin.webp"],
+        downloadLink: 'https://exloader.net/tree/modifications/mfedchanger/',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
