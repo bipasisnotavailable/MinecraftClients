@@ -187,7 +187,7 @@ const clients = [
         id: 11,
         name: "Packet V3",
         price: "$50.30",
-        tags: ["Bedrock", "Injectable", "Hive"],
+        tags: ["Injectable", "Hive"],
         game: "Minecraft Bedrock",
         description: "key features: online integration (social menu): friend people, send dms, and share configs directly in dms; config manager: utilize local and cloud configs, allowing you to upload and share your best configs for any server; bypasses and visuals: experience better and more stable bypasses, insane visuals, and more crazy modules; compatibility: minecraft version: 1.21.21; platforms: windows 10/11; payment options (usd); $2.30: 1 week; $5.30: 1 month; $14.30: 3 months; $50.30: lifetime",
         cover: "assets/Logos/Packet.webp",
@@ -205,7 +205,7 @@ const clients = [
         price: "$150",
         tags: ["Hypixel", "Forge"],
         game: "Minecraft",
-        description: "25$ discount when you buy trough 'ihasedich'",
+        description: "25$ discount when you buy trough 'ihasedich', dm him on discord",
         cover: "https://i.pinimg.com/736x/28/bc/1d/28bc1d0c2420d7cea6238b1200b3b35f.jpg",
         screenshots: [],
         downloadLink: "ihasedich",
@@ -352,7 +352,7 @@ const clients = [
         description: "Discover the Sigma and Jello merge , Sigma 5.0 including Jello for Sigma  for FREE , 1.16 to 1.8",
         cover: "https://avatars.githubusercontent.com/u/83773282?s=280&v=4",
         screenshots: ["https://i.ytimg.com/vi/0GwkNzz6wFc/maxresdefault.jpg", "https://cheater.fun/uploads/posts/2020-09/1600299856_prev.jpg"],
-        downloadLink: "https://github.com/SigmaJello/Archive",
+        downloadLink: "https://lootdest.org/s?a0af6607",
         colors: {
             text: "#000000", // Text
             accent: presetColors.lightGray, // Accent 
@@ -389,6 +389,70 @@ const clients = [
             text: presetColors.white, // Text
             accent: presetColors.purple, // Accent
             header: presetColors.darkPurple // Header
+        }
+    },
+    {
+        id: 24,
+        name: "Chimera",
+        price: "Free",
+        tags: ["Free", "Blatant"],
+        game: "Minecraft",
+        description: "Cancer, but for Minecraft",
+        cover: "assets/Krebs/Krebslogo.png",
+        screenshots: ["assets/Krebs/krebs1.webp", "assets/Krebs/krebs2.webp", "assets/Krebs/krebs3.webp", "assets/Krebs/krebs4.webp"],
+        downloadLink: "https://lootdest.org/s?5d533527",
+        colors: {
+            text: presetColors.white, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.darkPurple // Header
+        }
+    },
+    {
+        id: 25,
+        name: "Flux",
+        price: "idk but paid",
+        tags: ["Blatant", "Hypixel"],
+        game: "Minecraft",
+        description: "Goes beyond basic Minecraft Modifications. offering intuitive options for the best gameplay experience.",
+        cover: "assets/Logos/Flux.png",
+        screenshots: ["https://i.ytimg.com/vi/Jv4AZQojYEw/maxresdefault.jpg"],
+        downloadLink: "https://flux.today/",
+        colors: {
+            text: presetColors.white, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.darkPurple // Header
+        }
+    },
+    {
+        id: 26,
+        name: "Schizoid",
+        price: "Free",
+        tags: ["Free", "Fabric", "Ghost", "Blatant"],
+        game: "Minecraft",
+        description: "Proof that not every IMGUI-ClickGUI looks ass",
+        cover: "https://github.com/Lyzev/Schizoid/blob/master/.idea/icon.png?raw=true",
+        screenshots: ["assets/Shit_zeugs/ClickGui.png", "assets/Shit_zeugs/ingame.png"],
+        downloadLink: "https://lootdest.org/s?2af3a3b1",
+        colors: {
+            text: presetColors.white, // Text
+            accent: presetColors.green, // Accent
+            header: presetColors.pink // Header
+        }
+    },
+    {
+        id: 27,
+        name: "Haru",
+        price: "Free",
+        tags: ["Free", "Forge", "Ghost", "outdated"],
+        game: "Minecraft",
+        description: "Old fork from Raven B+",
+        cover: "https://i1.sndcdn.com/artworks-SzLbaS0fj7iaYG6i-yxZygQ-t500x500.jpg",
+        screenshots: ["https://camo.githubusercontent.com/6478890dc499cceffee1c5d03a5693b01ad7fe5274858c719e6465c6c60d9e93/68747470733a2f2f692e696d6775722e636f6d2f31325a675045692e706e67"],
+        downloadLink: "https://loot-link.com/s?09645ab1",
+        colors: {
+            text: presetColors.white, // Text
+            accent: presetColors.green, // Accent
+            header: presetColors.pink // Header
         }
     },
     // CS2
@@ -611,7 +675,7 @@ const clients = [
         description: "Amalgam rei-kes based open-sources TF2 modification with lots of features for HvH gameplay.",
         cover: 'https://wiki.teamfortress.com/w/images/thumb/c/ca/Spyfencingtauntkill.png/250px-Spyfencingtauntkill.png',
         screenshots: ["https://data.exloader.net/webp_images/Fusion/gameplay.webp"],
-        downloadLink: 'https://en.exloader.net/tree/modifications/fusion/',
+        downloadLink: 'https://loot-link.com/s?443f8f1a',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -627,7 +691,7 @@ const clients = [
         description: "A simple and working skin changer that allows you to change weapon skins, visual effects and other stuff. Easy to customize.",
         cover: 'https://wiki.teamfortress.com/w/images/thumb/c/ca/Spyfencingtauntkill.png/250px-Spyfencingtauntkill.png',
         screenshots: ["https://data.exloader.net/webp_images/MFEDChanger/menu.webp", "https://data.exloader.net/webp_images/MFEDChanger/skin.webp"],
-        downloadLink: 'https://exloader.net/tree/modifications/mfedchanger/',
+        downloadLink: 'https://lootdest.org/s?f002f1fc',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
