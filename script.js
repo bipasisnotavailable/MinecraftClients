@@ -455,6 +455,38 @@ const clients = [
             header: presetColors.pink // Header
         }
     },
+    {
+        id: 180,
+        name: "BlockOverlay",
+        price: "Free",
+        tags: ["Free", "Forge"],
+        game: "Minecraft",
+        description: "Minecraft blockoverlay forge mod 1.8.9. Command: /blockoverlay",
+        cover: "assets/Logos/BlockOverlayLogo.png",
+        screenshots: ["assets/Logos/BlockOverlaySS.png"],
+        downloadLink: "https://loot-link.com/s?71257f9b",
+        colors: {
+            text: presetColors.white, // Text
+            accent: presetColors.lightBlue, // Accent
+            header: presetColors.pink // Header
+        }
+    },
+    {
+        id: 181,
+        name: "Forge Alt Manager",
+        price: "Free",
+        tags: ["Free", "Forge"],
+        game: "Minecraft",
+        description: "Ingame Account Switcher",
+        cover: "https://media.forgecdn.net/avatars/thumbnails/540/804/256/256/637866988360940386.png",
+        screenshots: [],
+        downloadLink: "https://lootdest.org/s?c3f7fca4",
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.orange, // Accent
+            header: presetColors.gray // Header
+        }
+    },
     // CS2
     {
         id: 199,
