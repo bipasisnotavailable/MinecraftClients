@@ -398,8 +398,8 @@ const clients = [
         tags: ["Free", "Blatant"],
         game: "Minecraft",
         description: "Cancer, but for Minecraft",
-        cover: "assets/Krebs/Krebslogo.png",
-        screenshots: ["assets/Krebs/krebs1.webp", "assets/Krebs/krebs2.webp", "assets/Krebs/krebs3.webp", "assets/Krebs/krebs4.webp"],
+        cover: "assets/Krebs/KrebsLogo.png",
+        screenshots: ["assets/Krebs/Krebs1.webp", "assets/Krebs/Krebs2.webp", "assets/Krebs/Krebs3.webp", "assets/Krebs/krebs4.webp"],
         downloadLink: "https://lootdest.org/s?5d533527",
         colors: {
             text: presetColors.white, // Text
