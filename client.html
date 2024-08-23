@@ -19,43 +19,53 @@
     <script src="script.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            const params = new URLSearchParams(window.location.search);
-            const clientId = parseInt(params.get("id"));
-            const client = clients.find(p => p.id === clientId);
+    const params = new URLSearchParams(window.location.search);
+    const clientId = parseInt(params.get("id"));
+    const client = clients.find(p => p.id === clientId);
 
-            // Apply client colors and gradient background
-            document.getElementById('clientHeader').style.borderBottomColor = client.colors.header;
-            document.getElementById('clientTitle').style.color = client.colors.text;
-            document.querySelector('.back-button').style.borderColor = client.colors.header;
+    // Apply client colors and gradient background
+    document.getElementById('clientHeader').style.borderBottomColor = client.colors.header;
+    document.getElementById('clientTitle').style.color = client.colors.text;
+    document.querySelector('.back-button').style.borderColor = client.colors.header;
 
-            document.body.style.background = `
-                radial-gradient(at 91% 86%, ${client.colors.header} 0px, transparent 70%),
-                radial-gradient(at 12% 13%, ${client.colors.accent} 0px, transparent 70%)
-            `;
+    document.body.style.background = `
+        radial-gradient(at 91% 86%, ${client.colors.header} 0px, transparent 70%),
+        radial-gradient(at 12% 13%, ${client.colors.accent} 0px, transparent 70%)
+    `;
 
-            const clientDetails = document.getElementById('clientDetails');
-            clientDetails.innerHTML = `
-                <div class="client-info" style="color: ${client.colors.text};">
-                    <img src="${client.cover}" alt="${client.name}" class="cover-image">
-                    <div class="details">
-                        <h2>${client.name}</h2>
-                        <p>Price: ${client.price}</p>
-                        <p>${client.description}</p>
-                        <h3>Tags:</h3>
-                        <ul>${client.tags.map(tag => `<li style="border-color: ${client.colors.accent};">${tag}</li>`).join('')}</ul>
-                    </div>
-                </div>
-                <h3 style="color: ${client.colors.text};">Screenshots:</h3>
-                <div class="screenshots">
-                    ${client.screenshots.map(screenshot => `<img src="${screenshot}" alt="Screenshot">`).join('')}
-                </div>
-                <a href="${client.downloadLink}" class="download-button" style="border-color: ${client.colors.accent};">Download</a>
-            `;
-            document.querySelectorAll('.screenshots img').forEach(function(img) {
-                img.style.borderColor = client.colors.accent;
-            });
-            document.querySelector('.cover-image').style.borderColor = client.colors.accent;
-        });
+    const clientDetails = document.getElementById('clientDetails');
+    
+    let screenshotsContent = '';
+    if (client.screenshots && client.screenshots.length > 0) {
+        screenshotsContent = `
+            <h3 style="color: ${client.colors.text};">Screenshots:</h3>
+            <div class="screenshots">
+                ${client.screenshots.map(screenshot => `<img src="${screenshot}" alt="Screenshot">`).join('')}
+            </div>
+        `;
+    }
+
+    clientDetails.innerHTML = `
+        <div class="client-info" style="color: ${client.colors.text};">
+            <img src="${client.cover}" alt="${client.name}" class="cover-image">
+            <div class="details">
+                <h2>${client.name}</h2>
+                <p>Price: ${client.price}</p>
+                <p>${client.description}</p>
+                <h3>Tags:</h3>
+                <ul>${client.tags.map(tag => `<li style="border-color: ${client.colors.accent};">${tag}</li>`).join('')}</ul>
+            </div>
+        </div>
+        ${screenshotsContent}
+        <a href="${client.downloadLink}" class="download-button" style="border-color: ${client.colors.accent};">Download</a>
+    `;
+    
+    document.querySelectorAll('.screenshots img').forEach(function(img) {
+        img.style.borderColor = client.colors.accent;
+    });
+    document.querySelector('.cover-image').style.borderColor = client.colors.accent;
+});
+
 
     </script>
 </body>

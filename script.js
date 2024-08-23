@@ -219,16 +219,16 @@ const clients = [
         id: 13,
         name: 'Wurst',
         price: 'Free',
-        tags: [],
+        tags: ["Free", "Fabric", "Anarchy"],
         description: "OP Client",
         game: "Minecraft",
         cover: 'https://wurst.wiki/_media/logo/wurst_centered_256.png',
         screenshots: [],
         downloadLink: 'https://lootdest.org/s?357de362',
         colors: {
-            text: "#ffffff", // Text
-            accent: "#00bf2d", // Accent
-            header: "#009fbf" // Header
+            text: presetColors.black, // Text
+            accent: presetColors.orange, // Accent
+            header: presetColors.orange // Header
         }
     },
     {
