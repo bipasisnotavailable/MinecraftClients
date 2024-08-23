@@ -347,7 +347,7 @@ const clients = [
         id: 21,
         name: "Sigma Jello",
         price: "Free",
-        tags: ["Free", "Blatant"],
+        tags: ["Free", "Blatant", "outdated"],
         game: "Minecraft",
         description: "Discover the Sigma and Jello merge , Sigma 5.0 including Jello for Sigma  for FREE , 1.16 to 1.8",
         cover: "https://avatars.githubusercontent.com/u/83773282?s=280&v=4",
@@ -456,6 +456,70 @@ const clients = [
         }
     },
     {
+        id: 28,
+        name: "Speed Autoclicker",
+        price: "Free",
+        tags: ["Free", "Ghost"],
+        game: "Minecraft",
+        description: "Free fully external autoclicker",
+        cover: "https://www.chip.de/ii/1/2/6/6/1/5/4/2/6/AutoClicker_logo.jpg-b459966fd229d8c6.png",
+        screenshots: ["https://fabi.me/wp-content/uploads/2009/01/speedautoclicker1.png"],
+        downloadLink: "https://lootdest.org/s?cf869e58",
+        colors: {
+            text: presetColors.white, // Text
+            accent: presetColors.green, // Accent
+            header: presetColors.pink // Header
+        }
+    },
+    {
+        id: 29,
+        name: "Aqua",
+        price: "15€",
+        tags: ["Blatant", "Multiserver"],
+        game: "Minecraft",
+        description: "Holy Moly its aqua",
+        cover: "assets/Logos/Aqua.webp",
+        screenshots: ["https://minecraft-clients.de/cdn/shop/products/Screenshot_20230124_184740_c1696b44-5082-45a9-9a53-c60fa23bfbd9_480x.png?v=1675532236", "https://minecraft-clients.de/cdn/shop/products/Screenshot_20230124_184704_aa344975-4991-46e0-826d-ab91a7fecafa_720x.png?v=1675532236", "https://minecraft-clients.de/cdn/shop/products/Screenshot_20230124_184815_17df24c2-304b-4c71-ba40-a5e5d41440af_720x.png?v=1675532235"],
+        downloadLink: "https://minecraft-clients.de/products/aqua-client-1",
+        colors: {
+            text: presetColors.white, // Text
+            accent: presetColors.red, // Accent
+            header: presetColors.orange // Header
+        }
+    },
+    {
+        id: 30,
+        name: "Peter",
+        price: "30€",
+        tags: ["Blatant", "Multiserver"],
+        game: "Minecraft",
+        description: "Client sucht den Wolf oder so. Kp auf jeden Fall dropt PikaSS manchmal das N-Wort wenn er gegen den Client auf BMC verliert",
+        cover: "https://yt3.googleusercontent.com/ytc/AIdro_m7JpXKUjIUuw1g-M2No8zobfuoNJKcy78Jafd69m_Ddg=s900-c-k-c0x00ffffff-no-rj",
+        screenshots: ["https://minecraft-clients.de/cdn/shop/products/Peter2_480x.jpg?v=1644516280", "https://minecraft-clients.de/cdn/shop/products/Peter3_720x.jpg?v=1644516280", "https://minecraft-clients.de/cdn/shop/products/Peter1_720x.jpg?v=1644516273"],
+        downloadLink: "https://minecraft-clients.de/products/peter-minecraft-client",
+        colors: {
+            text: presetColors.white, // Text
+            accent: presetColors.gray, // Accent
+            header: presetColors.darkRed // Header
+        }
+    },
+    {
+        id: 31,
+        name: "Prestige",
+        price: "20€",
+        tags: ["Blatant", "Multiserver"],
+        game: "Minecraft",
+        description: "Im Namen des Vaters, des Sohnes, des Heiligen Ghosts. (WillShorts gefällt der Client hab ich gehört)",
+        cover: "https://yt3.googleusercontent.com/ytc/AIdro_m7JpXKUjIUuw1g-M2No8zobfuoNJKcy78Jafd69m_Ddg=s900-c-k-c0x00ffffff-no-rj",
+        screenshots: ["https://minecraft-clients.de/cdn/shop/files/prestigeBildNeu7_480x.png?v=1715194637", "https://minecraft-clients.de/cdn/shop/files/prestigeBildNeu6_720x.png?v=1715194637", "https://minecraft-clients.de/cdn/shop/files/prestigeBildNeu5_720x.png?v=1715194637"],
+        downloadLink: "https://minecraft-clients.de/products/prestige-client",
+        colors: {
+            text: presetColors.white, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.darkBlue // Header
+        }
+    },
+    {
         id: 180,
         name: "BlockOverlay",
         price: "Free",
@@ -481,6 +545,22 @@ const clients = [
         cover: "https://media.forgecdn.net/avatars/thumbnails/540/804/256/256/637866988360940386.png",
         screenshots: [],
         downloadLink: "https://lootdest.org/s?c3f7fca4",
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.orange, // Accent
+            header: presetColors.gray // Header
+        }
+    },
+    {
+        id: 182,
+        name: "ViaFabricPlus",
+        price: "Free",
+        tags: ["Free", "Fabric"],
+        game: "Minecraft",
+        description: "Fabric mod to connect to EVERY Minecraft server version (Release, Beta, Alpha, Classic, Snapshots, Bedrock) with QoL fixes to the gameplay",
+        cover: "https://raw.githubusercontent.com/ViaVersion/ViaFabricPlus/main/src/main/resources/assets/viafabricplus/icon.png",
+        screenshots: [],
+        downloadLink: "https://lootdest.org/s?dc1c39cb",
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.orange, // Accent
@@ -794,6 +874,22 @@ const clients = [
             accent: presetColors.blue, // Accent
             header: presetColors.lightGray // Header
         }
+    },
+    {
+        id: 10000,
+        name: 'Hidden Item',
+        price: 'Free',
+        tags: ['hidden'],
+        game: "Minecraft",
+        description: "Some Random hidden item lol. Item added: 23.08.2024",
+        cover: 'https://images.emojiterra.com/google/android-11/512px/1f92b.png',
+        screenshots: [],
+        downloadLink: '',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
+        }
     }
 ];
 // Boolean flag to hide clients with "outdated" tag
@@ -814,6 +910,11 @@ function populateClients(filteredTag = "all") {
     clientList.innerHTML = '';
 
     clients.forEach(client => {
+        // Skip clients with "hidden" tag
+        if (client.tags.includes("hidden")) {
+            return;
+        }
+
         // Skip clients with "outdated" tag if hideOutdated is true
         if (hideOutdated && client.tags.includes("outdated")) {
             return;
@@ -840,7 +941,11 @@ function populateTagFilter() {
     const tagFilter = document.getElementById('tagFilter');
     let allTags = new Set();
     clients.forEach(client => {
-        client.tags.forEach(tag => allTags.add(tag));
+        client.tags.forEach(tag => {
+            if (tag !== 'hidden') {
+                allTags.add(tag);
+            }
+        });
     });
 
     allTags.forEach(tag => {
