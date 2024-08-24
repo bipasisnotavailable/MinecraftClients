@@ -520,6 +520,22 @@ const clients = [
         }
     },
     {
+        id: 32,
+        name: "Raven B+",
+        price: "Free",
+        tags: ["Free", "Hypixel", "Ghost"],
+        game: "Minecraft",
+        description: "Raven B3 but better. No updates but still works on Hypixel with decent settings",
+        cover: "https://avatars.githubusercontent.com/u/88325435?s=280&v=4",
+        screenshots: ["https://i.ytimg.com/vi/J-MQASXPh9k/hqdefault.jpg"],
+        downloadLink: "https://loot-link.com/s?df8b360d",
+        colors: {
+            text: presetColors.darkGray, // Text
+            accent: presetColors.purple, // Accent
+            header: presetColors.pink // Header
+        }
+    },
+    {
         id: 180,
         name: "BlockOverlay",
         price: "Free",
@@ -885,6 +901,22 @@ const clients = [
         cover: 'https://images.emojiterra.com/google/android-11/512px/1f92b.png',
         screenshots: [],
         downloadLink: '',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
+        }
+    },
+    {
+        id: 10001,
+        name: 'Raven XD Invis config',
+        price: 'Free',
+        tags: ['hidden'],
+        game: "Minecraft",
+        description: "How to use a config: Open clickgui, under profiles go to manager and press open folder. Then drop in the .json file and press on load profiles. Then just press on the profile name. Config uploaded: 24.08.2024.",
+        cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
+        screenshots: [],
+        downloadLink: 'https://loot-link.com/s?a1b109db',
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.blue, // Accent
