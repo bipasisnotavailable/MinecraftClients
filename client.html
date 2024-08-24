@@ -64,6 +64,9 @@
         img.style.borderColor = client.colors.accent;
     });
     document.querySelector('.cover-image').style.borderColor = client.colors.accent;
+    if (client.price !== "Free"){
+        document.querySelector('.download-button').textContent = "Purchase";
+    }
 });
 
 
