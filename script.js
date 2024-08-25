@@ -410,7 +410,7 @@ const clients = [
     {
         id: 25,
         name: "Flux",
-        price: "idk but paid",
+        price: "$20",
         tags: ["Blatant", "Hypixel"],
         game: "Minecraft",
         description: "Goes beyond basic Minecraft Modifications. offering intuitive options for the best gameplay experience.",
@@ -536,6 +536,38 @@ const clients = [
         }
     },
     {
+        id: 33,
+        name: "Dog",
+        price: "15$", // Made by nocheatpius
+        tags: ["Blatant", "Hypixel", "Forge"],
+        game: "Minecraft",
+        description: "Dog client is a 15 bucks client made by liticane,ouuuu and badaiim",
+        cover: "assets/Logos/dog.webp",
+        screenshots: ["https://i.postimg.cc/Twh93MY2/Screenshot-2024-08-25-124322.png"],
+        downloadLink: "https://discord.gg/svAju6czRV",
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.lightGray, // Accent 
+            header: presetColors.blue // Header
+        }
+    },
+    {
+        id: 34,
+        name: "Akira",
+        price: "15$",
+        tags: ["Ghost", "Hypixel", "Injectable"],
+        game: "Minecraft",
+        description: "Enhancing the enjoyment of Minecraft with Akira.",
+        cover: "https://ankleanl.sirv.com/Akira/akira_logo.png",
+        screenshots: [],
+        downloadLink: "https://akiraghost.com/",
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.lightGray, // Accent 
+            header: presetColors.red // Header
+        }
+    },
+    {
         id: 180,
         name: "BlockOverlay",
         price: "Free",
@@ -581,6 +613,22 @@ const clients = [
             text: presetColors.black, // Text
             accent: presetColors.orange, // Accent
             header: presetColors.gray // Header
+        }
+    },
+    {
+        id: 183,
+        name: "Labymod 3",
+        price: "Free",
+        tags: ["Free", "Forge"],
+        game: "Minecraft",
+        description: "Fuck Labymod 4. It's not even a 'mod' so rather use Labymod 3",
+        cover: "https://labymod.net/page/tpl/assets/images/white_wolf_small.png",
+        screenshots: [],
+        downloadLink: "https://lootdest.org/s?d4b5d79d",
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.white // Header
         }
     },
     // CS2
@@ -917,6 +965,22 @@ const clients = [
         cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
         screenshots: [],
         downloadLink: 'https://loot-link.com/s?a1b109db',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
+        }
+    },
+    {
+        id: 10002,
+        name: 'LiquidBounce Nextgen BlocksMC config',
+        price: 'Free',
+        tags: ['hidden'],
+        game: "Minecraft",
+        description: "Use '.localconfig load bmc' to load the config. No need to spoof version for this config. Config uploaded: 25.08.2024.",
+        cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
+        screenshots: [],
+        downloadLink: 'https://loot-link.com/s?03b52de0',
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.blue, // Accent
