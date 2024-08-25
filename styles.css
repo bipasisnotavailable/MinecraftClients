@@ -102,8 +102,8 @@ main {
     padding: 0.5rem 1rem;
     color: #fff;
     text-decoration: none;
-    border: 2px solid rgba(0, 0, 0, 0.897); 
-    border-radius: 4px;
+    border: 2px solid rgba(0, 0, 0, 0.897);
+    border-radius: 4px; 
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.39);
     text-shadow: 0 0 3px rgb(0, 0, 0);
     transition: transform 0.5s ease;
@@ -112,4 +112,10 @@ main {
 .client a:hover {
     background-color: #555;
     transform: scale(1.1);
+}
+
+.recommended {
+    border: 3px solid;
+    border-image: linear-gradient(45deg, 
+        red, orange, yellow, green, blue, indigo, violet) 1;
 }

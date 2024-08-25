@@ -27,7 +27,7 @@ const clients = [
         id: 1,
         name: "Raven XD",
         price: "Free",
-        tags: ["Free", "Ghost", "Blatant", "Hypixel", "Forge"],
+        tags: ["Free", "Ghost", "Blatant", "Hypixel", "Forge", "recommended"],
         game: "Minecraft",
         description: "Raven XD is a forge mod based on Raven BS. It features multiple blatant features like Killaura or Scaffold but also less blatant ones.",
         cover: "https://raw.githubusercontent.com/xia-mc/Raven-XD/master/logo/logo.png",
@@ -43,7 +43,7 @@ const clients = [
         id: 2,
         name: "Augustus",
         price: "80€",
-        tags: ["Multi-Server", "Intave", "Polar", "Ghost", "Blatant"],
+        tags: ["Multi-Server", "Intave", "Polar", "Ghost", "Blatant", "recommended"],
         game: "Minecraft",
         description: "Introducing Augustus, a Minecraft 1.8 Client known for its extensive features. Boasting over 209 modules and a staggering 13,500+ customizable settings, Augustus is renowned for its unparalleled configurability. This client successfully bypasses popular servers like GommeHD, PikaNetwork, Mineblaze, and Gamster and outwits anti-cheats such as Intave, Polar, Grim, and Vulcan. Additionally, Augustus offers online configurations, allowing users to fine-tune their settings quickly. Elevate your Minecraft gameplay with Augustus – the ultimate choice for those seeking customization and performance.  ", // Stolen from Spezz.exchange
         cover: "https://spezz.exchange/uploads/monthly_2023_09/Augustus_Logo.webp.21990eea9fead38fbc9edfbc54b0a112.webp",
@@ -59,7 +59,7 @@ const clients = [
         id: 3,
         name: "LiquidBounce",
         price: "Free",
-        tags: ["Free", "Blatant", "Fabric"],
+        tags: ["Free", "Blatant", "Fabric", "recommended"],
         game: "Minecraft",
         description: "LiquidBounce is a hacked client (also known as a cheat) for Minecraft and designed to give you a significant advantage over other players. Unlike many of its competitors, LiquidBounce is completely free, open source and compatible with Fabric.", // Stolen from official LiquidBounce website xd
         cover: "https://liquidbounce.net/img/logos/favicon.png",
@@ -106,9 +106,9 @@ const clients = [
     },
     {
         id: 6,
-        name: "PG3D",
+        name: "BoyKisserCentral",
         price: "Free",
-        tags: ["Free"],
+        tags: ["Free", "recommended"],
         game: "PG3D",
         description: "Cheat for Pixel Gun 3D PC",
         cover: "https://fbi.cults3d.com/uploaders/16600790/illustration-file/16a0b6ea-d282-444a-b222-5853ccd49e35/IMG_0316.webp",
@@ -172,7 +172,7 @@ const clients = [
         id: 10,
         name: "Breeze",
         price: "$25",
-        tags: ["Hypixel", "Blatant", "Ghost", "Injectable", "Forge"],
+        tags: ["Hypixel", "Blatant", "Ghost", "Injectable", "Forge", "recommended"],
         game: "Minecraft",
         description: "Elevate your gaming experience effortlessly with Breeze Client. Our state-of-the-art cheats and stunning visuals are designed to make winning a breeze, empowering you to dominate the game like never before.",
         cover: "https://breeze.rip/assets/logos/logo.png",
@@ -188,7 +188,7 @@ const clients = [
         id: 11,
         name: "Packet V3",
         price: "$50.30",
-        tags: ["Injectable", "Hive"],
+        tags: ["Injectable", "Hive", "recommended"],
         game: "Minecraft Bedrock",
         description: "key features: online integration (social menu): friend people, send dms, and share configs directly in dms; config manager: utilize local and cloud configs, allowing you to upload and share your best configs for any server; bypasses and visuals: experience better and more stable bypasses, insane visuals, and more crazy modules; compatibility: minecraft version: 1.21.21; platforms: windows 10/11; payment options (usd); $2.30: 1 week; $5.30: 1 month; $14.30: 3 months; $50.30: lifetime",
         cover: "assets/Logos/Packet.webp",
@@ -380,7 +380,7 @@ const clients = [
         id: 23,
         name: "Drip Lite",
         price: "$80",
-        tags: ["Ghost", "Injectable"],
+        tags: ["Ghost", "Injectable", "recommended"],
         game: "Minecraft",
         description: "Vape, but better",
         cover: "https://avatars.githubusercontent.com/u/63714630?s=200&v=4",
@@ -604,7 +604,7 @@ const clients = [
         id: 182,
         name: "ViaFabricPlus",
         price: "Free",
-        tags: ["Free", "Fabric"],
+        tags: ["Free", "Fabric", "recommended"],
         game: "Minecraft",
         description: "Fabric mod to connect to EVERY Minecraft server version (Release, Beta, Alpha, Classic, Snapshots, Bedrock) with QoL fixes to the gameplay",
         cover: "https://raw.githubusercontent.com/ViaVersion/ViaFabricPlus/main/src/main/resources/assets/viafabricplus/icon.png",
@@ -637,7 +637,7 @@ const clients = [
         id: 199,
         name: 'Neverlose',
         price: 'from 29€',
-        tags: [],
+        tags: ["recommended"],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://avatars.githubusercontent.com/u/64214782?s=280&v=4',
@@ -717,7 +717,7 @@ const clients = [
         id: 204,
         name: 'Osiris v2',
         price: 'Free',
-        tags: ['Free'],
+        tags: ['Free', "recommended"],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -880,7 +880,7 @@ const clients = [
         id: 400,
         name: 'Kiddions',
         price: 'Free',
-        tags: ['Free'],
+        tags: ['Free', "recommended"],
         game: "GTA V",
         description: "GTA Cheat",
         cover: 'https://i.pinimg.com/originals/5b/ec/47/5bec474d275dbdf8fdb071f30fc978f4.png',
@@ -928,7 +928,7 @@ const clients = [
         id: 420,
         name: 'Cheat Engine',
         price: 'Free',
-        tags: ['Free'],
+        tags: ['Free', "recommended"],
         game: "Offline-Games",
         description: "Can be used to modify values (health, money, etc.) in most offline games",
         cover: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Cheat_Engine_Logo.png',
@@ -1021,6 +1021,12 @@ function populateClients(filteredTag = "all") {
             (selectedGame === "all" || client.game === selectedGame)) {
             const clientDiv = document.createElement('div');
             clientDiv.className = 'client';
+
+            // Apply rainbow border if client is recommended
+            if (client.tags.includes("recommended")) {
+                clientDiv.classList.add('recommended');
+            }
+
             clientDiv.innerHTML = `
                 <img src="${client.cover}" alt="if you see this, firefox messed up (or bipas did lol)${client.name}">
                 <h2>${client.name}</h2>
@@ -1032,6 +1038,7 @@ function populateClients(filteredTag = "all") {
         }
     });
 }
+
 
 // Function to populate tag filter options
 function populateTagFilter() {
