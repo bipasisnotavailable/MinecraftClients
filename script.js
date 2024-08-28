@@ -65,7 +65,7 @@ const clients = [
         cover: "https://liquidbounce.net/img/logos/favicon.png",
         screenshots: ["https://liquidbounce.net/img/screenshots/clickgui-large.png", "https://liquidbounce.net/img/screenshots/hud-large.png", "https://liquidbounce.net/img/screenshots/xray-large.png", "https://liquidbounce.net/img/screenshots/main-menu-large.png"],
         downloadLink: "https://lootdest.org/s?9b96f488",
-        otherButtons:[["https://loot-link.com/s?55a3ed27", "SimpleBounce Theme"], ["https://www.youtube.com/watch?v=e2XqIRHpVOY", "Download Tutorial For Lunar"]],
+        otherButtons:[["https://loot-link.com/s?55a3ed27", "SimpleBounce Theme"], ["https://www.youtube.com/watch?v=e2XqIRHpVOY", "Download Tutorial For Lunar"], ["https://liquidbounce.net/proxy", "LiquidProxy"]],
         colors: {
             text: "#000000", // Text
             accent: "#0040ff", // Accent
@@ -114,6 +114,7 @@ const clients = [
         cover: "https://fbi.cults3d.com/uploaders/16600790/illustration-file/16a0b6ea-d282-444a-b222-5853ccd49e35/IMG_0316.webp",
         screenshots: ["https://i.ytimg.com/vi/DCFoMVurCV0/maxresdefault.jpg"],
         downloadLink: "https://lootdest.org/s?d566af46",
+        otherButtons:[["https://www.bilibili.com/video/BV1NS411c7Xu/", "Download Tutorial"]],
         colors: {
             text: "#000000", // Text
             accent: "#b0b0b0", // Accent
@@ -476,7 +477,7 @@ const clients = [
         id: 29,
         name: "Aqua",
         price: "15€",
-        tags: ["Blatant", "Multiserver"],
+        tags: ["Blatant"],
         game: "Minecraft",
         description: "Holy Moly its aqua",
         cover: "assets/Logos/Aqua.webp",
@@ -492,7 +493,7 @@ const clients = [
         id: 30,
         name: "Peter",
         price: "30€",
-        tags: ["Blatant", "Multiserver"],
+        tags: ["Blatant"],
         game: "Minecraft",
         description: "Client sucht den Wolf oder so. Kp auf jeden Fall dropt PikaSS manchmal das N-Wort wenn er gegen den Client auf BMC verliert",
         cover: "https://yt3.googleusercontent.com/ytc/AIdro_m7JpXKUjIUuw1g-M2No8zobfuoNJKcy78Jafd69m_Ddg=s900-c-k-c0x00ffffff-no-rj",
@@ -508,7 +509,7 @@ const clients = [
         id: 31,
         name: "Prestige",
         price: "20€",
-        tags: ["Blatant", "Multiserver"],
+        tags: ["Blatant"],
         game: "Minecraft",
         description: "Im Namen des Vaters, des Sohnes, des Heiligen Ghosts. (WillShorts gefällt der Client hab ich gehört)",
         cover: "https://yt3.googleusercontent.com/ytc/AIdro_m7JpXKUjIUuw1g-M2No8zobfuoNJKcy78Jafd69m_Ddg=s900-c-k-c0x00ffffff-no-rj",
@@ -540,7 +541,7 @@ const clients = [
         id: 33,
         name: "Dog",
         price: "15$", // Made by nocheatpius
-        tags: ["Blatant", "Hypixel", "Forge"],
+        tags: ["Blatant", "Hypixel"],
         game: "Minecraft",
         description: "Dog client is a 15 bucks client made by liticane,ouuuu and badaiim",
         cover: "assets/Logos/dog.webp",
@@ -982,6 +983,22 @@ const clients = [
         cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
         screenshots: [],
         downloadLink: 'https://loot-link.com/s?03b52de0',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
+        }
+    },
+    {
+        id: 10003,
+        name: 'FDP Client Polar/Pikanetwork config',
+        price: 'Free',
+        tags: ['hidden'],
+        game: "Minecraft",
+        description: "Use '.localconfig load Polar' to load the config. No need to spoof version for this config. Config uploaded: 28.08.2024.",
+        cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
+        screenshots: [],
+        downloadLink: 'https://loot-link.com/s?a5a95bd5',
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.blue, // Accent
