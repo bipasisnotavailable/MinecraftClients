@@ -33,6 +33,7 @@ const clients = [
         cover: "https://raw.githubusercontent.com/xia-mc/Raven-XD/master/logo/logo.png",
         screenshots: ["https://github.com/user-attachments/assets/36e8920e-336e-4b62-ae3f-6b9962920812", "https://github.com/user-attachments/assets/85637f18-9d6b-47d9-9dc2-cb8594aff585"],
         downloadLink: "https://lootdest.org/s?abc853f3",
+        otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
         colors: {
             text: "#000000", // Text
             accent: "#36fff5", // Accent
@@ -131,6 +132,7 @@ const clients = [
         cover: "https://user-images.githubusercontent.com/105464811/177683437-8b768dcf-0e15-4ac4-85f0-2b673c2e8540.png",
         screenshots: ["https://www.9minecraft.net/wp-content/uploads/2022/08/FDP-Client-Screenshots-2.jpg", "https://www.9minecraft.net/wp-content/uploads/2022/08/FDP-Client-Screenshots-9.jpg"],
         downloadLink: "https://lootdest.org/s?db52142d",
+        otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
         colors: {
             text: "#000000", // Text
             accent: "#df5eff", // Accent
@@ -179,6 +181,7 @@ const clients = [
         cover: "https://breeze.rip/assets/logos/logo.png",
         screenshots: ["https://breeze.rip/assets/photos/ui.png", "https://www.9minecraft.net/wp-content/uploads/2024/06/Breeze-Client-Mod-Screenshots-2.jpg", "https://www.9minecraft.net/wp-content/uploads/2024/06/Breeze-Client-Mod-Screenshots-6.jpg"],
         downloadLink: "https://breeze.rip",
+        otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
         colors: {
             text: "#000000", // Text
             accent: "#6420f7", // Accent
@@ -211,6 +214,7 @@ const clients = [
         cover: "https://i.pinimg.com/736x/28/bc/1d/28bc1d0c2420d7cea6238b1200b3b35f.jpg",
         screenshots: [],
         downloadLink: "ihasedich",
+        otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -317,7 +321,7 @@ const clients = [
         id: 19,
         name: "Rusher Hack",
         price: "$20",
-        tags: ["Fabric", "Anarchy", "Forge"], // Credits to wianis
+        tags: ["Fabric", "Anarchy"], // Credits to wianis
         game: "Minecraft",
         description: "Focusing only 2b2t",
         cover: "assets/Logos/rusherhack-logo.png",
@@ -570,6 +574,23 @@ const clients = [
         }
     },
     {
+        id: 35,
+        name: "Sapphire",
+        price: "Free",
+        tags: ["Free" ,"Ghost", "Forge"],
+        game: "Minecraft",
+        description: "Free open-source Java/Kotlin Minecraft client that comes with standard features, exclusive capabilities, and is easily expandable.",
+        cover: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Geschliffener_blauer_Saphir.jpg/170px-Geschliffener_blauer_Saphir.jpg",
+        screenshots: [],
+        downloadLink: "https://loot-link.com/s?fafcb71f",
+        otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.lightGray, // Accent 
+            header: presetColors.blue // Header
+        }
+    },
+    {
         id: 180,
         name: "BlockOverlay",
         price: "Free",
@@ -579,6 +600,7 @@ const clients = [
         cover: "assets/Logos/BlockOverlayLogo.png",
         screenshots: ["assets/Logos/BlockOverlaySS.png"],
         downloadLink: "https://loot-link.com/s?71257f9b",
+        otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
         colors: {
             text: presetColors.white, // Text
             accent: presetColors.lightBlue, // Accent
@@ -595,6 +617,7 @@ const clients = [
         cover: "https://media.forgecdn.net/avatars/thumbnails/540/804/256/256/637866988360940386.png",
         screenshots: [],
         downloadLink: "https://lootdest.org/s?c3f7fca4",
+        otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.orange, // Accent
@@ -627,6 +650,7 @@ const clients = [
         cover: "https://labymod.net/page/tpl/assets/images/white_wolf_small.png",
         screenshots: [],
         downloadLink: "https://lootdest.org/s?d4b5d79d",
+        otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.blue, // Accent

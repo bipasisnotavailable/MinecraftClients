@@ -115,7 +115,6 @@ main {
 }
 
 .recommended {
-    border: 3px solid;
-    border-image: linear-gradient(45deg, 
-        red, orange, yellow, green, blue, indigo, violet) 1;
+    border: 2px solid rgb(225, 0, 255);
+    box-shadow: rgb(234, 0, 255) 0px 0px 8px;
 }
