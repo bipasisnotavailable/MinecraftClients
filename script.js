@@ -1044,6 +1044,22 @@ const clients = [
             accent: presetColors.blue, // Accent
             header: presetColors.lightGray // Header
         }
+    },
+    {
+        id: 10005,
+        name: 'FDP Client BlocksMC config',
+        price: 'Free',
+        tags: ['hidden'],
+        game: "Minecraft",
+        description: "Use '.localconfig load BMC' to load the config. No need to spoof version for this config. Config uploaded: 04.09.2024.",
+        cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
+        screenshots: [],
+        downloadLink: 'https://lootdest.org/s?42f42070',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
+        }
     }
 ];
 // Boolean flag to hide clients with "outdated" tag
