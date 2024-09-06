@@ -591,6 +591,22 @@ const clients = [
         }
     },
     {
+        id: 36,
+        name: "Acrimony",
+        price: "Free",
+        tags: ["Free" ,"Blatant", "Hypixel"],
+        game: "Minecraft",
+        description: "this client is made by kitxtz and _sophia_yu",
+        cover: "https://raw.githubusercontent.com/spartanoah/acrimony-client/main/assets/minecraft/acrimony/acrimony.png",
+        screenshots: [],
+        downloadLink: "https://loot-link.com/s?08ce2653",
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.lightGray, // Accent 
+            header: presetColors.blue // Header
+        }
+    },
+    {
         id: 180,
         name: "BlockOverlay",
         price: "Free",

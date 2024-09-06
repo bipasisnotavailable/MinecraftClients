@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Client Details</title>
     <link rel="stylesheet" href="client-styles.css">
+    <link id="favicon" rel="icon" href="assets/Yoshi.jpg" type="image/x-icon">
 </head>
 <body>
     <header id="clientHeader">
@@ -50,7 +51,7 @@
         otherButtonsContent = `
             <div class="other-buttons">
                  ${client.otherButtons.map(button => `
-                     <a href="${button[0]}" class="download-button" style="border-color: ${client.colors.accent};">${button[1]}</a>
+                     <a href="${button[0]}" class="download-button"  target="_blank" style="border-color: ${client.colors.accent};">${button[1]}</a>
                 `).join('')}
             </div>
          `;
@@ -68,10 +69,10 @@
             </div>
         </div>
         ${screenshotsContent}
-        <a href="${client.downloadLink}" class="download-button" style="border-color: ${client.colors.accent};">Download</a>
+        <a href="${client.downloadLink}" class="download-button" style="border-color: ${client.colors.accent};"  target="_blank">Download </a>
         ${otherButtonsContent} <!-- Add the other buttons here -->
     `;
-    
+    document.title = client.name + " :3";
     document.querySelectorAll('.screenshots img').forEach(function(img) {
         img.style.borderColor = client.colors.accent;
     });
