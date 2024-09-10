@@ -114,8 +114,7 @@ const clients = [
         description: "Cheat for Pixel Gun 3D PC",
         cover: "https://fbi.cults3d.com/uploaders/16600790/illustration-file/16a0b6ea-d282-444a-b222-5853ccd49e35/IMG_0316.webp",
         screenshots: ["https://i.ytimg.com/vi/DCFoMVurCV0/maxresdefault.jpg"],
-        downloadLink: "https://lootdest.org/s?d566af46",
-        otherButtons:[["https://www.bilibili.com/video/BV1NS411c7Xu/", "Download Tutorial"]],
+        downloadLink: "https://lootdest.org/s?b957cfe5",
         colors: {
             text: "#000000", // Text
             accent: "#b0b0b0", // Accent
