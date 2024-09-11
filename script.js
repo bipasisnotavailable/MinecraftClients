@@ -114,8 +114,8 @@ const clients = [
         description: "Cheat for Pixel Gun 3D PC. Download the injector and use the NEW DLL. Old one does not work anymore",
         cover: "https://fbi.cults3d.com/uploaders/16600790/illustration-file/16a0b6ea-d282-444a-b222-5853ccd49e35/IMG_0316.webp",
         screenshots: ["https://i.ytimg.com/vi/DCFoMVurCV0/maxresdefault.jpg"],
-        downloadLink: "https://lootdest.org/s?b957cfe5",
-        otherButtons:[["https://github.com/stanuwu/PG3DInjector", "Get the Injector"]],
+        downloadLink: "https://loot-link.com/s?e00f6698",
+        otherButtons:[["https://discord.gg/XferVCVFkZ", "Join Their Discord"]],
         colors: {
             text: "#000000", // Text
             accent: "#b0b0b0", // Accent
