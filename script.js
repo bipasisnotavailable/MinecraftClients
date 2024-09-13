@@ -1076,6 +1076,22 @@ const clients = [
             accent: presetColors.blue, // Accent
             header: presetColors.lightGray // Header
         }
+    },
+    {
+        id: 10006,
+        name: 'Raven XD Hypixel Config',
+        price: 'Free',
+        tags: ['hidden'],
+        game: "Minecraft",
+        description: "How to use a config: Open clickgui, under profiles go to manager and press open folder. Then drop in the .json file and press on load profiles. Then just press on the profile name. Config uploaded: 13.09.2024.",
+        cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
+        screenshots: [],
+        downloadLink: 'https://loot-link.com/s?8926bd0d',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
+        }
     }
 ];
 // Boolean flag to hide clients with "outdated" tag
