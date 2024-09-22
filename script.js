@@ -50,6 +50,7 @@ const clients = [
         cover: "https://spezz.exchange/uploads/monthly_2023_09/Augustus_Logo.webp.21990eea9fead38fbc9edfbc54b0a112.webp",
         screenshots: ["https://spezz.exchange/uploads/monthly_2023_09/menu.webp.8e9432567dc1832cbfc1aabbc28d21e8.webp", "https://spezz.exchange/uploads/monthly_2023_09/screenshot.webp.4d44057d55f05dfcf4dba55600a6e894.webp"],
         downloadLink: "https://spezz.exchange/store/product/191-augustus-client-lifetime/",
+        otherButtons:[["https://luren.wiki/", "中国采购(Chinese Purchase)"]],
         colors: {
             text: "#000000", // Text
             accent: "#007BFF", // Accent
@@ -181,7 +182,7 @@ const clients = [
         cover: "https://breeze.rip/assets/logos/logo.png",
         screenshots: ["https://breeze.rip/assets/photos/ui.png", "https://www.9minecraft.net/wp-content/uploads/2024/06/Breeze-Client-Mod-Screenshots-2.jpg", "https://www.9minecraft.net/wp-content/uploads/2024/06/Breeze-Client-Mod-Screenshots-6.jpg"],
         downloadLink: "https://breeze.rip",
-        otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
+        otherButtons:[["https://luren.wiki/", "中国采购(Chinese Purchase)"], ["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
         colors: {
             text: "#000000", // Text
             accent: "#6420f7", // Accent
@@ -215,6 +216,7 @@ const clients = [
         screenshots: [],
         downloadLink: "ihasedich",
         otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
+        otherButtons:[["https://luren.wiki/", "中国采购(Chinese Purchase)"]],
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -247,6 +249,7 @@ const clients = [
         cover: 'assets/Logos/rise.webp',
         screenshots: ["https://www.9minecraft.net/wp-content/uploads/2022/11/Rise-Client-Screenshots-9.jpg" , "https://preview.redd.it/wixg4tq2srf81.png?width=1875&format=png&auto=webp&s=70a5cccad83683227c3b62bb5aaf37511a9af160"],
         downloadLink: 'https://riseclient.com/',
+        otherButtons:[["https://luren.wiki/", "中国采购(Chinese Purchase)"]],
         colors: {
             text: "#ffffff", // Text
             accent: "#77257d", // Accent
@@ -343,6 +346,7 @@ const clients = [
         cover: "https://cdn.modrinth.com/data/wossRhga/e25cdbc6f5ba5db74c13a8797c044363b58e1e5c.webp",
         screenshots: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGCUpfU4Ud3qytXA2JZ1LoryVg97b55dDAuIBVobb1xvCTRa4I9SxM5jHK&s=10", "assets/Logos/OpalIngame.png"],
         downloadLink: "https://opal.wtf",
+        otherButtons:[["https://luren.wiki/", "中国采购(Chinese Purchase)"]],
         colors: {
             text: presetColors.white, // Text
             accent: presetColors.lightBlue, // Accent 
@@ -547,7 +551,7 @@ const clients = [
         price: "15$", // Made by nocheatpius
         tags: ["Blatant", "Hypixel"],
         game: "Minecraft",
-        description: "Dog client is a 15 bucks client made by liticane,ouuuu and badaiim",
+        description: "Dog client is a 15 bucks client made by ouuuu and badaiim",
         cover: "assets/Logos/dog.webp",
         screenshots: ["https://i.postimg.cc/Twh93MY2/Screenshot-2024-08-25-124322.png"],
         downloadLink: "https://discord.gg/svAju6czRV",
