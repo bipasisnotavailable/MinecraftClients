@@ -1128,6 +1128,22 @@ const clients = [
             accent: presetColors.blue, // Accent
             header: presetColors.lightGray // Header
         }
+    },
+    {
+        id: 10009,
+        name: 'FDP Intave Fly config (gothaj gonna skid)',
+        price: 'Free',
+        tags: ['hidden'],
+        game: "Minecraft",
+        description: "",
+        cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
+        screenshots: [],
+        downloadLink: 'https://lootdest.org/s?16b519fc',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
+        }
     }
 ];
 // Boolean flag to hide clients with "outdated" tag
