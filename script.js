@@ -1135,7 +1135,7 @@ const clients = [
         price: 'Free',
         tags: ['hidden'],
         game: "Minecraft",
-        description: "",
+        description: "Don't use FDP reload, use fdp 5.6.1!!!!!!!",
         cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
         screenshots: [],
         downloadLink: 'https://lootdest.org/s?16b519fc',
