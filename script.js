@@ -611,6 +611,23 @@ const clients = [
         }
     },
     {
+        id: 37,
+        name: "Nemui",
+        price: "Free",
+        tags: ["Free" ,"Blatant", "Hypixel", "Ghost", "Lunar", "Injectable", "recommended"],
+        game: "Minecraft",
+        description: "Download Weave Manager and start Nemui with it",
+        cover: "https://yt3.googleusercontent.com/kqtuZViV4z6hibCVYoaKPPkH16YyVsfLtofKGKdhZS1l_NE8C5OdH2_WtAlgnsoUCommTmiOnQ=s900-c-k-c0x00ffffff-no-rj",
+        screenshots: [],
+        downloadLink: "https://lootdest.org/s?c6f9903d",
+        otherButtons:[["https://loot-link.com/s?8b257f38", "Get Weave"]],
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.lightGray, // Accent 
+            header: presetColors.blue // Header
+        }
+    },
+    {
         id: 180,
         name: "BlockOverlay",
         price: "Free",
@@ -1139,6 +1156,22 @@ const clients = [
         cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
         screenshots: [],
         downloadLink: 'https://lootdest.org/s?16b519fc',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
+        }
+    },
+    {
+        id: 10010,
+        name: 'Nemui Polar/ Legit Config',
+        price: 'Free',
+        tags: ['hidden'],
+        game: "Minecraft",
+        description: "Config for Nemui Client",
+        cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
+        screenshots: [],
+        downloadLink: 'https://loot-link.com/s?9747eb27',
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.blue, // Accent
