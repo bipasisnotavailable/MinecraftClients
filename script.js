@@ -1193,6 +1193,22 @@ const clients = [
             accent: presetColors.blue, // Accent
             header: presetColors.lightGray // Header
         }
+    },
+    {
+        id: 10011,
+        name: 'Nixware Legit, Semirage/MM Rage Config',
+        price: 'Free',
+        tags: ['hidden'],
+        game: "CS2",
+        description: "Config for Nixware",
+        cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
+        screenshots: [],
+        downloadLink: 'https://lootdest.org/s?6a3baaef',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
+        }
     }
 ];
 // Boolean flag to hide clients with "outdated" tag
