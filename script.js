@@ -871,6 +871,22 @@ const clients = [
             header: "#009fbf" // Header
         }
     },
+        {
+        id: 210,
+        name: 'Nixware',
+        price: 'from 3€',
+        tags: ["recommended"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://safemarket.vip/wp-content/uploads/2024/05/nixwarrrrrr.png',
+        screenshots: [],
+        downloadLink: 'https://nixware.cc',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
     // CSGO
     {
         id: 300,
