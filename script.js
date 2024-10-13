@@ -628,6 +628,22 @@ const clients = [
         }
     },
     {
+        id: 38,
+        name: "Akira Clicker",
+        price: "Free",
+        tags: ["Free", "Ghost", "Hypixel", "Injectable"],
+        game: "Minecraft",
+        description: "Enhancing the enjoyment of Minecraft with Akira.",
+        cover: "https://ankleanl.sirv.com/Akira/akira_logo.png",
+        screenshots: [],
+        downloadLink: "https://akiraghost.com/",
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.lightGray, // Accent 
+            header: presetColors.red // Header
+        }
+    },
+    {
         id: 180,
         name: "BlockOverlay",
         price: "Free",
