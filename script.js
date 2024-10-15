@@ -619,8 +619,8 @@ const clients = [
         description: "Download Weave Manager and start Nemui with it",
         cover: "https://yt3.googleusercontent.com/kqtuZViV4z6hibCVYoaKPPkH16YyVsfLtofKGKdhZS1l_NE8C5OdH2_WtAlgnsoUCommTmiOnQ=s900-c-k-c0x00ffffff-no-rj",
         screenshots: [],
-        downloadLink: "https://lootdest.org/s?c6f9903d",
-        otherButtons:[["https://loot-link.com/s?8b257f38", "Get Weave"]],
+        downloadLink: "https://bstlar.com/3AL/Nemui",
+        otherButtons:[["https://bstlar.com/3AL/WeaveManager", "Get Weave Manager for free"]],
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.lightGray, // Accent 
