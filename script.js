@@ -636,7 +636,7 @@ const clients = [
         description: "Enhancing the enjoyment of Minecraft with Akira.",
         cover: "https://ankleanl.sirv.com/Akira/akira_logo.png",
         screenshots: [],
-        downloadLink: "https://akiraghost.com/",
+        downloadLink: "https://bstlar.com/3AL/AkiraFree",
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.lightGray, // Accent 
