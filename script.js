@@ -631,7 +631,7 @@ const clients = [
         id: 38,
         name: "Akira Clicker",
         price: "Free",
-        tags: ["Free", "Ghost", "Hypixel", "Injectable"],
+        tags: ["Free", "Ghost", "Hypixel", "Injectable", "recommended"],
         game: "Minecraft",
         description: "Enhancing the enjoyment of Minecraft with Akira.",
         cover: "https://ankleanl.sirv.com/Akira/akira_logo.png",
