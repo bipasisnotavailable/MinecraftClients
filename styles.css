@@ -118,3 +118,20 @@ main {
     border: 2px solid rgb(225, 0, 255);
     box-shadow: rgb(234, 0, 255) 0px 0px 8px;
 }
+
+#yoshi-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    pointer-events: none;
+}
+
+#yoshi {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    transition: transform 0.5s;
+}
