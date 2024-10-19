@@ -645,6 +645,23 @@ const clients = [
         }
     },
     {
+        id: 39,
+        name: "CrossSine",
+        price: "Free",
+        tags: ["Free", "Blatant", "Forge"],
+        game: "Minecraft",
+        description: "Custom FDP Fork with many changes",
+        cover: "https://avatars.githubusercontent.com/u/129695204?v=4",
+        screenshots: [],
+        downloadLink: "https://bstlar.com/3AL/CrossSine",
+        otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.purple, // Accent
+            header: presetColors.pink // Header
+        }
+    },
+    {
         id: 180,
         name: "BlockOverlay",
         price: "Free",
