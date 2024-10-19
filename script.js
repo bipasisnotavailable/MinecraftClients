@@ -506,8 +506,8 @@ const clients = [
         game: "Minecraft",
         description: "Client sucht den Wolf oder so. Kp auf jeden Fall dropt PikaSS manchmal das N-Wort wenn er gegen den Client auf BMC verliert",
         cover: "https://yt3.googleusercontent.com/ytc/AIdro_m7JpXKUjIUuw1g-M2No8zobfuoNJKcy78Jafd69m_Ddg=s900-c-k-c0x00ffffff-no-rj",
-        screenshots: ["https://minecraft-clients.de/cdn/shop/products/Peter2_480x.jpg?v=1644516280", "https://minecraft-clients.de/cdn/shop/products/Peter3_720x.jpg?v=1644516280", "https://minecraft-clients.de/cdn/shop/products/Peter1_720x.jpg?v=1644516273"],
-        downloadLink: "https://minecraft-clients.de/products/peter-minecraft-client",
+        screenshots: [],
+        downloadLink: "https://provided.space/",
         colors: {
             text: presetColors.white, // Text
             accent: presetColors.gray, // Accent
@@ -522,8 +522,8 @@ const clients = [
         game: "Minecraft",
         description: "Im Namen des Vaters, des Sohnes, des Heiligen Ghosts. (WillShorts gefällt der Client hab ich gehört)",
         cover: "https://yt3.googleusercontent.com/ytc/AIdro_m7JpXKUjIUuw1g-M2No8zobfuoNJKcy78Jafd69m_Ddg=s900-c-k-c0x00ffffff-no-rj",
-        screenshots: ["https://minecraft-clients.de/cdn/shop/files/prestigeBildNeu7_480x.png?v=1715194637", "https://minecraft-clients.de/cdn/shop/files/prestigeBildNeu6_720x.png?v=1715194637", "https://minecraft-clients.de/cdn/shop/files/prestigeBildNeu5_720x.png?v=1715194637"],
-        downloadLink: "https://minecraft-clients.de/products/prestige-client",
+        screenshots: [],
+        downloadLink: "https://provided.space/",
         colors: {
             text: presetColors.white, // Text
             accent: presetColors.blue, // Accent
