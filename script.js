@@ -313,7 +313,8 @@ const clients = [
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequuntur explicabo ex maiores a odit sequi accusamus. Amet esse ad, at dolorem deserunt nostrum quo quaerat voluptatem, expedita provident excepturi.",
         cover: 'https://github.com/Sumandora/tarasande/blob/1.20.4/src/main/resources/assets/tarasande/icon.png?raw=true',
         screenshots: ["https://github.com/Sumandora/tarasande/blob/1.20.4/media/GUI.png?raw=true", "https://github.com/Sumandora/tarasande/blob/1.20.4/media/BedESP%20showcase.png?raw=true"],
-        downloadLink: 'https://loot-link.com/s?787211a2',
+        downloadLink: 'https://bstlar.com/3AL/Tarasande',
+        otherButtons:[["https://bstlar.com/3AL/TarasandeCustom", "Custom Tarasande Version"], ["https://github.com/FabricMC/fabric-language-kotlin/releases", "(required) Fabric Kotlin Support"]],
         colors: {
             text: presetColors.white, // Text
             accent: presetColors.pink, // Accent
