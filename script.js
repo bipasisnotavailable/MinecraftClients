@@ -1249,7 +1249,7 @@ const clients = [
         price: 'Free',
         tags: ['hidden'],
         game: "Minecraft",
-        description: "Put the config file in C:\Users\<PCName>\tarasande",
+        description: "Put the config file in C:/Users/Your_PCName/tarasande",
         cover: 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/84fa5dcf-cf2f-4e1d-9522-2d70fe37c301/d64swdz-208d84f8-6ec5-4f85-a730-b736e5985c01.png',
         screenshots: [],
         downloadLink: 'https://bstlar.com/3AL/TarasandeMMCIsland',
