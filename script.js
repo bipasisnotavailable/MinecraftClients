@@ -671,7 +671,7 @@ const clients = [
         cover: "https://www.9minecraft.net/wp-content/uploads/2024/08/Solstice-Client-MCPE-3.jpg",
         screenshots: ["https://www.9minecraft.net/wp-content/uploads/2024/08/Solstice-Client-MCPE-11.jpg"],
         downloadLink: "https://bstlar.com/3AL/Solstice",
-        otherButtons:[["https://bstlar.com/3AL/FateInjector", "Injector"]],
+        otherButtons:[["https://bstlar.com/3AL/FateInjector", "Injector"], ["https://bstlar.com/3AL/Bedrock", "BedrockLauncher"]],
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.orange, // Accent
