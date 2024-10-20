@@ -662,6 +662,23 @@ const clients = [
         }
     },
     {
+        id: 40,
+        name: "Solstoice",
+        price: "Free",
+        tags: ["Free", "Injectable", "Hive", "recommended"],
+        game: "Minecraft Bedrock",
+        description: "",
+        cover: "https://www.9minecraft.net/wp-content/uploads/2024/08/Solstice-Client-MCPE-3.jpg",
+        screenshots: ["https://www.9minecraft.net/wp-content/uploads/2024/08/Solstice-Client-MCPE-11.jpg"],
+        downloadLink: "https://bstlar.com/3AL/Solstice",
+        otherButtons:[["https://bstlar.com/3AL/FateInjector", "Injector"]],
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.orange, // Accent
+            header: presetColors.red // Header
+        }
+    },
+    {
         id: 180,
         name: "BlockOverlay",
         price: "Free",
