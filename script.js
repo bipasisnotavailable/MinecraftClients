@@ -67,7 +67,7 @@ const clients = [
         cover: "https://liquidbounce.net/img/logos/favicon.png",
         screenshots: ["https://liquidbounce.net/img/screenshots/clickgui-large.png", "https://liquidbounce.net/img/screenshots/hud-large.png", "https://liquidbounce.net/img/screenshots/xray-large.png", "https://liquidbounce.net/img/screenshots/main-menu-large.png"],
         downloadLink: "https://lootdest.org/s?9b96f488",
-        otherButtons:[["https://loot-link.com/s?55a3ed27", "SimpleBounce Theme"], ["https://www.youtube.com/watch?v=e2XqIRHpVOY", "Download Tutorial For Lunar"], ["https://liquidbounce.net/proxy", "LiquidProxy"]],
+        otherButtons:[["https://bstlar.com/3AL/SimpleBounce", "SimpleBounce Theme"], ["https://www.youtube.com/watch?v=e2XqIRHpVOY", "Download Tutorial For Lunar"], ["https://liquidbounce.net/proxy", "LiquidProxy"]],
         colors: {
             text: "#000000", // Text
             accent: "#0040ff", // Accent
