@@ -311,7 +311,7 @@ const clients = [
         tags: ["Free" ,"Fabric"],
         game: "Minecraft",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequuntur explicabo ex maiores a odit sequi accusamus. Amet esse ad, at dolorem deserunt nostrum quo quaerat voluptatem, expedita provident excepturi.",
-        cover: 'https://github.com/Sumandora/tarasande/blob/1.20.4/src/main/resources/assets/tarasande/icon.png?raw=true',
+        cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp0DKUHvvPLI-TXRIc11VGXUY3KMxUqd8zEQ&s',
         screenshots: ["https://github.com/Sumandora/tarasande/blob/1.20.4/media/GUI.png?raw=true", "https://github.com/Sumandora/tarasande/blob/1.20.4/media/BedESP%20showcase.png?raw=true"],
         downloadLink: 'https://bstlar.com/3AL/Tarasande',
         otherButtons:[["https://bstlar.com/3AL/TarasandeCustom", "Custom Tarasande Version"], ["https://github.com/FabricMC/fabric-language-kotlin/releases", "(required) Fabric Kotlin Support"]],
@@ -676,6 +676,22 @@ const clients = [
             text: presetColors.black, // Text
             accent: presetColors.orange, // Accent
             header: presetColors.red // Header
+        }
+    },
+    {
+        id: 41,
+        name: "Slack Client",
+        price: "Free",
+        tags: ["Free"],
+        game: "Minecraft",
+        description: "",
+        cover: "https://github.com/DGVPSH/SlackOpen/blob/main/src/main/resources/assets/minecraft/slack/menu/mainmenu.jpg?raw=true",
+        screenshots: [],
+        downloadLink: "https://bstlar.com/3AL/Slack",
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.green, // Accent
+            header: presetColors.blue // Header
         }
     },
     {
