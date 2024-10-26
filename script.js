@@ -702,7 +702,7 @@ const clients = [
         game: "Minecraft",
         description: "Easy to use, powerful, and frequently updated. Millions of downloads and counting.",
         cover: "https://aristois.net/logo.webp",
-        screenshots: ["https://aristois.net/features.webp", ""],
+        screenshots: ["https://aristois.net/features.webp"],
         downloadLink: "https://bstlar.com/3AL/Aristois",
         colors: {
             text: presetColors.black, // Text
