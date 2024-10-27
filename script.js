@@ -78,7 +78,7 @@ const clients = [
         id: 4,
         name: "ThunderHack",
         price: "Free",
-        tags: ["Free", "Blatant", "Fabric", "Crystal-PVP", "Recommended", "Anarchy"],
+        tags: ["Free", "Blatant", "Fabric", "Crystal-PVP", "recommended", "Anarchy"],
         game: "Minecraft",
         description: "1.21 minecraft client for Crystal / Sword hvh",
         cover: "https://tiermaker.com/images/media/template_images/2024/17223351/minecraft-java-clients-17223351/thunderhack-recode-logo.png",
