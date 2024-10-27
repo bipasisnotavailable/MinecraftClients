@@ -78,12 +78,13 @@ const clients = [
         id: 4,
         name: "ThunderHack",
         price: "Free",
-        tags: ["Free", "Blatant", "Fabric", "Crystal-PVP"],
+        tags: ["Free", "Blatant", "Fabric", "Crystal-PVP", "Recommended", "Anarchy"],
         game: "Minecraft",
         description: "1.21 minecraft client for Crystal / Sword hvh",
         cover: "https://tiermaker.com/images/media/template_images/2024/17223351/minecraft-java-clients-17223351/thunderhack-recode-logo.png",
         screenshots: ["https://www.9minecraft.net/wp-content/uploads/2023/10/ThunderHack-Recode-Client-Mod.jpg", "https://www.9minecraft.net/wp-content/uploads/2023/10/ThunderHack-Recode-Client-Mod-Screenshots-1.jpg", "https://www.9minecraft.net/wp-content/uploads/2023/10/ThunderHack-Recode-Client-Mod-Screenshots-7.jpg"],
-        downloadLink: "https://lootdest.org/s?37eb7f96",
+        downloadLink: "https://bstlar.com/3AL/ThunderHack",
+        otherButtons:[["https://fabricmc.net/", "Fabric"], ["https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/5531908", "Fabric API"]],
         colors: {
             text: "#000000", // Text
             accent: "#fc03cf", // Accent
