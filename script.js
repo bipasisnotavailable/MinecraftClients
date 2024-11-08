@@ -234,7 +234,7 @@ const clients = [
         cover: 'https://wurst.wiki/_media/logo/wurst_centered_256.png',
         screenshots: [],
         downloadLink: 'https://bstlar.com/3AL/Wurst',
-        otherButtons:[["https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/5531908", "Fabric API"]],
+        otherButtons:[["https://www.curseforge.com/minecraft/mc-mods/fabric-api/files/5531908", "Fabric API"], ["https://fabricmc.net/", "Fabric"]],
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.orange, // Accent
