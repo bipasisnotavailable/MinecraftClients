@@ -150,7 +150,7 @@ const clients = [
         description: "Easy to use, powerful, and frequently updated. Millions of downloads and counting. Aristois offers over 100 in-game modules to extend and enhance your Minecraft gameplay. With a focus on PvE, we offer a modern and personlised experience — get it today! In addition to many unique modules and features, Aristois contains a worldwide in-game chat. Plan your next adventure and coordinate with players on other servers, right from the chat. The Aristois UI is designed with customisation in mind, so it can look exactly how you want it. We've also created two additional UIs to enhance speed and smoothness of enabling mods.",
         cover: "https://aristois.net/logo.webp",
         screenshots: ["https://aristois.net/features.webp"],
-        downloadLink: "https://lootdest.org/s?1384c193'",
+        downloadLink: "https://bstlar.com/3AL/Aristois",
         colors: {
             text: "#000000", // Text
             accent: "#85a9ff", // Accent
