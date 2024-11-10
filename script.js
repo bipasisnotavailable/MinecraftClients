@@ -166,7 +166,7 @@ const clients = [
         description: "Based Minecraft utility mod.",
         cover: "https://meteorclient.com/icon.png",
         screenshots: ["https://www.9minecraft.net/wp-content/uploads/2022/06/Meteor-Client-Mod-Screenshots-10.jpg"],
-        downloadLink: "https://lootdest.org/s?6912fd22",
+        downloadLink: "https://bstlar.com/3AL/Meteor",
         colors: {
             text: "#000000", // Text
             accent: "#9000ff", // Accent
