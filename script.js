@@ -881,7 +881,7 @@ const clients = [
         id: 204,
         name: 'Osiris v2',
         price: 'Free',
-        tags: ['Free', "recommended"],
+        tags: ['Free'],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
