@@ -712,6 +712,23 @@ const clients = [
             header: presetColors.blue // Header
         }
     },
+        {
+        id: 43,
+        name: "Opai",
+        price: "$20",
+        tags: ["Hypixel", "recommended", "Blatant"],
+        game: "Minecraft",
+        description: "Reseller will provide you a 'License Key'. You must save this properly because it is the only credential to authenticate you (download the client, reset hwid, etc). Go https://opai.today/register.html use your License key create a account, and go https://opai.today/login.html login to your account with License key. Click 'Download Client' and do not click 'Reset hwid' etc because hwid will be auto set when you first launch the client. Click 'Link Discord Account' for @User role",
+        cover: "https://cdn.discordapp.com/icons/1273496587187912774/79f71a9c65275245bb068a9da7e124db.webp?size=1024&format=webp",
+        screenshots: ["https://img.youtube.com/vi/lTbfuVVqPjM/0.jpg"],
+        downloadLink: "https://luren.ink/",
+        otherButtons:[["https://discord.gg/WNF4Hgazud", "Discord"]],
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.darkGray, // Accent
+            header: presetColors.gray // Header
+        }
+    },
     {
         id: 180,
         name: "BlockOverlay",
