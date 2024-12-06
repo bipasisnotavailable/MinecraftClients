@@ -487,13 +487,13 @@ const clients = [
     {
         id: 29,
         name: "Aqua",
-        price: "15€",
+        price: "8.50€",
         tags: ["Blatant"],
         game: "Minecraft",
         description: "Holy Moly its aqua",
         cover: "assets/Logos/Aqua.webp",
         screenshots: ["https://minecraft-clients.de/cdn/shop/products/Screenshot_20230124_184740_c1696b44-5082-45a9-9a53-c60fa23bfbd9_480x.png?v=1675532236", "https://minecraft-clients.de/cdn/shop/products/Screenshot_20230124_184704_aa344975-4991-46e0-826d-ab91a7fecafa_720x.png?v=1675532236", "https://minecraft-clients.de/cdn/shop/products/Screenshot_20230124_184815_17df24c2-304b-4c71-ba40-a5e5d41440af_720x.png?v=1675532235"],
-        downloadLink: "https://minecraft-clients.de/products/aqua-client-1",
+        downloadLink: "https://dyslexic.sellsn.io/product/90dd1a2d-9644-4f0f-86e1-05c7d758fa99",
         colors: {
             text: presetColors.white, // Text
             accent: presetColors.red, // Accent
