@@ -66,7 +66,7 @@ const clients = [
         description: "LiquidBounce is a hacked client (also known as a cheat) for Minecraft and designed to give you a significant advantage over other players. Unlike many of its competitors, LiquidBounce is completely free, open source and compatible with Fabric.", // Stolen from official LiquidBounce website xd
         cover: "https://liquidbounce.net/img/logos/favicon.png",
         screenshots: ["https://liquidbounce.net/img/screenshots/clickgui-large.png", "https://liquidbounce.net/img/screenshots/hud-large.png", "https://liquidbounce.net/img/screenshots/xray-large.png", "https://liquidbounce.net/img/screenshots/main-menu-large.png"],
-        downloadLink: "https://lootdest.org/s?9b96f488",
+        downloadLink: "https://bstlar.com/3AL/LiquidBounce",
         otherButtons:[["https://bstlar.com/3AL/JelloBounce", "Jello Theme"], ["https://bstlar.com/3AL/SimpleBounce", "SimpleBounce Theme"], ["https://www.youtube.com/watch?v=e2XqIRHpVOY", "Download Tutorial For Lunar"], ["https://liquidbounce.net/proxy", "LiquidProxy"]],
         colors: {
             text: "#000000", // Text
