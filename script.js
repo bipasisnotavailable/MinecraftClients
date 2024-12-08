@@ -1390,7 +1390,8 @@ const clients = [
             text: presetColors.black, // Text
             accent: presetColors.blue, // Accent
             header: presetColors.lightGray // Header
-        },
+        }
+    },
     {
         id: 10017,
         name: 'FDP PikaNetwork',
