@@ -1390,6 +1390,21 @@ const clients = [
             text: presetColors.black, // Text
             accent: presetColors.blue, // Accent
             header: presetColors.lightGray // Header
+        },
+    {
+        id: 10017,
+        name: 'FDP PikaNetwork',
+        price: 'Free',
+        tags: ['hidden'],
+        game: "Minecraft",
+        description: "Put FDP Config file in settings folder",
+        cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
+        screenshots: [],
+        downloadLink: 'https://bstlar.com/3AL/PikaFDP',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
         }
     }
 ];
