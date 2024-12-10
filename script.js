@@ -1410,7 +1410,7 @@ const clients = [
     },
     {
         id: 10018,
-        name: 'Miniblox Config & download for LiquidBounce NextGen',
+        name: 'Miniblox Config & download for LiquidBounce Legacy',
         price: 'Free',
         tags: ['hidden'],
         game: "Minecraft",
