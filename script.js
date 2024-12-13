@@ -493,7 +493,7 @@ const clients = [
         description: "Holy Moly its aqua",
         cover: "assets/Logos/Aqua.webp",
         screenshots: ["https://cdn.sellsn.io/75031942-92cf-4a9a-b489-85ac0e03b557.png", "https://cdn.sellsn.io/13870223-f71f-439d-ae5f-dbd307619a8c.png", "https://cdn.sellsn.io/3ca22364-34bf-48a8-93cb-0bea74601560.png"],
-        downloadLink: "https://dyslexic.sellsn.io/product/90dd1a2d-9644-4f0f-86e1-05c7d758fa99",
+        downloadLink: "https://dyslexic.cc/product/90dd1a2d-9644-4f0f-86e1-05c7d758fa99",
         colors: {
             text: presetColors.white, // Text
             accent: presetColors.red, // Accent
