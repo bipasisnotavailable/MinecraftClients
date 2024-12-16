@@ -1417,7 +1417,7 @@ const clients = [
         description: "by Nicky",
         cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
         screenshots: [],
-        downloadLink: 'https://workupload.com/file/HbLBtM5qutD',
+        downloadLink: 'https://bstlar.com/3AL/Miniblox',
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.blue, // Accent
