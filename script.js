@@ -796,6 +796,22 @@ const clients = [
             header: presetColors.white // Header
         }
     },
+    {
+        id: 184,
+        name: "MiniBlox",
+        price: "Free",
+        tags: ["Free"],
+        game: "Minecraft",
+        description: "",
+        cover: "https://www.jopi.com/cdn-cgi/image/quality=70,width=256,height=256,f=auto/img/t/miniblox-io.png",
+        screenshots: [],
+        downloadLink: "https://bstlar.com/3AL/MinibloxLayer",
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.purple, // Accent
+            header: presetColors.white // Header
+        }
+    },
     // CS2
     {
         id: 199,
