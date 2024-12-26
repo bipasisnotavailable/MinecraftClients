@@ -1439,6 +1439,22 @@ const clients = [
             accent: presetColors.blue, // Accent
             header: presetColors.lightGray // Header
         }
+    },
+    {
+        id: 10019,
+        name: 'Miniblox Config for LiquidBounce Nextgen',
+        price: 'Free',
+        tags: ['hidden'],
+        game: "Minecraft",
+        description: "lol",
+        cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
+        screenshots: [],
+        downloadLink: 'https://bstlar.com/3AL/LBMiniblox',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
+        }
     }
 ];
 // Boolean flag to hide clients with "outdated" tag
