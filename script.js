@@ -49,7 +49,7 @@ const clients = [
         description: "Introducing Augustus, a Minecraft 1.8 Client known for its extensive features. Boasting over 209 modules and a staggering 13,500+ customizable settings, Augustus is renowned for its unparalleled configurability. This client successfully bypasses popular servers like GommeHD, PikaNetwork, Mineblaze, and Gamster and outwits anti-cheats such as Intave, Polar, Grim, and Vulcan. Additionally, Augustus offers online configurations, allowing users to fine-tune their settings quickly. Elevate your Minecraft gameplay with Augustus – the ultimate choice for those seeking customization and performance.  ", // Stolen from Spezz.exchange
         cover: "https://spezz.exchange/uploads/monthly_2023_09/Augustus_Logo.webp.21990eea9fead38fbc9edfbc54b0a112.webp",
         screenshots: ["https://spezz.exchange/uploads/monthly_2023_09/menu.webp.8e9432567dc1832cbfc1aabbc28d21e8.webp", "https://spezz.exchange/uploads/monthly_2023_09/screenshot.webp.4d44057d55f05dfcf4dba55600a6e894.webp"],
-        downloadLink: "https://spezz.exchange/store/product/191-augustus-client-lifetime/",
+        downloadLink: "https://www.electriclauncher.de/buy",
         otherButtons:[["https://luren.wiki/", "中国采购(Chinese Purchase)"]],
         colors: {
             text: "#000000", // Text
@@ -64,7 +64,7 @@ const clients = [
         tags: ["Free", "Blatant", "Fabric", "recommended"],
         game: "Minecraft",
         description: "LiquidBounce is a hacked client (also known as a cheat) for Minecraft and designed to give you a significant advantage over other players. Unlike many of its competitors, LiquidBounce is completely free, open source and compatible with Fabric.", // Stolen from official LiquidBounce website xd
-        cover: "https://liquidbounce.net/img/logos/favicon.png",
+        cover: "https://liquidbounce.net/images/logos/logo.svg",
         screenshots: ["https://liquidbounce.net/img/screenshots/clickgui-large.png", "https://liquidbounce.net/img/screenshots/hud-large.png", "https://liquidbounce.net/img/screenshots/xray-large.png", "https://liquidbounce.net/img/screenshots/main-menu-large.png"],
         downloadLink: "https://bstlar.com/3AL/LiquidBounce",
         otherButtons:[["https://bstlar.com/3AL/JelloBounce", "Jello Theme"], ["https://bstlar.com/3AL/SimpleBounce", "SimpleBounce Theme"], ["https://www.youtube.com/watch?v=e2XqIRHpVOY", "Download Tutorial For Lunar"], ["https://bstlar.com/3AL/catppuccin", "catppuccin Theme"], ["https://bstlar.com/3AL/SigmaBounce", "SigmaBounce Theme"], ["https://liquidbounce.net/proxy", "LiquidProxy"]],
