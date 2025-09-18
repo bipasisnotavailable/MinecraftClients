@@ -27,10 +27,10 @@ const clients = [
         id: 1,
         name: "Raven XD",
         price: "Free",
-        tags: ["Free", "Ghost", "Blatant", "Hypixel", "Forge", "recommended"],
+        tags: ["Free", "Ghost", "Blatant", "Hypixel", "Forge", "recommended", "outdated"],
         game: "Minecraft",
         description: "Raven XD is a forge mod based on Raven BS. It features multiple blatant features like Killaura or Scaffold but also less blatant ones.",
-        cover: "https://raw.githubusercontent.com/xia-mc/Raven-XD/master/logo/logo.png",
+        cover: "https://i.ytimg.com/vi/CHy0869NlNw/maxresdefault.jpg",
         screenshots: ["https://github.com/user-attachments/assets/36e8920e-336e-4b62-ae3f-6b9962920812", "https://github.com/user-attachments/assets/85637f18-9d6b-47d9-9dc2-cb8594aff585"],
         downloadLink: "https://bstlar.com/3AL/Raven-XD",
         otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
@@ -47,9 +47,9 @@ const clients = [
         tags: ["Multi-Server", "Intave", "Polar", "Ghost", "Blatant", "recommended"],
         game: "Minecraft",
         description: "Introducing Augustus, a Minecraft 1.8 Client known for its extensive features. Boasting over 209 modules and a staggering 13,500+ customizable settings, Augustus is renowned for its unparalleled configurability. This client successfully bypasses popular servers like GommeHD, PikaNetwork, Mineblaze, and Gamster and outwits anti-cheats such as Intave, Polar, Grim, and Vulcan. Additionally, Augustus offers online configurations, allowing users to fine-tune their settings quickly. Elevate your Minecraft gameplay with Augustus – the ultimate choice for those seeking customization and performance.  ", // Stolen from Spezz.exchange
-        cover: "https://spezz.exchange/uploads/monthly_2023_09/Augustus_Logo.webp.21990eea9fead38fbc9edfbc54b0a112.webp",
-        screenshots: ["https://spezz.exchange/uploads/monthly_2023_09/menu.webp.8e9432567dc1832cbfc1aabbc28d21e8.webp", "https://spezz.exchange/uploads/monthly_2023_09/screenshot.webp.4d44057d55f05dfcf4dba55600a6e894.webp"],
-        downloadLink: "https://www.electriclauncher.de/buy",
+        cover: "https://d1wqzb5bdbcre6.cloudfront.net/671e8c9bcc216c8ecdcb608f860da85a6a4ec1ba19308d213b5cf63053e3bcee/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a64463878557a424f5330704865464278536a6852546e567866475a7358327870646d566654584e4f617a5a4f6147394a526a4a32524670486356427256456c6a6457684530306e50797930545674/6d65726368616e745f69643d616363745f3153304e4b4a477850714a38514e757126636c69656e743d5041594d454e545f50414745",
+        screenshots: ["https://i.ytimg.com/vi/fVfDqrjE2ZE/maxresdefault.jpg"],
+        downloadLink: "https://buy.stripe.com/8x2eVd4Wz7Ki21lfYG6wE00",
         otherButtons:[["https://luren.wiki/", "中国采购(Chinese Purchase)"]],
         colors: {
             text: "#000000", // Text
@@ -64,10 +64,10 @@ const clients = [
         tags: ["Free", "Blatant", "Fabric", "recommended"],
         game: "Minecraft",
         description: "LiquidBounce is a hacked client (also known as a cheat) for Minecraft and designed to give you a significant advantage over other players. Unlike many of its competitors, LiquidBounce is completely free, open source and compatible with Fabric.", // Stolen from official LiquidBounce website xd
-        cover: "https://liquidbounce.net/images/logos/logo.svg",
+        cover: "https://tse3.mm.bing.net/th/id/OIP.j3X4UX0EbcfHJB1x2jHDVwHaHa?pid=Api",
         screenshots: ["https://liquidbounce.net/img/screenshots/clickgui-large.png", "https://liquidbounce.net/img/screenshots/hud-large.png", "https://liquidbounce.net/img/screenshots/xray-large.png", "https://liquidbounce.net/img/screenshots/main-menu-large.png"],
         downloadLink: "https://bstlar.com/3AL/LiquidBounce",
-        otherButtons:[["https://bstlar.com/3AL/JelloBounce", "Jello Theme"], ["https://bstlar.com/3AL/SimpleBounce", "SimpleBounce Theme"], ["https://www.youtube.com/watch?v=e2XqIRHpVOY", "Download Tutorial For Lunar"], ["https://bstlar.com/3AL/catppuccin", "catppuccin Theme"], ["https://bstlar.com/3AL/SigmaBounce", "SigmaBounce Theme"], ["https://liquidbounce.net/proxy", "LiquidProxy"]],
+        otherButtons:[/*["https://bstlar.com/3AL/JelloBounce", "Jello Theme"], */["https://bstlar.com/3AL/SimpleBounce", "SimpleBounce Theme"], ["https://www.youtube.com/watch?v=e2XqIRHpVOY", "Download Tutorial For Lunar"], ["https://bstlar.com/3AL/catppuccin", "catppuccin Theme"], ["https://bstlar.com/3AL/SigmaBounce", "SigmaBounce Theme"], ["https://liquidbounce.net/proxy", "LiquidProxy"]],
         colors: {
             text: "#000000", // Text
             accent: "#0040ff", // Accent
@@ -78,7 +78,7 @@ const clients = [
         id: 4,
         name: "ThunderHack",
         price: "Free",
-        tags: ["Free", "Blatant", "Fabric", "Crystal-PVP", "recommended", "Anarchy"],
+        tags: ["Free", "Blatant", "Fabric", "Crystal-PVP", "recommended", "Anarchy", "outdated"],
         game: "Minecraft",
         description: "1.21 minecraft client for Crystal / Sword hvh",
         cover: "https://tiermaker.com/images/media/template_images/2024/17223351/minecraft-java-clients-17223351/thunderhack-recode-logo.png",
@@ -128,7 +128,7 @@ const clients = [
         id: 7,
         name: "FDP",
         price: "Free",
-        tags: ["Free", "Blatant", "Forge"],
+        tags: ["Free", "Blatant", "Forge", "outdated"],
         game: "Minecraft",
         description: "FDP is a hacked client (also known as a cheat) for Minecraft and designed to give you a significant advantage over other players. Unlike many of its competitors, FDP is completely free, open source and compatible with Forge. FDP is a fork of liquidbounce so you get the benefits of liquidbounce while still getting updates and support.",
         cover: "https://user-images.githubusercontent.com/105464811/177683437-8b768dcf-0e15-4ac4-85f0-2b673c2e8540.png",
@@ -258,7 +258,7 @@ const clients = [
             header: "#db14b7" // Header
         }
     },
-    {
+    /*{
         id: 15,
         name: 'Novoline.lol',
         price: '$19.99',
@@ -273,7 +273,7 @@ const clients = [
             accent: "#5f59ff", // Accent
             header: "#0c001b" // Header
         }
-    },
+    },*/
     {
         id: 16,
         name: 'Aqua Free',
@@ -310,7 +310,7 @@ const clients = [
         id: 18,
         name: 'Tarasande',
         price: 'Free',
-        tags: ["Free" ,"Fabric"],
+        tags: ["Free" ,"Fabric", "outdated"],
         game: "Minecraft",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut consequuntur explicabo ex maiores a odit sequi accusamus. Amet esse ad, at dolorem deserunt nostrum quo quaerat voluptatem, expedita provident excepturi.",
         cover: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp0DKUHvvPLI-TXRIc11VGXUY3KMxUqd8zEQ&s',
@@ -346,7 +346,7 @@ const clients = [
         tags: ["Fabric", "Blatant", "Hypixel"], // Credits to wianis
         game: "Minecraft",
         description: "Focusing hypixel, don't have multiserver bypasses.",
-        cover: "https://cdn.modrinth.com/data/wossRhga/e25cdbc6f5ba5db74c13a8797c044363b58e1e5c.webp",
+        cover: "https://i.ytimg.com/vi/2nW9SGVbes8/maxresdefault.jpg",
         screenshots: ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGCUpfU4Ud3qytXA2JZ1LoryVg97b55dDAuIBVobb1xvCTRa4I9SxM5jHK&s=10", "assets/Logos/OpalIngame.png"],
         downloadLink: "https://opal.wtf",
         otherButtons:[["https://luren.wiki/", "中国采购(Chinese Purchase)"]],
@@ -408,7 +408,7 @@ const clients = [
         id: 24,
         name: "Chimera",
         price: "Free",
-        tags: ["Free", "Blatant"],
+        tags: ["Free", "Blatant", "outdated"],
         game: "Minecraft",
         description: "Cancer, but for Minecraft",
         cover: "assets/Krebs/KrebsLogo.png",
@@ -424,7 +424,7 @@ const clients = [
         id: 25,
         name: "Flux",
         price: "$20",
-        tags: ["Blatant", "Hypixel"],
+        tags: ["Blatant", "Hypixel", "outdated"],
         game: "Minecraft",
         description: "Goes beyond basic Minecraft Modifications. offering intuitive options for the best gameplay experience.",
         cover: "assets/Logos/Flux.png",
@@ -440,7 +440,7 @@ const clients = [
         id: 26,
         name: "Schizoid",
         price: "Free",
-        tags: ["Free", "Fabric", "Ghost", "Blatant"],
+        tags: ["Free", "Fabric", "Ghost", "Blatant", "outdated"],
         game: "Minecraft",
         description: "Proof that not every IMGUI-ClickGUI looks ass",
         cover: "https://github.com/Lyzev/Schizoid/blob/master/.idea/icon.png?raw=true",
@@ -504,7 +504,7 @@ const clients = [
         id: 30,
         name: "Peter",
         price: "30€",
-        tags: ["Blatant"],
+        tags: ["Blatant", "outdated"],
         game: "Minecraft",
         description: "Client sucht den Wolf oder so. Kp auf jeden Fall dropt PikaSS manchmal das N-Wort wenn er gegen den Client auf BMC verliert",
         cover: "https://yt3.googleusercontent.com/ytc/AIdro_m7JpXKUjIUuw1g-M2No8zobfuoNJKcy78Jafd69m_Ddg=s900-c-k-c0x00ffffff-no-rj",
@@ -520,7 +520,7 @@ const clients = [
         id: 31,
         name: "Prestige",
         price: "20€",
-        tags: ["Blatant"],
+        tags: ["Blatant", "outdated"],
         game: "Minecraft",
         description: "Im Namen des Vaters, des Sohnes, des Heiligen Ghosts. (WillShorts gefällt der Client hab ich gehört)",
         cover: "https://yt3.googleusercontent.com/ytc/AIdro_m7JpXKUjIUuw1g-M2No8zobfuoNJKcy78Jafd69m_Ddg=s900-c-k-c0x00ffffff-no-rj",
@@ -536,7 +536,7 @@ const clients = [
         id: 32,
         name: "Raven B+",
         price: "Free",
-        tags: ["Free", "Hypixel", "Ghost"],
+        tags: ["Free", "Hypixel", "Ghost", "outdated"],
         game: "Minecraft",
         description: "Raven B3 but better. No updates but still works on Hypixel with decent settings",
         cover: "https://avatars.githubusercontent.com/u/88325435?s=280&v=4",
@@ -552,7 +552,7 @@ const clients = [
         id: 33,
         name: "Dog",
         price: "15$", // Made by nocheatpius
-        tags: ["Blatant", "Hypixel"],
+        tags: ["Blatant", "Hypixel", "outdated"],
         game: "Minecraft",
         description: "Dog client is a 15 bucks client made by ouuuu and badaiim",
         cover: "assets/Logos/dog.webp",
@@ -584,7 +584,7 @@ const clients = [
         id: 35,
         name: "Sapphire",
         price: "Free",
-        tags: ["Free" ,"Ghost", "Forge"],
+        tags: ["Free" ,"Ghost", "Forge", "outdated"],
         game: "Minecraft",
         description: "Free open-source Java/Kotlin Minecraft client that comes with standard features, exclusive capabilities, and is easily expandable.",
         cover: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Geschliffener_blauer_Saphir.jpg/170px-Geschliffener_blauer_Saphir.jpg",
@@ -620,7 +620,7 @@ const clients = [
         tags: ["Free" ,"Blatant", "Hypixel", "Ghost", "Lunar", "Injectable", "recommended"],
         game: "Minecraft",
         description: "Download Weave Manager and start Nemui with it",
-        cover: "https://yt3.googleusercontent.com/kqtuZViV4z6hibCVYoaKPPkH16YyVsfLtofKGKdhZS1l_NE8C5OdH2_WtAlgnsoUCommTmiOnQ=s900-c-k-c0x00ffffff-no-rj",
+        cover: "https://i.ytimg.com/vi/XTYcWaPCBRg/maxresdefault.jpg",
         screenshots: [],
         downloadLink: "https://bstlar.com/3AL/Nemui",
         otherButtons:[["https://bstlar.com/3AL/WeaveManager", "Get Weave Manager for free"]],
@@ -716,10 +716,10 @@ const clients = [
         id: 43,
         name: "Opai",
         price: "$20",
-        tags: ["Hypixel", "recommended", "Blatant"],
+        tags: ["Hypixel", "recommended", "Blatant", "recommended"],
         game: "Minecraft",
         description: "Reseller will provide you a 'License Key'. You must save this properly because it is the only credential to authenticate you (download the client, reset hwid, etc). Go https://opai.today/register.html use your License key create a account, and go https://opai.today/login.html login to your account with License key. Click 'Download Client' and do not click 'Reset hwid' etc because hwid will be auto set when you first launch the client. Click 'Link Discord Account' for @User role",
-        cover: "https://cdn.discordapp.com/icons/1273496587187912774/79f71a9c65275245bb068a9da7e124db.webp?size=1024&format=webp",
+        cover: "https://avatars.githubusercontent.com/u/190307785?s=200&v=4",
         screenshots: ["https://img.youtube.com/vi/lTbfuVVqPjM/0.jpg"],
         downloadLink: "https://luren.ink/",
         otherButtons:[["https://discord.gg/WNF4Hgazud", "Discord"]],
@@ -964,7 +964,7 @@ const clients = [
         tags: [],
         game: "CS2",
         description: "CS2 Cheat",
-        cover: 'https://gcscheats.com/wp-content/uploads/2024/05/gcs-cheats-store-logo.webp',
+        cover: 'https://images2.imgbox.com/54/5c/GZMKQGbr_o.png',
         screenshots: [],
         downloadLink: 'https://plaguecheat.cc/',
         colors: {
