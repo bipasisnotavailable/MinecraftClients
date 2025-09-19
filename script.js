@@ -23,6 +23,23 @@ const presetColors = {
     }
 
 const clients = [
+        {
+        id: 0,
+        name: "Account Gen",
+        price: "Free",
+        tags: ["Free", "Ghost", "Blatant", "Hypixel",  "recommended"],
+        game: "Minecraft",
+        description: "100% free minecraft account gen, no registration. Hypixel unbanned.",
+        cover: "https://art.pixilart.com/999f2dd8b48d033.png",
+        screenshots: ["https://i.postimg.cc/bJ7JRJPF/a.png"],
+        downloadLink: "https://bstlar.com/3AL/alts",
+        otherButtons:[["https://www.youtube.com/@mori0", "Sub to the creator"]],
+        colors: {
+            text: "#000000", // Text
+            accent: "#36fff5", // Accent
+            header: "#f70cf0" // Header
+        }
+    },
     {
         id: 1,
         name: "Raven XD",
