@@ -1153,6 +1153,22 @@ const clients = [
             header: presetColors.lightGray // Header
         }
     },
+        {
+        id: 421,
+        name: 'Krunker cheat',
+        price: 'Free',
+        tags: ['Free', "recommended"],
+        game: "Krunker",
+        description: "",
+        cover: 'https://play-lh.googleusercontent.com/YiIdFPGRikQVMAcT8Bg5MiYRgi9YHwsFfP5RsfBcpwKqsl_y3AWqbJ8rhJ0TnLIsdg',
+        screenshots: [],
+        downloadLink: 'https://bstlar.com/3AL/Krunker',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
+        }
+    },
     {
         id: 10000,
         name: 'Hidden Item',
