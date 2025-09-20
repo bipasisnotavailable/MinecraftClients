@@ -145,7 +145,7 @@ const clients = [
         id: 7,
         name: "FDP",
         price: "Free",
-        tags: ["Free", "Blatant", "Forge", "outdated"],
+        tags: ["Free", "Blatant", "Forge"],
         game: "Minecraft",
         description: "FDP is a hacked client (also known as a cheat) for Minecraft and designed to give you a significant advantage over other players. Unlike many of its competitors, FDP is completely free, open source and compatible with Forge. FDP is a fork of liquidbounce so you get the benefits of liquidbounce while still getting updates and support.",
         cover: "https://user-images.githubusercontent.com/105464811/177683437-8b768dcf-0e15-4ac4-85f0-2b673c2e8540.png",
@@ -1483,6 +1483,22 @@ const clients = [
         cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
         screenshots: [],
         downloadLink: 'https://bstlar.com/3AL/LBMiniblox',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
+        }
+    },
+    {
+        id: 10020,
+        name: 'FDP Client Hylex/Grim config',
+        price: 'Free',
+        tags: ['hidden'],
+        game: "Minecraft",
+        description: "Use '.localconfig load HeistGrim' to load the config. No need to spoof version for this config. Config uploaded: 20.09.2025.",
+        cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
+        screenshots: [],
+        downloadLink: 'https://bstlar.com/3AL/HylexGrimFDP',
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.blue, // Accent
