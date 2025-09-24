@@ -1504,6 +1504,22 @@ const clients = [
             accent: presetColors.blue, // Accent
             header: presetColors.lightGray // Header
         }
+    },
+    {
+        id: 10021,
+        name: 'FDP Client Hypixel config',
+        price: 'Free',
+        tags: ['hidden'],
+        game: "Minecraft",
+        description: "Use '.localconfig load HeistGrim' to load the config. No need to spoof version for this config. Config uploaded: 24.09.2025.",
+        cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
+        screenshots: [],
+        downloadLink: 'https://bstlar.com/3AL/HypixelFDP',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
+        }
     }
 ];
 // Boolean flag to hide clients with "outdated" tag
