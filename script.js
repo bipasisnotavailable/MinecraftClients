@@ -81,8 +81,8 @@ const clients = [
         tags: ["Free", "Blatant", "Fabric", "recommended"],
         game: "Minecraft",
         description: "LiquidBounce is a hacked client (also known as a cheat) for Minecraft and designed to give you a significant advantage over other players. Unlike many of its competitors, LiquidBounce is completely free, open source and compatible with Fabric.", // Stolen from official LiquidBounce website xd
-        cover: "https://tse3.mm.bing.net/th/id/OIP.j3X4UX0EbcfHJB1x2jHDVwHaHa?pid=Api",
-        screenshots: ["https://liquidbounce.net/img/screenshots/clickgui-large.png", "https://liquidbounce.net/img/screenshots/hud-large.png", "https://liquidbounce.net/img/screenshots/xray-large.png", "https://liquidbounce.net/img/screenshots/main-menu-large.png"],
+        cover: "https://styles.redditmedia.com/t5_24gg4p/styles/communityIcon_5lp35pc5vmf61.png?width=256&s=1128f873232000aebdb75e18b99647cc170e733a",
+        screenshots: ["https://liquidbounce.net/images/screenshots/main-menu.webp", "https://liquidbounce.net/images/screenshots/clickgui.webp", "https://liquidbounce.net/images/screenshots/hud.webp", "https://liquidbounce.net/images/screenshots/xray.webp"],
         downloadLink: "https://bstlar.com/3AL/LiquidBounce",
         otherButtons:[/*["https://bstlar.com/3AL/JelloBounce", "Jello Theme"], */["https://bstlar.com/3AL/SimpleBounce", "SimpleBounce Theme"], ["https://www.youtube.com/watch?v=e2XqIRHpVOY", "Download Tutorial For Lunar"], ["https://bstlar.com/3AL/catppuccin", "catppuccin Theme"], ["https://bstlar.com/3AL/SigmaBounce", "SigmaBounce Theme"], ["https://liquidbounce.net/proxy", "LiquidProxy"]],
         colors: {
@@ -1163,10 +1163,11 @@ const clients = [
         cover: 'https://play-lh.googleusercontent.com/YiIdFPGRikQVMAcT8Bg5MiYRgi9YHwsFfP5RsfBcpwKqsl_y3AWqbJ8rhJ0TnLIsdg',
         screenshots: [],
         downloadLink: 'https://bstlar.com/3AL/Krunker',
+        otherButtons:[["https://www.tampermonkey.net/", "TamperMonkey"], ["https://chromewebstore.google.com/detail/urban-vpn-proxy/eppiocemhmnlbhjplcgkofciiegomcon", "Free VPN (Chrome)"]],
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.blue, // Accent
-            header: presetColors.lightGray // Header
+            header: presetColors.pink // Header
         }
     },
     {
