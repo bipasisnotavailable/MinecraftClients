@@ -275,11 +275,11 @@ const clients = [
             header: "#db14b7" // Header
         }
     },
-    /*{
+    {
         id: 15,
         name: 'Novoline.lol',
         price: '$19.99',
-        tags: ["Hypixel" ,"Blatant"],
+        tags: ["Hypixel" ,"Blatant", "outdated"],
         game: "Minecraft",
         description: "Arguably the best Utility Modification for Minecraft with a bunch of exclusive features. Built for the smo​othest experience.Supporting 1.8-1.18 Java Edition.",
         cover: 'https://www.novoline.lol/images/image3.png',
@@ -290,7 +290,7 @@ const clients = [
             accent: "#5f59ff", // Accent
             header: "#0c001b" // Header
         }
-    },*/
+    },
     {
         id: 16,
         name: 'Aqua Free',
@@ -360,7 +360,7 @@ const clients = [
         id: 20,
         name: "Opal Client",
         price: "$50",
-        tags: ["Fabric", "Blatant", "Hypixel"], // Credits to wianis
+        tags: ["Fabric", "Blatant", "Hypixel", "outdated"],
         game: "Minecraft",
         description: "Focusing hypixel, don't have multiserver bypasses.",
         cover: "https://i.ytimg.com/vi/2nW9SGVbes8/maxresdefault.jpg",
@@ -618,7 +618,7 @@ const clients = [
         id: 36,
         name: "Acrimony",
         price: "Free",
-        tags: ["Free" ,"Blatant", "Hypixel"],
+        tags: ["Free" ,"Blatant", "Hypixel", "outdated"],
         game: "Minecraft",
         description: "this client is made by kitxtz and _sophia_yu",
         cover: "https://raw.githubusercontent.com/spartanoah/acrimony-client/main/assets/minecraft/acrimony/acrimony.png",
@@ -733,7 +733,7 @@ const clients = [
         id: 43,
         name: "Opai",
         price: "$20",
-        tags: ["Hypixel", "recommended", "Blatant", "recommended"],
+        tags: ["Hypixel", "recommended", "Blatant"],
         game: "Minecraft",
         description: "Reseller will provide you a 'License Key'. You must save this properly because it is the only credential to authenticate you (download the client, reset hwid, etc). Go https://opai.today/register.html use your License key create a account, and go https://opai.today/login.html login to your account with License key. Click 'Download Client' and do not click 'Reset hwid' etc because hwid will be auto set when you first launch the client. Click 'Link Discord Account' for @User role",
         cover: "https://avatars.githubusercontent.com/u/190307785?s=200&v=4",
@@ -830,6 +830,22 @@ const clients = [
         }
     },
     // CS2
+        {
+        id: 198,
+        name: 'PassatHook',
+        price: "Free",
+        tags: ["Free", "recommended"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://i.ibb.co/67nMKrmr/Screenshot-2025-09-27-095315.png',
+        screenshots: ["https://github.com/JannesBonk/PassatHook/raw/main/CS2/showcase.png"],
+        downloadLink: 'https://bstlar.com/3AL/PassatHook',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#c512e9ff", // Accent
+            header: "#820ae4ff" // Header
+        }
+    },
     {
         id: 199,
         name: 'Neverlose',
@@ -850,7 +866,7 @@ const clients = [
         id: 200,
         name: 'tkazer',
         price: 'Free',
-        tags: ['Free'],
+        tags: ['Free', "outdated"],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -866,7 +882,7 @@ const clients = [
         id: 201,
         name: 'aimstar',
         price: 'Free',
-        tags: ['Free'],
+        tags: ['Free', "outdated"],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
