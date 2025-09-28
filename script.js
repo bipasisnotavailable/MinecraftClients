@@ -753,8 +753,7 @@ const clients = [
         tags: ["Free", "Hypixel", "recommended", "Blatant", "Ghost", "Forge"],
         game: "Minecraft",
         description: "Fork from raven, use forge",
-        cover: "https://i1.sndcdn.com/artworks-SzLbaS0fj7iaYG6i-yxZygQ-t500x500.jpg",
-        screenshots: ["https://camo.githubusercontent.com/6478890dc499cceffee1c5d03a5693b01ad7fe5274858c719e6465c6c60d9e93/68747470733a2f2f692e696d6775722e636f6d2f31325a675045692e706e67"],
+        cover: "https://avatars.githubusercontent.com/u/88325435?s=280&v=4",
         downloadLink: "https://bstlar.com/3AL/RavenBSPlus",
         otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
         colors: {
