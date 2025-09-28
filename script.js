@@ -830,6 +830,22 @@ const clients = [
         }
     },
     // CS2
+    {
+        id: 197,
+        name: 'ExLoader',
+        price: "Free",
+        tags: ["Free", "recommended"],
+        game: "CS2",
+        description: "CS2 Cheats and more!",
+        cover: 'https://de.exloader.net/resources/favicon.png',
+        screenshots: [],
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#c512e9ff", // Accent
+            header: "#820ae4ff" // Header
+        }
+    },
         {
         id: 198,
         name: 'PassatHook',
@@ -898,7 +914,7 @@ const clients = [
         id: 202,
         name: 'En1gma',
         price: 'Free',
-        tags: ['Free'],
+        tags: ['Free', "outdated"],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -914,7 +930,7 @@ const clients = [
         id: 203,
         name: 'Ext. XONE',
         price: 'Free',
-        tags: ['Free'],
+        tags: ['Free', "outdated"],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
@@ -930,7 +946,7 @@ const clients = [
         id: 204,
         name: 'Osiris v2',
         price: 'Free',
-        tags: ['Free'],
+        tags: ['Free', "outdated"],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
