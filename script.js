@@ -763,6 +763,22 @@ const clients = [
         }
     },
     {
+        id: 45,
+        name: "CatLean",
+        price: "Free",
+        tags: ["Free", "recommended", "Blatant", "Fabric"],
+        game: "Minecraft",
+        description: "from the devs of ThunderHack",
+        cover: "https://cdn.discordapp.com/icons/1302923378662838292/a632f08dcccc870cd7c996dae185d53c.png?size=1024",
+        downloadLink: "https://bstlar.com/3AL/CatLean",
+        otherButtons:[["https://github.com/FabricMC/fabric-language-kotlin/releases", "(required) Fabric Kotlin Support"]],
+        colors: {
+            text: "#000000", // Text
+            accent: "#fc03cf", // Accent
+            header: "#0040ff" // Header
+        }
+    },
+    {
         id: 180,
         name: "BlockOverlay",
         price: "Free",
