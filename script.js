@@ -885,7 +885,7 @@ const clients = [
         tags: ["Free", "recommended"],
         game: "CS2",
         description: "CS2 Cheat",
-        cover: 'https://i.ibb.co/67nMKrmr/Screenshot-2025-09-27-095315.png',
+        cover: 'https://i.ibb.co/23Khw164/0725dea44fe03ed09e16e254d280748d.png',
         screenshots: ["https://github.com/JannesBonk/PassatHook/raw/main/CS2/showcase.png"],
         downloadLink: 'https://bstlar.com/3AL/PassatHook',
         colors: {
