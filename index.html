@@ -11,25 +11,25 @@
     <header>
         <div>
             <a href="https://dsc.gg/bipas" target="_blank">
-                <img src="assets/discord-logo.png" alt="Discord" style="width: 30px; height: 30px;">
+                <img src="assets/discord-logo.png" alt="Discord" style="width: 39px; height: 30px;">
             </a>
             <a href="https://www.youtube.com/@heisthacks" target="_blank">
                 <img src="assets/youtube-logo.png" alt="YouTube" style="width: 30px; height: 30px;">
             </a>
+            <br>
         </div>
-        <div>
-            <label for="gameFilter">Filter by game:</label>
-            <select id="gameFilter" onchange="filterClients()">
-                <option value="all">All</option>
-            </select>
+            <div>
+                <label for="gameFilter">Filter by game:</label>
+                <select id="gameFilter" onchange="filterClients()">
+                    <option value="all">All</option>
+                </select>
 
-            <label for="tagFilter">Filter by tag:</label>
-            <select id="tagFilter" onchange="filterClients()">
-                <option value="all">All</option>
-            </select>
-
-            <button id="toggleOutdated" onclick="toggleOutdatedClients()">Hide Outdated</button>
-        </div>
+                <label for="tagFilter">Filter by tag:</label>
+                <select id="tagFilter" onchange="filterClients()">
+                 <option value="all">All</option>
+                </select>
+                <button id="toggleOutdated" onclick="toggleOutdatedClients()">Show Outdated</button>
+         </div>
 
     </header>
 

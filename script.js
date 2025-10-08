@@ -885,7 +885,7 @@ const clients = [
         tags: ["Free", "recommended"],
         game: "CS2",
         description: "CS2 Cheat",
-        cover: 'https://i.ibb.co/23Khw164/0725dea44fe03ed09e16e254d280748d.png',
+        cover: "assets/Logos/ph.png",
         screenshots: ["https://github.com/JannesBonk/PassatHook/raw/main/CS2/showcase.png"],
         downloadLink: 'https://bstlar.com/3AL/PassatHook',
         colors: {
@@ -897,13 +897,13 @@ const clients = [
     {
         id: 199,
         name: 'Neverlose',
-        price: 'from 29€',
+        price: 'from $44,24',
         tags: ["recommended"],
         game: "CS2",
         description: "CS2 Cheat",
         cover: 'https://avatars.githubusercontent.com/u/64214782?s=280&v=4',
         screenshots: ["https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/271224896/original/321cca51830834cd769d3529a8f42f2327bc1336/make-a-neverlose-hvh-config-for-your-playstyle.jpg"],
-        downloadLink: 'https://neverlose.cc',
+        downloadLink: 'https://lmarket.net/product/neverlose-cs2-softwares/',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -919,7 +919,7 @@ const clients = [
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
-        downloadLink: 'https://lootdest.org/s?bcea7495',
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -935,7 +935,7 @@ const clients = [
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
-        downloadLink: 'https://lootdest.org/s?bcea7495',
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -951,7 +951,7 @@ const clients = [
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
-        downloadLink: 'https://loot-link.com/s?f0f7465a',
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -967,7 +967,7 @@ const clients = [
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
-        downloadLink: 'https://lootdest.org/s?f263b49a',
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -983,7 +983,7 @@ const clients = [
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
-        downloadLink: 'https://loot-link.com/s?63d9c626',
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -999,7 +999,7 @@ const clients = [
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
-        downloadLink: 'https://loot-link.com/s?212500ed',
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -1015,7 +1015,7 @@ const clients = [
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
-        downloadLink: 'https://lootdest.org/s?34f3fdd0',
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -1031,7 +1031,7 @@ const clients = [
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
-        downloadLink: 'https://lootdest.org/s?ea144cac',
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -1047,7 +1047,7 @@ const clients = [
         description: "CS2 Cheat",
         cover: 'https://images2.imgbox.com/54/5c/GZMKQGbr_o.png',
         screenshots: [],
-        downloadLink: 'https://plaguecheat.cc/',
+        downloadLink: 'https://lmarket.net/product/plague-cs2-menu/',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -1063,29 +1063,254 @@ const clients = [
         description: "CS2 Cheat",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
-        downloadLink: 'https://lootdest.org/s?9be4491b',
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
             header: "#009fbf" // Header
         }
     },
-        {
+    {
         id: 210,
         name: 'Nixware',
-        price: 'from 3€',
+        price: 'from $2',
         tags: ["recommended"],
         game: "CS2",
         description: "CS2 Cheat",
-        cover: 'https://safemarket.vip/wp-content/uploads/2024/05/nixwarrrrrr.png',
+        cover: 'https://nixware.cc/data/assets/logo/nixware-logo.png',
         screenshots: [],
-        downloadLink: 'https://nixware.cc',
+        downloadLink: 'https://lmarket.net/product/nixware-cs2/',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
             header: "#009fbf" // Header
         }
     },
+    {
+        id: 211,
+        name: 'Memesense',
+        price: 'from $4',
+        tags: ["recommended"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://r2.memesense.gg/public/images/4b3614efa65f312fc20514cfea0ad33687c077b582f4e93e295f587e56f1c573.jpg',
+        screenshots: [],
+        downloadLink: 'https://lmarket.net/product/memesense-cs2/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#e7f84aff", // Accent
+            header: "#d9ff00ff" // Header
+        }
+    },
+    {
+        id: 212,
+        name: 'Xone External',
+        price: 'from $2',
+        tags: ["recommended"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_ctt.png',
+        screenshots: [],
+        downloadLink: 'https://lmarket.net/product/xone-external-cs2/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 213,
+        name: 'Xone Internal',
+        price: 'from $2',
+        tags: ["recommended"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_ctt.png',
+        screenshots: [],
+        downloadLink: 'https://lmarket.net/product/xone-internal-cs2/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 214,
+        name: 'Mesa Changer',
+        price: 'from $6',
+        tags: ["recommended"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_ctt.png',
+        screenshots: [],
+        downloadLink: 'https://lmarket.net/product/mesa-changer/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 215,
+        name: 'Predator Systems',
+        price: 'from $2',
+        tags: ["recommended"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_ctt.png',
+        screenshots: [],
+        downloadLink: 'https://lmarket.net/product/predator-systems-cs2/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 216,
+        name: 'Undetek Skinchanger',
+        price: 'from $4',
+        tags: ["recommended"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_ctt.png',
+        screenshots: [],
+        downloadLink: 'https://lmarket.net/product/undetek-skin-changer/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 217,
+        name: 'Ovix',
+        price: 'from $4',
+        tags: ["recommended"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_ctt.png',
+        screenshots: [],
+        downloadLink: 'https://lmarket.net/product/nixware-cs2/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 218,
+        name: 'Anyx.gg Premium',
+        price: 'from $15',
+        tags: ["recommended"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_ctt.png',
+        screenshots: [],
+        downloadLink: 'https://lmarket.net/product/anyx-gg-premium-cs2/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 219,
+        name: 'Spirit Hack',
+        price: 'from $2',
+        tags: ["outdated"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_ctt.png',
+        screenshots: [],
+        downloadLink: 'https://lmarket.net/product/spirthack-me-cs2/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 220,
+        name: 'Vanity',
+        price: 'from $8',
+        tags: ["recommended"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_ctt.png',
+        screenshots: [],
+        downloadLink: 'https://lmarket.net/product/vanity-cs2/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 221,
+        name: 'Fecurity',
+        price: 'from $4',
+        tags: ["recommended"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_ctt.png',
+        screenshots: [],
+        cover: 'https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_ctt.png',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 222,
+        name: 'Cartel',
+        price: 'from $11',
+        tags: ["recommended"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_ctt.png',
+        screenshots: [],
+        downloadLink: 'https://lmarket.net/product/cartel-external-cs2/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 223,
+        name: 'Clutch',
+        price: 'from $2',
+        tags: ["outdated"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_ctt.png',
+        screenshots: [],
+        downloadLink: 'https://lmarket.net/product/clutch-solution-cs2/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+    {
+        id: 224,
+        name: 'Kernaim',
+        price: 'from $11',
+        tags: ["recommended"],
+        game: "CS2",
+        description: "CS2 Cheat",
+        cover: 'https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/cs2/header_ctt.png',
+        screenshots: [],
+        downloadLink: 'https://lmarket.net/product/kernaim-cs2/',
+        colors: {
+            text: "#ffffff", // Text
+            accent: "#00bf2d", // Accent
+            header: "#009fbf" // Header
+        }
+    },
+
     // CSGO
     {
         id: 300,
@@ -1096,7 +1321,7 @@ const clients = [
         description: "CSGO Cheat",
         cover: 'https://seeklogo.com/images/C/csgo-logo-CAA0A4D48A-seeklogo.com.png',
         screenshots: ["https://data.exloader.net/webp_images/Osiris/visuals_edited.webp", "https://data.exloader.net/webp_images/Osiris/aimbot_edited.webp"],
-        downloadLink: 'https://lootdest.org/s?818e8fa2',
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -1112,7 +1337,7 @@ const clients = [
         description: "CSGO Cheat",
         cover: 'https://seeklogo.com/images/C/csgo-logo-CAA0A4D48A-seeklogo.com.png',
         screenshots: ["https://data.exloader.net/webp_images/Rawetrip/rage_edited.webp", "https://data.exloader.net/webp_images/Rawetrip/gameplay_edited.webp", "https://data.exloader.net/webp_images/Rawetrip/skins_edited.webp"],
-        downloadLink: 'https://loot-link.com/s?41a25ed2',
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -1129,7 +1354,7 @@ const clients = [
         description: "Amalgam rei-kes based open-sources TF2 modification with lots of features for HvH gameplay.",
         cover: 'https://wiki.teamfortress.com/w/images/thumb/c/ca/Spyfencingtauntkill.png/250px-Spyfencingtauntkill.png',
         screenshots: ["https://data.exloader.net/webp_images/Fusion/gameplay.webp"],
-        downloadLink: 'https://loot-link.com/s?443f8f1a',
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -1145,7 +1370,7 @@ const clients = [
         description: "A simple and working skin changer that allows you to change weapon skins, visual effects and other stuff. Easy to customize.",
         cover: 'https://wiki.teamfortress.com/w/images/thumb/c/ca/Spyfencingtauntkill.png/250px-Spyfencingtauntkill.png',
         screenshots: ["https://data.exloader.net/webp_images/MFEDChanger/menu.webp", "https://data.exloader.net/webp_images/MFEDChanger/skin.webp"],
-        downloadLink: 'https://lootdest.org/s?f002f1fc',
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -1178,7 +1403,7 @@ const clients = [
         description: "Cosmetics unlocker",
         cover: 'https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec',
         screenshots: [],
-        downloadLink: 'https://loot-link.com/s?0e2c7551',
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -1194,7 +1419,7 @@ const clients = [
         description: "AmongUS Cheat",
         cover: 'https://play-lh.googleusercontent.com/8ddL1kuoNUB5vUvgDVjYY3_6HwQcrg1K2fd_R8soD-e2QYj8fT9cfhfh3G0hnSruLKec',
         screenshots: ["https://data.exloader.net/webp_images/AmongUsMenu/replay.webp"],
-        downloadLink: 'https://lootdest.org/s?f6716ab0',
+        downloadLink: 'https://bstlar.com/3AL/ExLoader',
         colors: {
             text: "#ffffff", // Text
             accent: "#00bf2d", // Accent
@@ -1595,6 +1820,25 @@ document.addEventListener("DOMContentLoaded", () => {
     populateClients();
     populateTagFilter();
     populateGameFilter();
+    // Dynamic glow for accent color
+    document.getElementById('clientList').addEventListener('mouseover', function(e) {
+        let card = e.target.closest('.client');
+        if (card) {
+            let idx = Array.from(this.children).indexOf(card);
+            let client = clients.filter(c => !c.tags.includes("hidden") && (!hideOutdated || !c.tags.includes("outdated")))[idx];
+            if (client && client.colors && client.colors.accent) {
+                card.style.setProperty('--accent', client.colors.accent);
+                card.classList.add('glow');
+            }
+        }
+    });
+    document.getElementById('clientList').addEventListener('mouseout', function(e) {
+        let card = e.target.closest('.client');
+        if (card) {
+            card.classList.remove('glow');
+            card.style.removeProperty('--accent');
+        }
+    });
 });
 
 // Function to populate clients
@@ -1677,7 +1921,7 @@ function populateGameFilter() {
 // Function to toggle outdated clients visibility
 function toggleOutdatedClients() {
     hideOutdated = !hideOutdated;
-    document.getElementById('toggleOutdated').textContent = hideOutdated ? "Hide Outdated" : "Show Outdated";
+    document.getElementById('toggleOutdated').textContent = hideOutdated ? "Show Outdated" : "Hide Outdated";
     filterClients();
 }
 
@@ -1685,3 +1929,23 @@ function toggleOutdatedClients() {
 function filterClients() {
     populateClients();
 }
+
+(function animateEtherBackground() {
+    const lerp = (a, b, t) => a + (b - a) * t;
+    const blobs = [
+        { x: 20, y: 30, tx: 40, ty: 60, speed: 0.18, phase: 0 },
+        { x: 80, y: 70, tx: 60, ty: 40, speed: 0.14, phase: Math.PI / 2 },
+        { x: 60, y: 50, tx: 70, ty: 80, speed: 0.11, phase: Math.PI }
+    ];
+    function animate(time) {
+        blobs.forEach((blob, i) => {
+            const t = (Math.sin(time * blob.speed / 1000 + blob.phase) + 1) / 2;
+            const x = lerp(blob.x, blob.tx, t);
+            const y = lerp(blob.y, blob.ty, t);
+            document.body.style.setProperty(`--x${i+1}`, `${x}%`);
+            document.body.style.setProperty(`--y${i+1}`, `${y}%`);
+        });
+        requestAnimationFrame(animate);
+    }
+    requestAnimationFrame(animate);
+})();

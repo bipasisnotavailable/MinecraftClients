@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 html, body {
     height: 100%;
@@ -7,45 +7,40 @@ html, body {
 }
 
 body {
-    font-family: 'Google Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-color:hsla(0,0%,100%,1);
-        background-image:
-        radial-gradient(at 91% 86%, hsla(243,100%,70%,1) 0px, transparent 70%),
-        radial-gradient(at 12% 13%, hsla(343,100%,76%,1) 0px, transparent 70%);
-    background-attachment: fixed;
-    background-size: cover;
+    background: #11121a !important;
 }
 
 header {
+    background-color: rgba(20, 20, 20, 0.9);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #e0e0e0;
     padding: 1rem 2rem;
-    background-color: #8b8b8b70;
-    border-bottom: 2px solid rgb(0, 0, 0);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    border-bottom: 0px solid #093d1505;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.445);
+    transition: color 0.5s ease, box-shadow 0.5s ease;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    animation: boxShadowFade 6s infinite alternate;
+}
+
+@keyframes boxShadowFade {
+    0% { box-shadow: 0 10px 20px rgba(0, 255, 217, 0.3); }
+    50% { box-shadow: 0 10px 20px rgba(255, 0, 242, 0.3); }
+    100% { box-shadow: 0 10px 20px rgba(119, 0, 255, 0.3); }
 }
 
 header h1 {
     margin: 0;
-}
-
-.back-button {
-    padding: 0.5rem 1rem;
-    color: black;
-    text-decoration: none;
-    border-radius: 5px;
-    border: 2px solid rgb(0, 0, 0);
-    background-color: #8b8b8b70; 
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-}
-
-.back-button:hover {
-    background-color: #555;
+    font-size: 1.5rem;
+    color: #e0e0e0;
+    transition: color 0.5s ease;
 }
 
 main {
@@ -53,6 +48,7 @@ main {
     flex-direction: column;
     align-items: center;
     padding: 2rem;
+    margin-top: 110px; /* or enough to clear the header */
 }
 
 .client-info {
@@ -70,9 +66,12 @@ main {
     backdrop-filter: blur(10px);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
     background-color: #8b8b8b70;
+    transition: box-shadow 0.3s, background-color 0.3s, transform 0.3s;
 }
 .cover-image:hover {
+    box-shadow: 0 0 24px 6px #ff61a6, 0 0 8px 2px #61ffe7;
     background-color: #555;
+    transform: scale(1.05);
 }
 
 .details {
@@ -89,14 +88,17 @@ main {
 }
 
 .details ul {
-    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem; /* Adds space between tags */
     padding: 0;
+    margin: 0;
 }
 
 
 .details ul li {
     padding: 0.5rem;
-    margin: 0.5rem 0;
+    margin: 0; /* Remove vertical margin since gap handles spacing */
     display: inline-block;
     border-radius: 5px;
     color: #fff;
@@ -104,9 +106,11 @@ main {
     backdrop-filter: blur(10px);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
     background-color: #8b8b8b70;
+    transition: box-shadow 0.3s, background-color 0.3s, transform 0.3s;
 }
 
 .details ul li:hover {
+    box-shadow: 0 0 24px 6px #61ffe7, 0 0 8px 2px #ff61a6;
     background-color: #555;
     transform: scale(1.2);
 }
@@ -125,11 +129,12 @@ main {
     border-radius: 10px;
     border: 2px solid rgb(0, 0, 0);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, box-shadow 0.3s;
 }
 
 .screenshots img:hover {
     transform: scale(1.3);
+    box-shadow: 0 0 40px 10px #7b61ff, 0 0 15px rgba(0, 0, 0, 0.4);
 }
 
 .download-button {
@@ -137,14 +142,146 @@ main {
     margin-top: 1rem;
     padding: 0.75rem 1.5rem;
     text-decoration: none;
-    border: 2px solid rgb(0, 0, 0);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    background-color: #8b8b8b70;    
-    border-radius: 5px;
-    color: black;
+    border: none;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    background-color: #444;
+    border-radius: 8px;
+    color: #e0e0e0;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .download-button:hover {
-    background-color: #555;
+    background-color: #666;
+    transform: scale(1.1);
 }
+
+/* Unify button/tag styles and glow */
+.back-button {
+    padding: 0.5rem 1rem;
+    color: #f1f1f1ce;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    background-color: #44444400;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.5s ease;
+}
+
+.back-button:hover {
+    background-color: #666;
+    transform: scale(1.1);
+}
+
+.other-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* Adjust as needed for more/less space */
+}
+
+/* Liquid Ether-like animated background */
+/* Add this at the end of your CSS file */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -2;
+    pointer-events: none;
+    background:
+        radial-gradient(ellipse 40% 30% at var(--x1,20%) var(--y1,30%), #00ffd9 0%, transparent 80%),
+        radial-gradient(ellipse 35% 25% at var(--x2,80%) var(--y2,70%), #ff00f2 0%, transparent 80%),
+        radial-gradient(ellipse 50% 40% at var(--x3,60%) var(--y3,50%), #7700ff 0%, transparent 80%),
+        linear-gradient(120deg, #11121a 0%, #181a23 100%);
+    opacity: 0.85;
+    filter: blur(32px) saturate(1.3) brightness(0.7);
+    transition: background 0.2s;
+}
+
+/* Add a dark vignette overlay to remove white borders */
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background: radial-gradient(ellipse at 50% 50%, transparent 60%, #11121a 100%);
+    opacity: 0.85;
+    pointer-events: none;
+}
+
+@keyframes liquidMove {
+    0% {
+        background-position:
+            20% 30%,
+            80% 70%,
+            50% 50%;
+    }
+    50% {
+        background-position:
+            40% 60%,
+            60% 40%,
+            70% 80%;
+    }
+    100% {
+        background-position:
+            20% 30%,
+            80% 70%,
+            50% 50%;
+    }
+}
+
+.client, .client a, .download-button, .back-button, .cover-image, .details ul li, .screenshots img {
+    border: 2px solid transparent !important;
+    box-shadow: 0 0 16px 0 rgba(0,0,0,0.5);
+    background: rgba(30,30,40,0.65);
+    color: #fff !important;
+    transition: box-shadow 0.3s cubic-bezier(.4,0,.2,1), background 0.3s, transform 0.3s cubic-bezier(.4,0,.2,1), color 0.3s;
+}
+
+.client:hover, .client a:hover, .download-button:hover, .back-button:hover, .cover-image:hover, .details ul li:hover, .screenshots img:hover {
+    transition: box-shadow 0.3s cubic-bezier(.4,0,.2,1), background 0.3s, transform 0.3s cubic-bezier(.4,0,.2,1), color 0.3s;
+    transform: scale(1.04);
+}
+.back-button {
+    transition: box-shadow 0.25s cubic-bezier(.4,0,.2,1), background 0.25s, transform 0.25s cubic-bezier(.4,0,.2,1), color 0.25s;
+    border: none !important;
+    box-shadow: 0 0 8px 2px #fff2;
+    background: rgba(30,30,40,0.85);
+    color: #fff !important;
+    border-radius: 8px;
+}
+
+.back-button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 16px 4px #fff6;
+    background: rgba(60,60,80,0.95);
+    color: #fff !important;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li, a, .details, .client-info, .download-button, .back-button {
+    color: #fff !important;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply to text and images inside main content */
+main > *, #clientDetails > * {
+    opacity: 0;
+    animation: fadeInUp 1.2s cubic-bezier(.4,0,.2,1) forwards;
+}
+
+/* Optionally, stagger the animation for a nicer effect */
+main > *:nth-child(1), #clientDetails > *:nth-child(1) { animation-delay: 0.1s; }
+main > *:nth-child(2), #clientDetails > *:nth-child(2) { animation-delay: 0.3s; }
+main > *:nth-child(3), #clientDetails > *:nth-child(3) { animation-delay: 0.5s; }
+main > *:nth-child(4), #clientDetails > *:nth-child(4) { animation-delay: 0.7s; }
+
+

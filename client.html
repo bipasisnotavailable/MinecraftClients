@@ -29,10 +29,8 @@
     document.getElementById('clientTitle').style.color = client.colors.text;
     document.querySelector('.back-button').style.borderColor = client.colors.header;
 
-    document.body.style.background = `
-        radial-gradient(at 91% 86%, ${client.colors.header} 0px, transparent 70%),
-        radial-gradient(at 12% 13%, ${client.colors.accent} 0px, transparent 70%)
-    `;
+    document.body.style.setProperty('--accent', client.colors.accent);
+    document.body.style.setProperty('--header-text', client.colors.text);
 
     const clientDetails = document.getElementById('clientDetails');
     
@@ -81,8 +79,28 @@
         document.querySelector('.download-button').textContent = "Purchase";
     }
 });
-
-
+    </script>
+    <script>
+        (function animateEtherBackground() {
+    const lerp = (a, b, t) => a + (b - a) * t;
+    const blobs = [
+        { x: 20, y: 30, tx: 40, ty: 60, speed: 0.18, phase: 0 },
+        { x: 80, y: 70, tx: 60, ty: 40, speed: 0.14, phase: Math.PI / 2 },
+        { x: 60, y: 50, tx: 70, ty: 80, speed: 0.11, phase: Math.PI }
+    ];
+    function animate(time) {
+        blobs.forEach((blob, i) => {
+            const t = (Math.sin(time * blob.speed / 1000 + blob.phase) + 1) / 2;
+            const x = lerp(blob.x, blob.tx, t);
+            const y = lerp(blob.y, blob.ty, t);
+            document.body.style.setProperty(`--x${i+1}`, `${x}%`);
+            document.body.style.setProperty(`--y${i+1}`, `${y}%`);
+        });
+        requestAnimationFrame(animate);
+    }
+    requestAnimationFrame(animate);
+})();
     </script>
 </body>
 </html>
+
