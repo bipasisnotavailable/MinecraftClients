@@ -754,7 +754,7 @@ const clients = [
         game: "Minecraft",
         description: "Fork from raven, use forge",
         cover: "https://avatars.githubusercontent.com/u/88325435?s=280&v=4",
-        downloadLink: "https://bstlar.com/3AL/RavenBSPlus",
+        downloadLink: "https://bstlar.com/3AL/RavenBS-Plus",
         otherButtons:[["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
         colors: {
             text: presetColors.black, // Text
@@ -1316,7 +1316,7 @@ const clients = [
         id: 300,
         name: 'Osiris',
         price: 'Free',
-        tags: ['Free'],
+        tags: ['Free', "outdated"],
         game: "CSGO",
         description: "CSGO Cheat",
         cover: 'https://seeklogo.com/images/C/csgo-logo-CAA0A4D48A-seeklogo.com.png',
@@ -1332,7 +1332,7 @@ const clients = [
         id: 301,
         name: 'RaweTrip',
         price: 'Free',
-        tags: ['Free'],
+        tags: ['Free', "outdated"],
         game: "CSGO",
         description: "CSGO Cheat",
         cover: 'https://seeklogo.com/images/C/csgo-logo-CAA0A4D48A-seeklogo.com.png',
