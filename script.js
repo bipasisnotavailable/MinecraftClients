@@ -1460,6 +1460,38 @@ const clients = [
         }
     },
     {
+        id: 500,
+        name: 'Predetor.System',
+        price: 'from 8€',
+        tags: ["recommended"],
+        game: "Deadlock",
+        description: "",
+        cover: 'https://predator.systems/styles/predator/logos/predator-logo.svg',
+        screenshots: [],
+        downloadLink: 'https://lmarket.net/product/predator-deadlock-cheat/',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.green, // Accent
+            header: presetColors.lightGreen // Header
+        }
+    },
+    {
+        id: 501,
+        name: 'Umbrella',
+        price: 'Free',
+        tags: ['Free', "recommended"],
+        game: "Deadlock",
+        description: "",
+        cover: 'https://preview.redd.it/3d-render-for-valves-upcoming-game-deadlock-v0-zxq3j615p04d1.png?auto=webp&s=3d3a6b8986cf662987fe6fa1b3aa885b05dfb169',
+        screenshots: ['https://uc.zone/_ipx/_/deadlock/menu.png', ],
+        downloadLink: 'https://bstlar.com/3AL/deadlock',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.red, // Accent
+            header: presetColors.darkRed // Header
+        }
+    },
+    {
         id: 10000,
         name: 'Hidden Item',
         price: 'Free',
