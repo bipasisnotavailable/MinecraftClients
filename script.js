@@ -779,6 +779,21 @@ const clients = [
         }
     },
     {
+        id: 46,
+        name: "TenacityRecode",
+        price: "Free",
+        tags: ["Free", "recommended", "Blatant"],
+        game: "Minecraft",
+        description: "Fan recode of tenacity",
+        cover: "https://avatars.githubusercontent.com/u/91269707?s=200&v=4",
+        downloadLink: "https://bstlar.com/12949/TENACITY-RECODE-FREE",
+        colors: {
+            text: "#000000", // Text
+            accent: "#fc03cf", // Accent
+            header: "#00d9ffff" // Header
+        }
+    },
+    {
         id: 180,
         name: "BlockOverlay",
         price: "Free",
