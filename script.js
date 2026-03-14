@@ -1467,7 +1467,7 @@ const clients = [
         cover: 'https://play-lh.googleusercontent.com/YiIdFPGRikQVMAcT8Bg5MiYRgi9YHwsFfP5RsfBcpwKqsl_y3AWqbJ8rhJ0TnLIsdg',
         screenshots: [],
         downloadLink: 'https://bstlar.com/3AL/Krunkerio',
-        otherButtons:[["https://www.tampermonkey.net/", "TamperMonkey"], ["https://chromewebstore.google.com/detail/urban-vpn-proxy/eppiocemhmnlbhjplcgkofciiegomcon", "Free VPN (Chrome)"]],
+        otherButtons:[["https://www.tampermonkey.net/", "TamperMonkey"], ["https://chromewebstore.google.com/detail/urban-vpn-proxy/eppiocemhmnlbhjplcgkofciiegomcon", "Free VPN (Chrome)"], ["https://addons.mozilla.org/en-GB/firefox/addon/browsec/", "Free VPN (FireFox)"]],
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.blue, // Accent
