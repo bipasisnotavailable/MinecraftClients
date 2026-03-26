@@ -197,8 +197,8 @@ const clients = [
         tags: ["Hypixel", "Blatant", "Ghost", "Injectable", "Forge", "recommended"],
         game: "Minecraft",
         description: "Elevate your gaming experience effortlessly with Breeze Client. Our state-of-the-art cheats and stunning visuals are designed to make winning a breeze, empowering you to dominate the game like never before.",
-        cover: "https://breeze.rip/assets/logos/logo.png",
-        screenshots: ["https://breeze.rip/assets/photos/ui.png", "https://www.9minecraft.net/wp-content/uploads/2024/06/Breeze-Client-Mod-Screenshots-2.jpg", "https://www.9minecraft.net/wp-content/uploads/2024/06/Breeze-Client-Mod-Screenshots-6.jpg"],
+        cover: "https://breeze.rip/images/statics/logo_faq.svg",
+        screenshots: ["https://www.9minecraft.net/wp-content/uploads/2024/06/Breeze-Client-Mod-Screenshots-2.jpg", "https://www.9minecraft.net/wp-content/uploads/2024/06/Breeze-Client-Mod-Screenshots-6.jpg"],
         downloadLink: "https://breeze.rip",
         otherButtons:[["https://luren.wiki/", "中国采购(Chinese Purchase)"], ["https://adfoc.us/serve/sitelinks/?id=271228&url=https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar", "Get Forge"]],
         colors: {
@@ -769,7 +769,7 @@ const clients = [
         tags: ["Free", "recommended", "Blatant", "Fabric"],
         game: "Minecraft",
         description: "from the devs of ThunderHack",
-        cover: "https://cdn.discordapp.com/icons/1302923378662838292/a632f08dcccc870cd7c996dae185d53c.png?size=1024",
+        cover: "https://catlean-dev.gitbook.io/catlean-documentation/~gitbook/image?url=https%3A%2F%2F1867756352-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Forganizations%252FFXgf2HpmonZjO0KGxBIF%252Fsites%252Fsite_QvFxF%252Ficon%252FCkHVzCEKm9wM4erWGl6P%252Ffavicon.ico%3Falt%3Dmedia%26token%3D3d752fa6-e96c-44af-983e-65944e09092a&width=32&dpr=3&quality=100&sign=60d78e4b&sv=2",
         downloadLink: "https://bstlar.com/3AL/CatLean",
         otherButtons:[["https://github.com/FabricMC/fabric-language-kotlin/releases", "(required) Fabric Kotlin Support"]],
         colors: {
@@ -1481,7 +1481,7 @@ const clients = [
         tags: ["recommended"],
         game: "Deadlock",
         description: "",
-        cover: 'https://predator.systems/styles/predator/logos/predator-logo.svg',
+        cover: 'https://lmarket-net1.b-cdn.net/wp-content/uploads/2024/10/deadlock-predator.png',
         screenshots: [],
         downloadLink: 'https://lmarket.net/product/predator-deadlock-cheat/',
         colors: {
