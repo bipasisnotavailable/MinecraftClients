@@ -882,7 +882,7 @@ const clients = [
         name: 'ExLoader',
         price: "Free",
         tags: ["Free", "recommended"],
-        game: "CS2",
+        game: "ExLoader",
         description: "CS2 Cheats and more!",
         cover: 'https://de.exloader.net/resources/favicon.png',
         screenshots: [],
