@@ -1460,7 +1460,7 @@ const clients = [
     },
         {
         id: 421,
-        name: 'Krunker cheat',
+        name: 'Krunker.bypasses',
         price: 'Free',
         tags: ['Free', "recommended"],
         game: "Krunker",
@@ -1468,6 +1468,23 @@ const clients = [
         cover: 'https://play-lh.googleusercontent.com/YiIdFPGRikQVMAcT8Bg5MiYRgi9YHwsFfP5RsfBcpwKqsl_y3AWqbJ8rhJ0TnLIsdg',
         screenshots: [],
         downloadLink: 'https://bstlar.com/3AL/Krunkerio',
+        otherButtons:[["https://www.tampermonkey.net/", "TamperMonkey"], ["https://chromewebstore.google.com/detail/urban-vpn-proxy/eppiocemhmnlbhjplcgkofciiegomcon", "Free VPN (Chrome)"], ["https://addons.mozilla.org/en-GB/firefox/addon/browsec/", "Free VPN (FireFox)"]],
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.pink // Header
+        }
+    },
+        {
+        id: 422,
+        name: 'AimbaeShiro',
+        price: 'Free',
+        tags: ['Free', "recommended"],
+        game: "Krunker",
+        description: "",
+        cover: 'https://cdn.jsdelivr.net/gh/GameSketchers/AimbaeShiro@main/Assets/screenshot.png',
+        screenshots: [],
+        downloadLink: 'https://bstlar.com/3AL/AimbaeShiro',
         otherButtons:[["https://www.tampermonkey.net/", "TamperMonkey"], ["https://chromewebstore.google.com/detail/urban-vpn-proxy/eppiocemhmnlbhjplcgkofciiegomcon", "Free VPN (Chrome)"], ["https://addons.mozilla.org/en-GB/firefox/addon/browsec/", "Free VPN (FireFox)"]],
         colors: {
             text: presetColors.black, // Text
