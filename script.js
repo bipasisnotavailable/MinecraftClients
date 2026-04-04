@@ -27,7 +27,7 @@ const clients = [
         id: 0,
         name: "Account Gen",
         price: "Free",
-        tags: ["Free", "Ghost", "Blatant", "Hypixel",  "recommended"],
+        tags: ["Free", "Ghost", "Blatant", "Hypixel", "outdated"],
         game: "Minecraft",
         description: "100% free minecraft account gen, no registration. Hypixel unbanned.",
         cover: "https://art.pixilart.com/999f2dd8b48d033.png",
