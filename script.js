@@ -1898,10 +1898,26 @@ const clients = [
         price: 'Free',
         tags: ['hidden'],
         game: "Minecraft",
-        description: "Use '.localconfig load <config name>' to load the config. Make sure to use the correct via version as in the config provided.Config uploaded: 08.04.2026.",
+        description: "Use '.localconfig load <config name>' to load the config. Make sure to use the correct via version as in the config provided.Config uploaded: 11.04.2026.",
         cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
         screenshots: [],
         downloadLink: 'https://bstlar.com/3AL/OPLBPack',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.lightGray // Header
+        }
+    },
+    {
+        id: 10024,
+        name: 'LiquidBounce Skywars config pack',
+        price: 'Free',
+        tags: ['hidden'],
+        game: "Minecraft",
+        description: "Use '.localconfig load <config name>' to load the config. Make sure to use the correct via version as in the config provided.Config uploaded: 08.04.2026.",
+        cover: 'https://cdn-icons-png.flaticon.com/512/2246/2246713.png',
+        screenshots: [],
+        downloadLink: 'https://bstlar.com/3AL/SWLBPack',
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.blue, // Accent
