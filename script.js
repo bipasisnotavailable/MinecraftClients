@@ -1492,6 +1492,23 @@ const clients = [
             header: presetColors.pink // Header
         }
     },
+        {
+        id: 423,
+        name: 'ShellShocker.io',
+        price: 'Free',
+        tags: ['Free', "recommended"],
+        game: "ShellShocker.io",
+        description: "",
+        cover: 'https://imgs.search.brave.com/fmnnBN8vamwj0J0ANihlKCUSLdl-7VYKpKcMDw_X0sE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93dGZn/YW1lcy5pby93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMC8wOC9z/aGVsbHNob2NrZXJz/LmpwZw',
+        screenshots: [],
+        downloadLink: 'https://bstlar.com/3AL/ShellShockersIO',
+        otherButtons:[["https://www.tampermonkey.net/", "TamperMonkey"]],
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.pink // Header
+        }
+    },
     {
         id: 500,
         name: 'Predetor.System',
