@@ -1501,7 +1501,7 @@ const clients = [
         description: "",
         cover: 'https://kizicdn.com/system/static/thumbs/tile_thumb/93546/thumb150_deadlockio_150x150.jpg?1733149704',
         screenshots: [],
-        downloadLink: 'https://bstlar.com/3AL/Deadshot',
+        downloadLink: 'https://bstlar.com/3AL/ShellShockersIO',
         colors: {
             text: presetColors.black, // Text
             accent: presetColors.blue, // Accent
@@ -1510,14 +1510,14 @@ const clients = [
     },
         {
         id: 424,
-        name: 'DeadLock.io',
+        name: 'DeadShot.io',
         price: 'Free',
         tags: ['Free', "recommended"],
-        game: "DeadLock.io",
+        game: "DeadShot.io",
         description: "",
-        cover: 'https://imgs.search.brave.com/fmnnBN8vamwj0J0ANihlKCUSLdl-7VYKpKcMDw_X0sE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93dGZn/YW1lcy5pby93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMC8wOC9z/aGVsbHNob2NrZXJz/LmpwZw',
+        cover: 'https://play-lh.googleusercontent.com/MVVsIWanXSjedNSIjKFeHolJLdeh1y_WKwGJks0fnMQHgSh8OwwvXzD34IKYVP8Izr0=w240-h480',
         screenshots: [],
-        downloadLink: 'https://bstlar.com/3AL/ShellShockersIO',
+        downloadLink: 'https://bstlar.com/3AL/Deadshot',
         otherButtons:[["https://www.tampermonkey.net/", "TamperMonkey"]],
         colors: {
             text: presetColors.black, // Text
