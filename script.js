@@ -1499,6 +1499,22 @@ const clients = [
         tags: ['Free', "recommended"],
         game: "ShellShocker.io",
         description: "",
+        cover: 'https://kizicdn.com/system/static/thumbs/tile_thumb/93546/thumb150_deadlockio_150x150.jpg?1733149704',
+        screenshots: [],
+        downloadLink: 'https://bstlar.com/3AL/Deadshot',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.pink // Header
+        }
+    },
+        {
+        id: 424,
+        name: 'DeadLock.io',
+        price: 'Free',
+        tags: ['Free', "recommended"],
+        game: "DeadLock.io",
+        description: "",
         cover: 'https://imgs.search.brave.com/fmnnBN8vamwj0J0ANihlKCUSLdl-7VYKpKcMDw_X0sE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93dGZn/YW1lcy5pby93cC1j/b250ZW50L3VwbG9h/ZHMvMjAyMC8wOC9z/aGVsbHNob2NrZXJz/LmpwZw',
         screenshots: [],
         downloadLink: 'https://bstlar.com/3AL/ShellShockersIO',
