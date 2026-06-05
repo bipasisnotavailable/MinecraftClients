@@ -800,7 +800,7 @@ const clients = [
         tags: ["Free", "recommended", "Blatant", "Forge", "Hypixel"],
         game: "Minecraft",
         description: "OpenMyau+ free myau fork",
-        cover: "https://avatars.githubusercontent.com/u/91269707?s=200&v=4",
+        cover: "https://github.com/IamNespola/OpenMyau-Plus/blob/main/images/image3.png?raw=true",
         downloadLink: "https://bstlar.com/3AL/OpenMyau",
         colors: {
             text: "#000000", // Text
