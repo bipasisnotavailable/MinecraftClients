@@ -794,6 +794,21 @@ const clients = [
         }
     },
     {
+        id: 47,
+        name: "OpenMyau+",
+        price: "Free",
+        tags: ["Free", "recommended", "Blatant", "Forge", "Hypixel"],
+        game: "Minecraft",
+        description: "OpenMyau+ free myau fork",
+        cover: "https://avatars.githubusercontent.com/u/91269707?s=200&v=4",
+        downloadLink: "https://bstlar.com/3AL/OpenMyau",
+        colors: {
+            text: "#000000", // Text
+            accent: "#fc03cf", // Accent
+            header: "#00d9ffff" // Header
+        }
+    },
+    {
         id: 180,
         name: "BlockOverlay",
         price: "Free",
