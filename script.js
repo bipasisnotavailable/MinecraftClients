@@ -815,8 +815,8 @@ const clients = [
         tags: ["Free", "recommended", "Blatant", "Fabric", "latest"],
         game: "Minecraft",
         description: "KRS Client made by ASPW",
-        cover: "https://github.com/IamNespola/OpenMyau-Plus/blob/main/images/image3.png?raw=true",
-        downloadLink: "https://github.com/Aspw-w/Krs/releases/latest",
+        cover: "https://play-lh.googleusercontent.com/CsexLVIT5KZLEo-_flG9vOVGVoWoVmKyAt4xYGz_MKn4Lisqc3eoFe6g6wK4CAsIdvLeK18OWlQuTa_UjsVKgA",
+        downloadLink: "https://bstlar.com/3AL/krs",
         colors: {
             text: "#000000", // Text
             accent: presetColors.darkPurple, // Accent
