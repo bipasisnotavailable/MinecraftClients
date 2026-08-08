@@ -1,4 +1,4 @@
-// Client data
+1// Client data
 const presetColors = {
         white: "#ffffff",
         black: "#000000",
@@ -806,6 +806,21 @@ const clients = [
             text: "#000000", // Text
             accent: "#fc03cf", // Accent
             header: "#00d9ffff" // Header
+        }
+    },
+    {
+        id: 48,
+        name: "KRS Client",
+        price: "Free",
+        tags: ["Free", "recommended", "Blatant", "Fabric", "latest"],
+        game: "Minecraft",
+        description: "KRS Client made by ASPW",
+        cover: "https://github.com/IamNespola/OpenMyau-Plus/blob/main/images/image3.png?raw=true",
+        downloadLink: "https://github.com/Aspw-w/Krs/releases/latest",
+        colors: {
+            text: "#000000", // Text
+            accent: presetColor.purple, // Accent
+            header: presetColors.lightBlue // Header
         }
     },
     {
