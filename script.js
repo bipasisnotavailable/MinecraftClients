@@ -1555,6 +1555,22 @@ const clients = [
             header: presetColors.pink // Header
         }
     },
+   {
+        id: 425,
+        name: 'Krux Krunker',
+        price: '$24',
+        tags: ["recommended"],
+        game: "Krunker",
+        description: "",
+        cover: 'https://play-lh.googleusercontent.com/YiIdFPGRikQVMAcT8Bg5MiYRgi9YHwsFfP5RsfBcpwKqsl_y3AWqbJ8rhJ0TnLIsdg',
+        screenshots: [],
+        downloadLink: 'https://discord.gg/Xe3nB4CRAS',
+        colors: {
+            text: presetColors.black, // Text
+            accent: presetColors.blue, // Accent
+            header: presetColors.pink // Header
+        }
+    },
     {
         id: 500,
         name: 'Predetor.System',
