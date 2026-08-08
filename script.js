@@ -819,7 +819,7 @@ const clients = [
         downloadLink: "https://github.com/Aspw-w/Krs/releases/latest",
         colors: {
             text: "#000000", // Text
-            accent: presetColor.purple, // Accent
+            accent: presetColor.darkPurple, // Accent
             header: presetColors.lightBlue // Header
         }
     },
