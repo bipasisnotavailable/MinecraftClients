@@ -1,4 +1,4 @@
-1// Client data
+// Client data
 const presetColors = {
         white: "#ffffff",
         black: "#000000",
